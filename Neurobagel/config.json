@@ -12,7 +12,7 @@
         "terms_file": null,
         "formats": null,
         "required": true,
-        "description": null,
+        "description": "Participant unique identifier.",
         "is_multi_column_measure": false,
         "can_have_multiple_columns": false,
         "same_as": null
@@ -24,7 +24,7 @@
         "terms_file": null,
         "formats": null,
         "required": false,
-        "description": null,
+        "description": "Session unique identifier.",
         "is_multi_column_measure": false,
         "can_have_multiple_columns": false,
         "same_as": null
@@ -67,7 +67,7 @@
           }
         ],
         "required": false,
-        "description": null,
+        "description": "The age of the participant.",
         "is_multi_column_measure": false,
         "can_have_multiple_columns": false,
         "same_as": null
@@ -79,7 +79,7 @@
         "terms_file": "sexTerms.json",
         "formats": null,
         "required": false,
-        "description": null,
+        "description": "The sex of the participant.",
         "is_multi_column_measure": false,
         "can_have_multiple_columns": false,
         "same_as": null
@@ -91,7 +91,7 @@
         "terms_file": "diagnosisTerms.json",
         "formats": null,
         "required": false,
-        "description": null,
+        "description": "The principle diagnosis of the participant.",
         "is_multi_column_measure": false,
         "can_have_multiple_columns": true,
         "same_as": null
@@ -103,7 +103,7 @@
         "terms_file": "assessmentTerms.json",
         "formats": null,
         "required": false,
-        "description": null,
+        "description": "The assessment tool used to collect the data.",
         "is_multi_column_measure": true,
         "can_have_multiple_columns": true,
         "same_as": null
