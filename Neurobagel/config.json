@@ -12,7 +12,7 @@
         "terms_file": null,
         "formats": null,
         "required": true,
-        "description": "Participant unique identifier.",
+        "description": "Unique participant identifier.",
         "is_multi_column_measure": false,
         "can_have_multiple_columns": false,
         "same_as": null
@@ -24,7 +24,7 @@
         "terms_file": null,
         "formats": null,
         "required": false,
-        "description": "Session unique identifier.",
+        "description": "Unique session identifier.",
         "is_multi_column_measure": false,
         "can_have_multiple_columns": false,
         "same_as": null
@@ -91,7 +91,7 @@
         "terms_file": "diagnosisTerms.json",
         "formats": null,
         "required": false,
-        "description": "The principle diagnosis of the participant.",
+        "description": "Participant diagnosis information",
         "is_multi_column_measure": false,
         "can_have_multiple_columns": true,
         "same_as": null
@@ -103,7 +103,7 @@
         "terms_file": "assessmentTerms.json",
         "formats": null,
         "required": false,
-        "description": "The assessment tool used to collect the data.",
+        "description": "A cognitive or clinical rating scale, instrument, or assessment tool.",
         "is_multi_column_measure": true,
         "can_have_multiple_columns": true,
         "same_as": null
