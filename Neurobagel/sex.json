@@ -1,0 +1,13 @@
+[
+  {
+    "namespace_prefix": "snomed",
+    "namespace_url": "http://purl.bioontology.org/ontology/SNOMEDCT/",
+    "vocabulary_name": "SNOMED CT Sex",
+    "version": "1.0.0",
+    "terms": [
+      { "name": "Male", "id": "snomed:248153007" },
+      { "name": "Female", "id": "snomed:248152002" },
+      { "name": "Other", "id": "snomed:32570681000036106" }
+    ]
+  }
+]
