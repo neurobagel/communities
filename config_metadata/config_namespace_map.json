@@ -1,0 +1,31 @@
+[
+  {
+    "config_name": "Neurobagel",
+    "namespaces": {
+      "variables": [
+        {
+          "namespace_prefix": "nb",
+          "namespace_url": "http://neurobagel.org/vocab/"
+        }
+      ],
+      "terms": [
+        {
+          "namespace_prefix": "ncit",
+          "namespace_url": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#"
+        },
+        {
+          "namespace_prefix": "nidm",
+          "namespace_url": "http://purl.org/nidash/nidm#"
+        },
+        {
+          "namespace_prefix": "np",
+          "namespace_url": "https://github.com/nipoppy/pipeline-catalog/tree/main/processing/"
+        },
+        {
+          "namespace_prefix": "snomed",
+          "namespace_url": "http://purl.bioontology.org/ontology/SNOMEDCT/"
+        }
+      ]
+    }
+  }
+]
