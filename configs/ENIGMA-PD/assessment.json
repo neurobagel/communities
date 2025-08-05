@@ -1,0 +1,170 @@
+[
+  {
+    "namespace_prefix": "snomed",
+    "namespace_url": "https://enigma.ini.usc.edu/ongoing/enigma-parkinsons/vocab/assessments",
+    "vocabulary_name": "ENIGMA-PD vocabulary of Assessment terms",
+    "version": "1.0.0",
+    "terms": [
+      {
+        "id": "1",
+        "name": "Beck's Depression Inventory"
+      },
+      {
+        "id": "2",
+        "name": "Geriatric Depression Scale"
+      },
+      {
+        "id": "3",
+        "name": "Hamilton Rating Scale for Depression"
+      },
+      {
+        "id": "4",
+        "name": "Inventory of Depressive Symptomology"
+      },
+      {
+        "id": "5",
+        "name": "Snaith Hamilton Rating Scale"
+      },
+      {
+        "id": "6",
+        "name": "Beck's Anxiety Inventory"
+      },
+      {
+        "id": "7",
+        "name": "Hamilton Anxiety Scale"
+      },
+      {
+        "id": "8",
+        "name": "Parkinson's Anxiety Scale"
+      },
+      {
+        "id": "9",
+        "name": "State-Trait Anxiety Inventory (separate score for State and Trait)"
+      },
+      {
+        "id": "10",
+        "name": "Wearing-Off Questionnaires; WOQ-9, WOQ-19, WOQ-32. Please specify in the comment field which version is used"
+      },
+      {
+        "id": "11",
+        "name": "REM Sleep Behavior Disorder 1 item screener"
+      },
+      {
+        "id": "12",
+        "name": "REM Sleep Behavior Disorder Screening Questionnaire - full screener"
+      },
+      {
+        "id": "13",
+        "name": "Epworth Sleepiness Scale"
+      },
+      {
+        "id": "14",
+        "name": "Pittsburgh Sleep Quality Index"
+      },
+      {
+        "id": "15",
+        "name": "Insomnia Severity Index"
+      },
+      {
+        "id": "16",
+        "name": "Sleep Apnea Scale of the Sleep Disorders Questionnaire"
+      },
+      {
+        "id": "16",
+        "name": "Parkinson's Disease Sleep Scale"
+      },
+      {
+        "id": "17",
+        "name": "Karolinska Sleepiness Scale"
+      },
+      {
+        "id": "18",
+        "name": "Positive and Negative Syndrome Scale"
+      },
+      {
+        "id": "19",
+        "name": "Parkinson's Psychosis Rating Scale"
+      },
+      {
+        "id": "20",
+        "name": "Schedule for Assessment of Positive Symptoms - PD"
+      },
+      {
+        "id": "21",
+        "name": "Questionnaire for Psychotic Experiences"
+      },
+      {
+        "id": "22",
+        "name": "University of Miami Parkinson's Disease Hallucinations Questionnaire"
+      },
+      {
+        "id": "23",
+        "name": "Questionnaire for Impulsive-Compulsive Disorders in Parkinson's Disease–Rating Scale"
+      },
+      {
+        "id": "24",
+        "name": "Starkstein's Apathy Scale"
+      },
+      {
+        "id": "25",
+        "name": "Apathy Evaluation Scale - 12 item scale or 18 item scale. Please specify in the comment field which scale has been used"
+      },
+      {
+        "id": "26",
+        "name": "Neuropsychiatric Inventory"
+      },
+      {
+        "id": "27",
+        "name": "Montreal Cognitive Assessment"
+      },
+      {
+        "id": "28",
+        "name": "Mini-Mental State Examination"
+      },
+      {
+    "id": "29",
+    "name": "UPDRS (Original Version) Part I: Mentation, Behavior, Mood"
+      },
+      {
+          "id": "30",
+          "name": "UPDRS (Original Version) Part II: Activities of Daily Living (ADL)"
+      },
+      {
+          "id": "31",
+          "name": "UPDRS (Original Version) Part III: Motor Examination; if administered OFF dopaminergic medication"
+      },
+      {
+          "id": "32",
+          "name": "UPDRS (Original Version) Part III: Motor Examination; if administered ON dopaminergic medication"
+      },
+      {
+          "id": "33",
+          "name": "UPDRS (Original Version) Part IV: Complications of Therapy"
+      },
+      {
+          "id": "34",
+          "name": "MDS-UPDRS (Revised Version) Part I: Non-Motor Experiences of Daily Living"
+      },
+      {
+          "id": "35",
+          "name": "MDS-UPDRS (Revised Version) Part II: Motor Experiences of Daily Living"
+      },
+      {
+          "id": "36",
+          "name": "MDS-UPDRS (Revised Version) Part III: Motor Examination; if administered OFF dopaminergic medication"
+      },
+      {
+          "id": "37",
+          "name": "MDS-UPDRS (Revised Version) Part III: Motor Examination; if administered ON dopaminergic medication"
+      },
+      {
+          "id": "38",
+          "name": "MDS-UPDRS (Revised Version) Part IV: Motor Complications"
+      },
+      {
+          "id": "40",
+          "name": "Hoehn and Yarh stage"
+      }
+    ]
+  }
+]
