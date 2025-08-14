@@ -20,6 +20,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
+          ref: iss-15/auto-update-terms-file
           token: ${{ steps.generate-token.outputs.token }}
 
       - name: Set up Python
@@ -54,5 +55,5 @@ jobs:
           if ! git diff --quiet configs/ENIGMA-PD/*; then
             git add configs/ENIGMA-PD/*
             git commit -m "[bot] Update ENIGMA-PD assessment terms"
-            git push origin main
+            git push origin iss-15/auto-update-terms-file
           fi
