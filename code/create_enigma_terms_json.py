@@ -50,7 +50,7 @@ def fetch_gsheet(gsheet_id: str):
     return vocab_worksheet
 
 
-def decapitalize_column_names(df: pd.DataFrame) -> pd.DataFrame:
+def lowercase_column_names(df: pd.DataFrame) -> pd.DataFrame:
     """Convert all column names in the DataFrame to lowercase."""
     df.columns = [col.lower() for col in df.columns]
     return df
@@ -66,7 +66,7 @@ def main():
     vocab_df = pd.DataFrame(vocab_gsheet.get_all_records(default_blank=None))
 
     # Make column names case-insensitive
-    vocab_df = decapitalize_column_names(vocab_df)
+    vocab_df = lowercase_column_names(vocab_df)
 
     try:
         vocab_df = vocab_file_schema.validate(vocab_df)
