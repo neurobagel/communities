@@ -4,6 +4,9 @@ on:
   schedule:
     # Run once a week on Monday at 8 AM EST in winter, 9 AM EDT in summer
     - cron: '0 13 * * 1'
+  push:
+    branches:
+      - iss-15/auto-update-terms-file
   workflow_dispatch:
 
 jobs:
