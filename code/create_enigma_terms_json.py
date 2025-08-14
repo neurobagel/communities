@@ -29,7 +29,14 @@ vocab_file_schema = pa.DataFrameSchema(
     # but only 'id' and 'name' must not have any missing values
     {
         "id": pa.Column(
-            str, checks=pa.Check.str_startswith("trm_"), nullable=False
+            str,
+            checks=[
+                pa.Check.str_startswith("trm_"),
+                pa.Check(
+                    lambda id: id.is_unique, error="Term IDs must be unique."
+                ),
+            ],
+            nullable=False,
         ),
         "name": pa.Column(str, nullable=False),
         "abbreviation": pa.Column(str, nullable=True),
