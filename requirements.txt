@@ -1,0 +1,4 @@
+gspread
+pandas
+pandera[pandas]
+pre-commit
