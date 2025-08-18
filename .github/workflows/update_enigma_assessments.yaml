@@ -8,6 +8,8 @@ on:
 
 jobs:
   update-terms:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     steps:
       - name: Generate a Neurobagel Bot token
