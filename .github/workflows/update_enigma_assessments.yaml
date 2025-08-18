@@ -4,9 +4,6 @@ on:
   schedule:
     # Run once a week on Monday at 8 AM EST in winter, 9 AM EDT in summer
     - cron: '0 13 * * 1'
-  push:
-    branches:
-      - iss-15/auto-update-terms-file
   workflow_dispatch:
 
 jobs:
@@ -23,7 +20,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: iss-15/auto-update-terms-file
           token: ${{ steps.generate-token.outputs.token }}
 
       - name: Set up Python
@@ -58,5 +54,5 @@ jobs:
           if ! git diff --quiet configs/ENIGMA-PD/*; then
             git add configs/ENIGMA-PD/*
             git commit -m "[bot] Update ENIGMA-PD assessment terms"
-            git push origin iss-15/auto-update-terms-file
+            git push origin main
           fi
