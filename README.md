@@ -22,21 +22,24 @@ Neurobagel expects each subcommunity-curated vocabulary to be maintained in a si
     trm_002 | Hamilton Rating Scale for Depression | HRDS | Clinician-administered scale for depressive symptom severity
     ... | ... | ... | ...
 
-    > [!IMPORTANT]
-    > Your spreadsheet must include at least these four columns (named exactly ID, Name, Abbreviation, Description) but you may add more as needed if your subcommunity wants to track additional information.
+>[!IMPORTANT]
+>Your spreadsheet must include at least these four columns (named `ID`, `Name`, `Abbreviation`, `Description`) but you may add more as needed if your subcommunity wants to track additional information.
 
-    Information for each assessment term (row):
-    - **ID** (required): A unique identifier for the assessment term. 
+Information for each assessment term (row):  
+
+- **ID** (required): A unique identifier for the assessment term. 
     This acts like a permanent tag for the assessment, allowing it to be uniquely identified from other concepts in the vocabulary even if its name or other details change. 
-    We recommend using the format `trm_` followed by a unique numeric ID.
-        > [!WARNING]
-        > Once an ID is assigned to an assessment, do not modify it. 
-        Changing an ID can create duplicates or conflicts with existing data dictionaries, potentially causing them to stop working correctly.
-    - **Name** (required): The full name of the assessment.
-    - **Abbreviation** (optional): The short abbreviation or acronym for the assessment, if one is used.
-    - **Description** (optional): A brief description of the assessment.
+    We recommend using the format `trm_` followed by a numeric ID.
+- **Name** (required): The full name of the assessment.
+- **Abbreviation** (optional): The short abbreviation or acronym for the assessment, if one is used.
+- **Description** (optional): A brief description of the assessment.
 
-    We recommend filling out all four columns whenever possible for optimal clarity and documentation.
+>[!WARNING]
+>Once an ID is assigned to an assessment, do not modify it (unless you need to remove that term from your vocabulary entirely). 
+>Changing an ID can create duplicates or conflicts with existing data dictionaries, potentially causing them to stop working correctly.
+
+We recommend filling out all four columns whenever possible for optimal clarity and documentation.
 
 4. Once the terms have been finalized by your subcommunity, share the ID of your Google Sheet with the Neurobagel team. 
-You can find it in the spreadsheet's URL, after the `/d/` part: e.g.: https://docs.google.com/spreadsheets/d/**1aBcD2EfGh1234567890**/edit#gid=0.
+You can find it in the spreadsheet's URL, after the `/d/` part.
+e.g., `1aBcD2EfGh1234567890` is the ID of the spreadsheet located at https://docs.google.com/spreadsheets/d/1aBcD2EfGh1234567890/edit#gid=0.
