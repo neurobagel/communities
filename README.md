@@ -7,6 +7,7 @@ Scripts and configuration files that allow Neurobagel subcommunities to define c
 
 
 ## To create a new subcommunity vocabulary of assessments (WIP)
+<!-- TODO: Once finalized, add instructions for creating a file with vocab namespace metadata. -->
 
 Neurobagel expects each subcommunity-curated vocabulary to be maintained in a single Google Sheets table.
 
