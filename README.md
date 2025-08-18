@@ -10,7 +10,7 @@ Scripts and configuration files that allow Neurobagel subcommunities to define c
 
 Neurobagel expects each subcommunity-curated vocabulary to be maintained in a single Google Sheets table.
 
-1. Create a new [Google Sheet](https://workspace.google.com/intl/en_ca/products/sheets/) and give it a descriptive name for your subcommunity. 
+1. Create a new [Google Sheet](https://workspace.google.com/intl/en_ca/products/sheets/) and give it a descriptive name, e.g., `<SUBCOMMUNITY NAME> Assessment Vocabulary`. 
 
 2. Open the **Share** settings and set the access permissions for the Google Sheet to **Anyone with the link**.
 
@@ -42,4 +42,4 @@ We recommend filling out all four columns whenever possible for optimal clarity 
 
 4. Once the terms have been finalized by your subcommunity, share the ID of your Google Sheet with the Neurobagel team. 
 You can find it in the spreadsheet's URL, after the `/d/` part.
-e.g., `1aBcD2EfGh1234567890` is the ID of the spreadsheet located at https://docs.google.com/spreadsheets/d/1aBcD2EfGh1234567890/edit#gid=0.
+e.g., `1aBcD2EfGh1234567890` is the spreadsheet ID for https://docs.google.com/spreadsheets/d/1aBcD2EfGh1234567890/edit#gid=0.
