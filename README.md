@@ -18,7 +18,7 @@ Neurobagel expects each subcommunity-curated vocabulary to be maintained in a si
 3. In the first worksheet (default name Sheet1), create a table for your assessment terms in the format below, with each row representing a single assessment used by your subcommunity (example assessments shown below):
 
     ID | Name | Abbreviation | Description
-    -- | -- | -- | --
+    ---- | ---- | ---- | ----
     trm_001 | Beck's Depression Inventory | BDI | 21-item self-report questionnaire for depressive symptoms
     trm_002 | Hamilton Rating Scale for Depression | HRDS | Clinician-administered scale for depressive symptom severity
     ... | ... | ... | ...
