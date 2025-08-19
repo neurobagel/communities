@@ -10,7 +10,7 @@ Scripts and configuration files that allow Neurobagel subcommunities to define c
 Neurobagel expects each subcommunity-curated vocabulary to be maintained in a single Google Sheets table.
 
 1. Use this [template Google Sheet](https://docs.google.com/spreadsheets/d/1O02EnpRCNMALeGpyVzDw6bSuDlJuvTPMNvqILDKk1xM/edit?usp=sharing) for creating a Neurobagel subcommunity vocabulary table.
-Make a copy of the spreadsheet (**File** > **Make a copy**) and give it a descriptive name, e.g., "\<SUBCOMMUNITY NAME\> Assessment Vocabulary".
+Make a copy of the template (**File** > **Make a copy**) and give it a descriptive name, e.g., "\<SUBCOMMUNITY NAME\> Assessment Vocabulary".
 
 2. Open the **Share** settings and set the access permissions for your Google Sheet to **Anyone with the link**.
 
