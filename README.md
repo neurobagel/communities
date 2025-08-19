@@ -41,7 +41,7 @@ We recommend filling out all four columns whenever possible for optimal clarity 
 #### Information for each assessment term (row):  
 
 - **ID** (required): A unique identifier for the assessment term. 
-    This acts like a permanent tag for the assessment, allowing it to be uniquely identified from other concepts in the vocabulary even if its name or other details change. 
+    This functions as a stable tag for the assessment, allowing it to be consistently referenced even if its name or other details are updated. 
     We recommend using the format `trm_` followed by a numeric ID.
 - **Name** (required): The full name of the assessment.
 - **Abbreviation** (optional): The short abbreviation or acronym for the assessment, if one is used.
