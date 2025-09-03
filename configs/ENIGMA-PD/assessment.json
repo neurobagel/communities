@@ -115,156 +115,192 @@
       },
       {
         "id": "trm_019",
+        "name": "Scales for Outcomes in Parkinson\u2019s Disease - Sleep",
+        "abbreviation": "SCOPA-SLEEP",
+        "description": "Scales for Outcomes in Parkinson\u2019s Disease - Sleep; sleep"
+      },
+      {
+        "id": "trm_020",
         "name": "Karolinska Sleepiness Scale",
         "abbreviation": "KSS",
         "description": "Karolinska Sleepiness Scale; sleep"
       },
       {
-        "id": "trm_020",
+        "id": "trm_021",
         "name": "Positive and Negative Syndrome Scale",
         "abbreviation": "PANNS",
         "description": "Positive and Negative Syndrome Scale; hallucinations_psychosis"
       },
       {
-        "id": "trm_021",
+        "id": "trm_022",
         "name": "Parkinson's Psychosis Rating Scale",
         "abbreviation": "PPRS",
         "description": "Parkinson's Psychosis Rating Scale; hallucinations_psychosis"
       },
       {
-        "id": "trm_022",
+        "id": "trm_023",
         "name": "Schedule for Assessment of Positive Symptoms - PD",
         "abbreviation": "SAPS-PD",
         "description": "Schedule for Assessment of Positive Symptoms - PD; hallucinations_psychosis"
       },
       {
-        "id": "trm_023",
+        "id": "trm_024",
         "name": "Questionnaire for Psychotic Experiences",
         "abbreviation": "QPE",
         "description": "Questionnaire for Psychotic Experiences; hallucinations_psychosis"
       },
       {
-        "id": "trm_024",
+        "id": "trm_025",
         "name": "University of Miami Parkinson's Disease Hallucinations Questionnaire",
         "abbreviation": "UM-PDHQ",
         "description": "University of Miami Parkinson's Disease Hallucinations Questionnaire; hallucinations_psychosis"
       },
       {
-        "id": "trm_025",
+        "id": "trm_026",
         "name": "Questionnaire for Impulsive-Compulsive Disorders in Parkinson's Disease\u2013Rating Scale",
         "abbreviation": "QUIP-rs",
         "description": "Questionnaire for Impulsive-Compulsive Disorders in Parkinson's Disease\u2013Rating Scale; impulse control"
       },
       {
-        "id": "trm_026",
-        "name": "Starkstein's Apathy Scale",
-        "abbreviation": "AS",
-        "description": "Starkstein's Apathy Scale; apathy"
-      },
-      {
         "id": "trm_027",
-        "name": "Apathy Evaluation Scale",
+        "name": "Apathy Evaluation Scale ",
         "abbreviation": "AES",
-        "description": "Apathy Evaluation Scale - 12 item scale or 18 item scale. Please specify in the comment field which scale has been used; apathy"
+        "description": "Apathy Evaluation Scale; apathy"
       },
       {
         "id": "trm_028",
+        "name": "Starkstein Apathy Scale",
+        "abbreviation": "SAS",
+        "description": "Starkstein Apathy Scale; apathy"
+      },
+      {
+        "id": "trm_029",
+        "name": "Apathy Motivation Index",
+        "abbreviation": "AMI",
+        "description": "Apathy Motivation Index; apathy"
+      },
+      {
+        "id": "trm_030",
+        "name": "Lille Apathy Rating Scale",
+        "abbreviation": "LARS",
+        "description": "Lille Apathy Rating Scale; apathy"
+      },
+      {
+        "id": "trm_031",
         "name": "Neuropsychiatric Inventory",
         "abbreviation": "NPI",
         "description": "Neuropsychiatric Inventory; assesses a range of behavioral and psychological symptoms, including delusions, hallucinations, agitation, depression, anxiety, apathy, irritability, and sleep disturbances"
       },
       {
-        "id": "trm_029",
+        "id": "trm_032",
+        "name": "Scales for Outcomes in PArkinson\u2019s disease - Psychiatric Complications",
+        "abbreviation": "SCOPA-PC",
+        "description": "Scales for Outcomes in PArkinson\u2019s disease - Psychiatric Complications; psychiatry general"
+      },
+      {
+        "id": "trm_033",
+        "name": "Non-Motor Symptoms Questionnaire",
+        "abbreviation": "NMSQuest",
+        "description": "Non-Motor Symptoms Questionnaire; non-motor symptoms general"
+      },
+      {
+        "id": "trm_034",
+        "name": "Non-Motor Symptoms Scale for Parkinson\u2019s Disease",
+        "abbreviation": "NMSS",
+        "description": "Non-Motor Symptoms Scale for Parkinson\u2019s Disease; non-motor symptoms general"
+      },
+      {
+        "id": "trm_035",
         "name": "Handedness",
         "abbreviation": "Handedness",
         "description": "Participant\u2019s preferred hand for performing daily activities"
       },
       {
-        "id": "trm_030",
+        "id": "trm_036",
         "name": "Hoehn and Yarh stage",
         "abbreviation": "Hoehn_Yahr_stage",
         "description": "Hoehn and Yarh stage; a clinical rating scale to describe severity and progression of motor symptoms in Parkinson's Disease"
       },
       {
-        "id": "trm_031",
+        "id": "trm_037",
         "name": "Side of onset",
         "abbreviation": "Side_of_onset",
         "description": "Refers to the body side (left or right) where motor symptoms of Parkinson\u2019s disease first appeared; typically categorized as left, right, or bilateral/unknown if onset was not clearly lateralized"
       },
       {
-        "id": "trm_032",
+        "id": "trm_038",
         "name": "Montreal Cognitive Assessment",
         "abbreviation": "MoCA",
         "description": "Montreal Cognitive Assessment; global cognition"
       },
       {
-        "id": "trm_033",
+        "id": "trm_039",
         "name": "Mini-Mental State Examination",
         "abbreviation": "MMSE",
         "description": "Mini-Mental State Examination; global cognition"
       },
       {
-        "id": "trm_034",
+        "id": "trm_040",
         "name": "Levodopa Equivalent Daily Dose",
         "abbreviation": "LEDD",
         "description": "Levodopa Equivalent Daily Dose; a calculated value that expresses the total daily dose of all dopaminergic medications in terms of their equivalent potency to levodopa, reported in milligrams (mg)"
       },
       {
-        "id": "trm_035",
+        "id": "trm_041",
         "name": "UPDRS (Original Version) \u2013 Part I: Mentation, Behavior, Mood",
         "abbreviation": "UPDRS1",
         "description": "UPDRS (Original Version) \u2013 Part I: Mentation, Behavior, Mood"
       },
       {
-        "id": "trm_036",
+        "id": "trm_042",
         "name": "UPDRS (Original Version) \u2013 Part II: Activities of Daily Living (ADL)",
         "abbreviation": "UPDRS2",
         "description": "UPDRS (Original Version) \u2013 Part II: Activities of Daily Living (ADL)"
       },
       {
-        "id": "trm_037",
+        "id": "trm_043",
         "name": "UPDRS (Original Version) \u2013 Part III: Motor Examination; if administered OFF dopaminergic medication",
         "abbreviation": "UPDRS3_OFF",
         "description": "UPDRS (Original Version) \u2013 Part III: Motor Examination; if administered OFF dopaminergic medication"
       },
       {
-        "id": "trm_038",
+        "id": "trm_044",
         "name": "UPDRS (Original Version) \u2013 Part III: Motor Examination; if administered ON dopaminergic medication",
         "abbreviation": "UPDRS3_ON",
         "description": "UPDRS (Original Version) \u2013 Part III: Motor Examination; if administered ON dopaminergic medication"
       },
       {
-        "id": "trm_039",
+        "id": "trm_045",
         "name": "UPDRS (Original Version) \u2013 Part IV: Complications of Therapy",
         "abbreviation": "UPDRS4",
         "description": "UPDRS (Original Version) \u2013 Part IV: Complications of Therapy"
       },
       {
-        "id": "trm_040",
+        "id": "trm_046",
         "name": "MDS-UPDRS (Revised Version) \u2013 Part I: Non-Motor Experiences of Daily Living",
         "abbreviation": "MDS-UPDRS1",
         "description": "MDS-UPDRS (Revised Version) \u2013 Part I: Non-Motor Experiences of Daily Living"
       },
       {
-        "id": "trm_041",
+        "id": "trm_047",
         "name": "MDS-UPDRS (Revised Version) \u2013 Part II: Motor Experiences of Daily Living",
         "abbreviation": "MDS-UPDRS2",
         "description": "MDS-UPDRS (Revised Version) \u2013 Part II: Motor Experiences of Daily Living"
       },
       {
-        "id": "trm_042",
+        "id": "trm_048",
         "name": "MDS-UPDRS (Revised Version) \u2013 Part III: Motor Examination; if administered OFF dopaminergic medication",
         "abbreviation": "MDS-UPDRS3_OFF",
         "description": "MDS-UPDRS (Revised Version) \u2013 Part III: Motor Examination; if administered OFF dopaminergic medication"
       },
       {
-        "id": "trm_043",
+        "id": "trm_049",
         "name": "MDS-UPDRS (Revised Version) \u2013 Part III: Motor Examination; if administered ON dopaminergic medication",
         "abbreviation": "MDS-UPDRS3_ON",
         "description": "MDS-UPDRS (Revised Version) \u2013 Part III: Motor Examination; if administered ON dopaminergic medication"
       },
       {
-        "id": "trm_044",
+        "id": "trm_050",
         "name": "MDS-UPDRS (Revised Version) \u2013 Part IV: Motor Complications",
         "abbreviation": "MDS-UPDRS4",
         "description": "MDS-UPDRS (Revised Version) \u2013 Part IV: Motor Complications"
