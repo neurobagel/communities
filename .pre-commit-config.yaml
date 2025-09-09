@@ -48,3 +48,12 @@ repos:
           - --warn-redundant-casts
           - --show-error-codes
           - --pretty
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: check-yaml
+      - id: pretty-format-json
+        args: 
+          - "--autofix"
+          - "--no-sort-keys"

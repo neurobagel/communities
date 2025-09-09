@@ -38,32 +38,44 @@
           {
             "id": "FromFloat",
             "name": "float",
-            "examples": ["31.5"]
+            "examples": [
+              "31.5"
+            ]
           },
           {
             "id": "FromInt",
             "name": "int",
-            "examples": ["31"]
+            "examples": [
+              "31"
+            ]
           },
           {
             "id": "FromEuro",
             "name": "euro",
-            "examples": ["31,5"]
+            "examples": [
+              "31,5"
+            ]
           },
           {
             "id": "FromBounded",
             "name": "bounded",
-            "examples": ["30+"]
+            "examples": [
+              "30+"
+            ]
           },
           {
             "id": "FromRange",
             "name": "range",
-            "examples": ["30-35"]
+            "examples": [
+              "30-35"
+            ]
           },
           {
             "id": "FromISO8601",
             "name": "iso8601",
-            "examples": ["31Y6M"]
+            "examples": [
+              "31Y6M"
+            ]
           }
         ],
         "required": false,
