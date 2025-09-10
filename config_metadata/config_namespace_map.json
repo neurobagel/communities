@@ -10,6 +10,10 @@
       ],
       "terms": [
         {
+          "namespace_prefix": "snomed",
+          "namespace_url": "http://purl.bioontology.org/ontology/SNOMEDCT/"
+        },
+        {
           "namespace_prefix": "ncit",
           "namespace_url": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#"
         },
@@ -20,10 +24,39 @@
         {
           "namespace_prefix": "np",
           "namespace_url": "https://github.com/nipoppy/pipeline-catalog/tree/main/processing/"
+        }
+      ]
+    }
+  },
+  {
+    "config_name": "ENIGMA-PD",
+    "namespaces": {
+      "variables": [
+        {
+          "namespace_prefix": "nb",
+          "namespace_url": "http://neurobagel.org/vocab/"
+        }
+      ],
+      "terms": [
+        {
+          "namespace_prefix": "enigmapd",
+          "namespace_url": "https://enigma.ini.usc.edu/ongoing/enigma-parkinsons/vocab/assessments/"
+        },
+        {
+          "namespace_prefix": "ncit",
+          "namespace_url": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#"
         },
         {
           "namespace_prefix": "snomed",
           "namespace_url": "http://purl.bioontology.org/ontology/SNOMEDCT/"
+        },
+        {
+          "namespace_prefix": "nidm",
+          "namespace_url": "http://purl.org/nidash/nidm#"
+        },
+        {
+          "namespace_prefix": "np",
+          "namespace_url": "https://github.com/nipoppy/pipeline-catalog/tree/main/processing/"
         }
       ]
     }
