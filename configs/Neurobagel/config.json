@@ -43,13 +43,6 @@
             ]
           },
           {
-            "id": "FromInt",
-            "name": "int",
-            "examples": [
-              "31"
-            ]
-          },
-          {
             "id": "FromEuro",
             "name": "euro",
             "examples": [
