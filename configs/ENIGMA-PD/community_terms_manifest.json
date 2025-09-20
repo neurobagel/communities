@@ -1,0 +1,9 @@
+{
+  "assessment.json": {
+    "source_spreadsheet_id": "1IvHjQwP67Tns7cze_3K7An9JADD0E1UKUyLf4KFqYfk",
+    "namespace_prefix": "enigmapd",
+    "namespace_url": "https://enigma.ini.usc.edu/ongoing/enigma-parkinsons/vocab/assessments/",
+    "vocabulary_name": "ENIGMA-PD vocabulary of assessment terms",
+    "version": "1.0.0"
+  }
+}
