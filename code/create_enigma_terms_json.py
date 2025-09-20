@@ -1,3 +1,4 @@
+import argparse
 import json
 import os
 import sys
@@ -8,18 +9,13 @@ import pandas as pd
 import pandera.pandas as pa
 
 GOOGLE_API_KEY = os.environ.get("COMMUNITIES_GOOGLE_API_KEY")
-VOCAB_GSHEET_ID = os.environ.get("ENIGMA_ASSESSMENTS_GSHEET_ID")
-OUTPUT_FILEPATH = (
-    Path(__file__).absolute().parents[1] / "configs/ENIGMA-PD/assessment.json"
-)
-
-# TODO: Do we want to increment the version each time the config file is regenerated?
-VOCAB_METADATA = {
-    "namespace_prefix": "enigmapd",
-    "namespace_url": "https://enigma.ini.usc.edu/ongoing/enigma-parkinsons/vocab/assessments/",
-    "vocabulary_name": "ENIGMA-PD vocabulary of assessment terms",
-    "version": "1.0.0",
-}
+COMMUNITY_TERMS_MANIFEST_FILE = "community_terms_manifest.json"
+VOCAB_METADATA_KEYS = [
+    "namespace_prefix",
+    "namespace_url",
+    "vocabulary_name",
+    "version",
+]
 
 gc = gspread.api_key(GOOGLE_API_KEY)
 
@@ -46,7 +42,19 @@ vocab_file_schema = pa.DataFrameSchema(
 )
 
 
-def fetch_gsheet(gsheet_id: str):
+def load_community_terms_manifest(community_config_dir: Path) -> dict:
+    """Load the community terms manifest JSON file."""
+    with open(community_config_dir / COMMUNITY_TERMS_MANIFEST_FILE) as f:
+        return json.load(f)
+
+
+def lowercase_column_names(df: pd.DataFrame) -> pd.DataFrame:
+    """Convert all column names in the DataFrame to lowercase."""
+    df.columns = [col.lower() for col in df.columns]
+    return df
+
+
+def fetch_gsheet_to_df(gsheet_id: str) -> pd.DataFrame:
     """Access and open a public Google spreadsheet by its ID (found in the spreadsheet URL after /d/)."""
     try:
         gsheet = gc.open_by_key(gsheet_id)
@@ -56,13 +64,13 @@ def fetch_gsheet(gsheet_id: str):
         print("Failed to access Google Sheet:", e.__cause__ or e)
         sys.exit(1)
     vocab_worksheet = gsheet.get_worksheet(0)
-    return vocab_worksheet
+    vocab_df = pd.DataFrame(
+        vocab_worksheet.get_all_records(default_blank=None)
+    )
+    # Make column names case-insensitive
+    vocab_df = lowercase_column_names(vocab_df)
 
-
-def lowercase_column_names(df: pd.DataFrame) -> pd.DataFrame:
-    """Convert all column names in the DataFrame to lowercase."""
-    df.columns = [col.lower() for col in df.columns]
-    return df
+    return vocab_df
 
 
 def create_terms_json(
@@ -73,22 +81,57 @@ def create_terms_json(
 
 
 def main():
-    vocab_gsheet = fetch_gsheet(VOCAB_GSHEET_ID)
-    vocab_df = pd.DataFrame(vocab_gsheet.get_all_records(default_blank=None))
+    # TODO: Update description
+    parser = argparse.ArgumentParser(
+        description="Generate a standardized terms vocabulary JSON file from a Google Sheets vocabulary table."
+    )
+    parser.add_argument(
+        "community_config_dir",
+        type=Path,
+        help="Path to a community configuration directory.",
+    )
+    args = parser.parse_args()
 
-    # Make column names case-insensitive
-    vocab_df = lowercase_column_names(vocab_df)
-
-    try:
-        vocab_df = vocab_file_schema.validate(vocab_df)
-    except pa.errors.SchemaError as err:
-        print("The provided vocabulary table is invalid:", err)
+    if not args.community_config_dir.is_dir():
+        print(
+            f"Community directory does not exist: {args.community_config_dir}"
+        )
         sys.exit(1)
+    if not (
+        args.community_config_dir / COMMUNITY_TERMS_MANIFEST_FILE
+    ).is_file():
+        print(
+            f"{COMMUNITY_TERMS_MANIFEST_FILE} not found in {args.community_config_dir}. Exiting."
+        )
+        sys.exit(0)
 
-    terms_json = create_terms_json(vocab_df, VOCAB_METADATA)
+    community_terms_manifest = load_community_terms_manifest(
+        args.community_config_dir
+    )
 
-    with open(Path(OUTPUT_FILEPATH), "w") as f:
-        json.dump(terms_json, f, indent=2)
+    for std_trm_vocab_file, vocab_metadata in community_terms_manifest.items():
+        vocab_gsheet_id = vocab_metadata.get("source_spreadsheet_id")
+        output_filepath = args.community_config_dir / std_trm_vocab_file
+        vocab_metadata = {
+            key: vocab_metadata.get(key) for key in VOCAB_METADATA_KEYS
+        }
+
+        print(
+            f"Generating {output_filepath} from Google Sheet ID {vocab_gsheet_id}..."
+        )
+
+        vocab_df = fetch_gsheet_to_df(vocab_gsheet_id)
+
+        try:
+            vocab_df = vocab_file_schema.validate(vocab_df)
+        except pa.errors.SchemaError as err:
+            print("The provided vocabulary table is invalid: ", err)
+            sys.exit(1)
+
+        terms_json = create_terms_json(vocab_df, vocab_metadata)
+
+        with open(Path(output_filepath), "w") as f:
+            json.dump(terms_json, f, indent=2)
 
 
 if __name__ == "__main__":
