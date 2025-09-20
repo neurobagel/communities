@@ -81,9 +81,8 @@ def create_terms_json(
 
 
 def main():
-    # TODO: Update description
     parser = argparse.ArgumentParser(
-        description="Generate a standardized terms vocabulary JSON file from a Google Sheets vocabulary table."
+        description="Generate standardized terms vocabulary JSON files from Google Sheets tables for a Neurobagel community configuration."
     )
     parser.add_argument(
         "community_config_dir",
