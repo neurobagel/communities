@@ -99,6 +99,7 @@ def main():
     if not (
         args.community_config_dir / COMMUNITY_TERMS_MANIFEST_FILE
     ).is_file():
+        # This prevents an error for e.g., the default Neurobagel config directory which lacks a community_terms_manifest.json.
         print(
             f"{COMMUNITY_TERMS_MANIFEST_FILE} not found in {args.community_config_dir}. Exiting."
         )
@@ -131,6 +132,8 @@ def main():
 
         with open(Path(output_filepath), "w") as f:
             json.dump(terms_json, f, indent=2)
+
+        print(f"Successfully generated {output_filepath}.")
 
 
 if __name__ == "__main__":
