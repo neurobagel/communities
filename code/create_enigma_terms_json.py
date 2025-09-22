@@ -48,12 +48,6 @@ def load_community_terms_manifest(community_config_dir: Path) -> dict:
         return json.load(f)
 
 
-def lowercase_column_names(df: pd.DataFrame) -> pd.DataFrame:
-    """Convert all column names in the DataFrame to lowercase."""
-    df.columns = [col.lower() for col in df.columns]
-    return df
-
-
 def fetch_gsheet_to_df(gsheet_id: str) -> pd.DataFrame:
     """Access and open a public Google spreadsheet by its ID (found in the spreadsheet URL after /d/)."""
     try:
@@ -68,7 +62,7 @@ def fetch_gsheet_to_df(gsheet_id: str) -> pd.DataFrame:
         vocab_worksheet.get_all_records(default_blank=None)
     )
     # Make column names case-insensitive
-    vocab_df = lowercase_column_names(vocab_df)
+    vocab_df = vocab_df.rename(columns=str.lower)
 
     return vocab_df
 
@@ -80,7 +74,7 @@ def create_terms_json(
     return [{**vocab_metadata, "terms": vocab_records}]
 
 
-def main():
+def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Generate standardized terms vocabulary JSON files from Google Sheets tables for a Neurobagel community configuration."
     )
@@ -89,8 +83,11 @@ def main():
         type=Path,
         help="Path to a community configuration directory.",
     )
-    args = parser.parse_args()
+    return parser.parse_args()
 
+
+def main():
+    args = parse_args()
     if not args.community_config_dir.is_dir():
         print(
             f"Community directory does not exist: {args.community_config_dir}"
