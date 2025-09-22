@@ -99,11 +99,10 @@ def main():
     if not (
         args.community_config_dir / COMMUNITY_TERMS_MANIFEST_FILE
     ).is_file():
-        # This prevents an error for e.g., the default Neurobagel config directory which lacks a community_terms_manifest.json.
         print(
-            f"{COMMUNITY_TERMS_MANIFEST_FILE} not found in {args.community_config_dir}. Exiting."
+            f"{COMMUNITY_TERMS_MANIFEST_FILE} not found in {args.community_config_dir}"
         )
-        sys.exit(0)
+        sys.exit(1)
 
     community_terms_manifest = load_community_terms_manifest(
         args.community_config_dir
