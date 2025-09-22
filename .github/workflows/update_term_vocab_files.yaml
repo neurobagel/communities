@@ -9,8 +9,10 @@ on:
 jobs:
   define-matrix:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     outputs:
-      config_dirs: ${{ steps.get-config-dirs.outputs.config_dirs }}
+      community_names: ${{ steps.get-config-dirs.outputs.community_names }}
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -19,18 +21,20 @@ jobs:
         id: get-config-dirs
         # NOTE: We only store the directory basename since we need a variable without slashes for a unique artifact name later on
         run: |
-          config_dirs=$(find configs -mindepth 1 -maxdepth 1 -type d -exec basename {} \; \
+          community_names=$(find configs -mindepth 1 -maxdepth 1 -type d -exec basename {} \; \
             | grep -v "Neurobagel" \
             | jq -R . | jq -s .)
-          echo "config_dirs=$config_dirs" >> "$GITHUB_OUTPUT"
+          echo "community_names=$community_names" >> "$GITHUB_OUTPUT"
 
   update-terms:
     needs: define-matrix
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     strategy:
       fail-fast: false
       matrix:
-        config_dir: ${{ fromJson(needs.define-matrix.outputs.config_dirs) }}
+        community_name: ${{ fromJson(needs.define-matrix.outputs.community_names) }}
 
     steps:
       - name: Checkout
@@ -39,7 +43,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
-          python-version: "3.10"
+          python-version: "3.11"
 
       - name: Install dependencies
         run: |
@@ -48,8 +52,8 @@ jobs:
 
       - name: Run script
         env:
-          COMMUNITIES_GOOGLE_API_KEY: ${{ secrets.COMMUNITIES_GOOGLE_API_KEY}}
-        run: python code/create_enigma_terms_json.py "configs/${{ matrix.config_dir }}"
+          COMMUNITIES_GOOGLE_API_KEY: ${{ secrets.COMMUNITIES_GOOGLE_API_KEY }}
+        run: python code/create_enigma_terms_json.py "configs/${{ matrix.community_name }}"
 
       # NOTE: We upload the entire directory to avoid needing to know/hardcode the name of the specific vocab file
       # (which is technically arbitrary) and to allow for future expansion to files for multiple standardized variables
@@ -57,8 +61,8 @@ jobs:
       - name: Upload community config directory as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: config_dir_${{ matrix.config_dir }}
-          path: configs/${{ matrix.config_dir }}
+          name: community_name_${{ matrix.community_name }}
+          path: configs/${{ matrix.community_name }}
 
   # NOTE: We commit once after all vocab files have been updated
   # to avoid race conditions with multiple concurrent pushes
