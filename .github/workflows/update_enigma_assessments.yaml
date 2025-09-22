@@ -1,4 +1,4 @@
-name: Update ENIGMA-PD assessment terms JSON file
+name: Update standardized term vocabulary files for community configs
 
 on:
   schedule:
@@ -7,22 +7,33 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-terms:
-    permissions:
-      contents: write
+  define-matrix:
     runs-on: ubuntu-latest
+    outputs:
+      config_dirs: ${{ steps.get-config-dirs.outputs.config_dirs }}
     steps:
-      - name: Generate a Neurobagel Bot token
-        id: generate-token
-        uses: actions/create-github-app-token@v2
-        with:
-          app-id: ${{ vars.NB_BOT_ID }}
-          private-key: ${{ secrets.NB_BOT_KEY }}
-
       - name: Checkout
         uses: actions/checkout@v5
-        with:
-          token: ${{ steps.generate-token.outputs.token }}
+
+      - name: Get community config directory names
+        id: get-config-dirs
+        # NOTE: We only store the directory basename since we need a variable without slashes for a unique artifact name later on
+        run: |
+          config_dirs=$(find configs -mindepth 1 -maxdepth 1 -type d -exec basename {} \; \
+            | grep -v "Neurobagel" \
+            | jq -R . | jq -s .)
+          echo "config_dirs=$config_dirs" >> "$GITHUB_OUTPUT"
+
+  update-terms:
+    needs: define-matrix
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        config_dir: ${{ fromJson(needs.define-matrix.outputs.config_dirs) }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -37,24 +48,56 @@ jobs:
       - name: Run script
         env:
           COMMUNITIES_GOOGLE_API_KEY: ${{ secrets.COMMUNITIES_GOOGLE_API_KEY}}
-          ENIGMA_ASSESSMENTS_GSHEET_ID: ${{ vars.ENIGMA_ASSESSMENTS_GSHEET_ID }}
-        run: python code/create_enigma_terms_json.py
+        run: python code/create_enigma_terms_json.py "configs/${{ matrix.config_dir }}"
+
+      # NOTE: We upload the entire directory to avoid needing to know/hardcode the name of the specific vocab file
+      # (which is technically arbitrary) and to allow for future expansion to files for multiple standardized variables
+      # (which the script already supports)
+      - name: Upload community config directory as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: config_dir_${{ matrix.config_dir }}
+          path: configs/${{ matrix.config_dir }}
+
+  commit-files:
+    needs: update-terms
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Generate a Neurobagel Bot token
+        id: generate-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ vars.NB_BOT_ID }}
+          private-key: ${{ secrets.NB_BOT_KEY }}
+
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          token: ${{ steps.generate-token.outputs.token }}
+
+      - name: Download all artifacts
+        uses: actions/download-artifact@v5
+        with:
+          path: .
 
       - name: Get Neurobagel Bot App User ID
         id: get-user-id
         run: echo "user-id=$(gh api "/users/${{ steps.generate-token.outputs.app-slug }}[bot]" --jq .id)" >> "$GITHUB_OUTPUT"
         env:
           GH_TOKEN: ${{ steps.generate-token.outputs.token }}
-    
+
       - name: Configure git for Neurobagel Bot user
         run: |
           git config --global user.name '${{ steps.generate-token.outputs.app-slug }}[bot]'
           git config --global user.email '${{ steps.get-user-id.outputs.user-id }}+${{ steps.generate-token.outputs.app-slug }}[bot]@users.noreply.github.com'
 
-      - name: Commit and push if terms file has changed
+      - name: Commit and push if any community config files have changed
         run: |
-          if ! git diff --quiet configs/ENIGMA-PD/*; then
-            git add configs/ENIGMA-PD/*
-            git commit -m "[bot] Update ENIGMA-PD assessment terms"
+          if ! git diff --quiet configs; then
+            git add configs
+            git commit -m "[bot] Update community standardized term vocab files from Google Sheets"
             git push origin main
           fi
