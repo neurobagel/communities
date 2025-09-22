@@ -53,7 +53,7 @@ jobs:
       - name: Run script
         env:
           COMMUNITIES_GOOGLE_API_KEY: ${{ secrets.COMMUNITIES_GOOGLE_API_KEY }}
-        run: python code/create_enigma_terms_json.py "configs/${{ matrix.community_name }}"
+        run: python code/create_term_vocab_from_gsheet.py "configs/${{ matrix.community_name }}"
 
       # NOTE: We upload the entire directory to avoid needing to know/hardcode the name of the specific vocab file
       # (which is technically arbitrary) and to allow for future expansion to files for multiple standardized variables
