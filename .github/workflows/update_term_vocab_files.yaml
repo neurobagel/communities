@@ -1,4 +1,4 @@
-name: Update standardized term vocabulary files for community configs
+name: Update standardized term vocab files for community configs
 
 on:
   schedule:
