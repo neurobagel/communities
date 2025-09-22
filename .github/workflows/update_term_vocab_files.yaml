@@ -28,6 +28,7 @@ jobs:
     needs: define-matrix
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
         config_dir: ${{ fromJson(needs.define-matrix.outputs.config_dirs) }}
 
@@ -63,6 +64,7 @@ jobs:
   # to avoid race conditions with multiple concurrent pushes
   commit-files:
     needs: update-terms
+    if: ${{ always() }}
     permissions:
       contents: write
     runs-on: ubuntu-latest
