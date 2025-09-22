@@ -1,6 +1,6 @@
 # Neurobagel subcommunities
 
-[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/neurobagel/communities/update_enigma_assessments.yaml?style=flat-square&label=ENIGMA-PD&link=https%3A%2F%2Fgithub.com%2Fneurobagel%2Fcommunities%2Fblob%2Fmain%2F.github%2Fworkflows%2Fupdate_enigma_assessments.yaml)](https://github.com/neurobagel/communities/blob/main/.github/workflows/update_enigma_assessments.yaml)
+[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/neurobagel/communities/update_term_vocab_files.yaml?style=flat-square&label=Community%20standardized%20term%20vocabularies&link=https%3A%2F%2Fgithub.com%2Fneurobagel%2Fcommunities%2Fblob%2Fmain%2F.github%2Fworkflows%2Fupdate_term_vocab_files.yaml)](https://github.com/neurobagel/communities/blob/main/.github/workflows/update_term_vocab_files.yaml)
 
 Scripts and configuration files that allow Neurobagel subcommunities to define custom standardized vocabularies used among their studies or sites and make them available for use within the Neurobagel tool ecosystem.
 
