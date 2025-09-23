@@ -1,3 +1,8 @@
+"""
+Create a file that maps each community configuration to the unique namespaces (prefixes and URLs)
+it uses across standardized variable configuration and standardized term vocabulary files.
+"""
+
 import json
 from pathlib import Path
 from typing import Any
@@ -5,6 +10,8 @@ from typing import Any
 ALL_CONFIGS_DIR = Path(__file__).absolute().parents[1] / "configs"
 CONFIG_METADATA_DIR = Path(__file__).absolute().parents[1] / "config_metadata"
 OUTPUT_FILE = CONFIG_METADATA_DIR / "config_namespace_map.json"
+
+FILE_TO_SKIP = "community_terms_manifest.json"
 
 
 def load_json_config_file(filename: Path) -> Any:
@@ -55,7 +62,7 @@ def get_namespaces_for_config(config_dir: Path) -> dict:
             config_namespaces["variables"] = collect_namespaces_from_file(
                 config_data
             )
-        else:
+        elif json_file.name != FILE_TO_SKIP:
             term_namespaces_for_variable = collect_namespaces_from_file(
                 config_data
             )
