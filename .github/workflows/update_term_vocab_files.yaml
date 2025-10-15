@@ -61,7 +61,7 @@ jobs:
       - name: Upload community config directory as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: community_name_${{ matrix.community_name }}
+          name: ${{ matrix.community_name }}
           path: configs/${{ matrix.community_name }}
 
   # NOTE: We commit once after all vocab files have been updated
@@ -89,7 +89,7 @@ jobs:
       - name: Download all artifacts
         uses: actions/download-artifact@v5
         with:
-          path: .
+          path: configs
 
       - name: Get Neurobagel Bot App User ID
         id: get-user-id
