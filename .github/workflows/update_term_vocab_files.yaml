@@ -104,8 +104,9 @@ jobs:
 
       - name: Commit and push if any community config files have changed
         run: |
-          if ! git diff --quiet configs; then
-            git add configs
+          git status
+          git add configs
+          if ! git diff --cached --quiet configs; then
             git commit -m "[bot] Update community standardized term vocab files from Google Sheets"
             git push origin main
           fi
