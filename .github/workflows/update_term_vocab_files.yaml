@@ -92,13 +92,6 @@ jobs:
         with:
           token: ${{ steps.generate-token.outputs.token }}
 
-      # TODO: Remove this special workaround when we have >1 community (non-Neurobagel config)
-      - name: Get number of communities
-        id: get-num-communities
-        run: | 
-          num_communities=$(echo '${{ needs.define-matrix.outputs.community_names }}' | jq length)
-          echo "num_communities=$num_communities" >> "$GITHUB_OUTPUT"
-
       - name: Download all artifacts
         if: ${{ needs.define-matrix.outputs.num_communities != '1' }}
         uses: actions/download-artifact@v5
