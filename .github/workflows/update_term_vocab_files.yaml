@@ -13,6 +13,8 @@ jobs:
       contents: read
     outputs:
       community_names: ${{ steps.get-config-dirs.outputs.community_names }}
+      # TODO: Remove this special workaround when we have >1 community (non-Neurobagel config)
+      num_communities: ${{ steps.get-config-dirs.outputs.num_communities }}
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -25,6 +27,10 @@ jobs:
             | grep -v "Neurobagel" \
             | jq -R . | jq -s -c .)
           echo "community_names=$community_names" >> "$GITHUB_OUTPUT"
+
+          # TODO: Remove this special workaround when we have >1 community (non-Neurobagel config)
+          num_communities=$(echo "$community_names" | jq length)
+          echo "num_communities=$num_communities" >> "$GITHUB_OUTPUT"
 
   update-terms:
     needs: define-matrix
@@ -94,14 +100,14 @@ jobs:
           echo "num_communities=$num_communities" >> "$GITHUB_OUTPUT"
 
       - name: Download all artifacts
-        if: ${{ steps.get-num-communities.outputs.num_communities != '1' }}
+        if: ${{ needs.define-matrix.outputs.num_communities != '1' }}
         uses: actions/download-artifact@v5
         with:
           path: configs
 
       # TODO: Remove this special workaround when we have >1 community (non-Neurobagel config)
       - name: Download single artifact
-        if: ${{ steps.get-num-communities.outputs.num_communities == '1' }}
+        if: ${{ needs.define-matrix.outputs.num_communities == '1' }}
         uses: actions/download-artifact@v5
         with:
           path: configs/${{ fromJson(needs.define-matrix.outputs.community_names)[0] }}
