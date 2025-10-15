@@ -23,7 +23,7 @@ jobs:
         run: |
           community_names=$(find configs -mindepth 1 -maxdepth 1 -type d -exec basename {} \; \
             | grep -v "Neurobagel" \
-            | jq -R . | jq -s .)
+            | jq -R . | jq -s -c .)
           echo "community_names=$community_names" >> "$GITHUB_OUTPUT"
 
   update-terms:
