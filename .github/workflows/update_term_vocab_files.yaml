@@ -103,6 +103,7 @@ jobs:
         if: ${{ needs.define-matrix.outputs.num_communities == '1' }}
         uses: actions/download-artifact@v5
         with:
+          name: ${{ fromJson(needs.define-matrix.outputs.community_names)[0] }}
           path: configs/${{ fromJson(needs.define-matrix.outputs.community_names)[0] }}
 
 
