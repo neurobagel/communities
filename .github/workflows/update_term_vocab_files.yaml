@@ -13,6 +13,8 @@ jobs:
       contents: read
     outputs:
       community_names: ${{ steps.get-config-dirs.outputs.community_names }}
+      # TODO: Remove this special workaround when we have >1 community (non-Neurobagel config)
+      num_communities: ${{ steps.get-config-dirs.outputs.num_communities }}
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -25,6 +27,10 @@ jobs:
             | grep -v "Neurobagel" \
             | jq -R . | jq -s -c .)
           echo "community_names=$community_names" >> "$GITHUB_OUTPUT"
+
+          # TODO: Remove this special workaround when we have >1 community (non-Neurobagel config)
+          num_communities=$(echo "$community_names" | jq length)
+          echo "num_communities=$num_communities" >> "$GITHUB_OUTPUT"
 
   update-terms:
     needs: define-matrix
@@ -61,13 +67,13 @@ jobs:
       - name: Upload community config directory as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: community_name_${{ matrix.community_name }}
+          name: ${{ matrix.community_name }}
           path: configs/${{ matrix.community_name }}
 
   # NOTE: We commit once after all vocab files have been updated
   # to avoid race conditions with multiple concurrent pushes
   commit-files:
-    needs: update-terms
+    needs: [define-matrix, update-terms]
     if: ${{ always() }}
     permissions:
       contents: write
@@ -87,9 +93,19 @@ jobs:
           token: ${{ steps.generate-token.outputs.token }}
 
       - name: Download all artifacts
+        if: ${{ needs.define-matrix.outputs.num_communities != '1' }}
         uses: actions/download-artifact@v5
         with:
-          path: .
+          path: configs
+
+      # TODO: Remove this special workaround when we have >1 community (non-Neurobagel config)
+      - name: Download single artifact
+        if: ${{ needs.define-matrix.outputs.num_communities == '1' }}
+        uses: actions/download-artifact@v5
+        with:
+          name: ${{ fromJson(needs.define-matrix.outputs.community_names)[0] }}
+          path: configs/${{ fromJson(needs.define-matrix.outputs.community_names)[0] }}
+
 
       - name: Get Neurobagel Bot App User ID
         id: get-user-id
@@ -104,8 +120,14 @@ jobs:
 
       - name: Commit and push if any community config files have changed
         run: |
-          if ! git diff --quiet configs; then
-            git add configs
+          # Check for changes anywhere in repo as a sanity check
+          git status
+
+          git add configs
+          # Print names of changed config files for debugging
+          echo "Changed config files:"
+          git diff --cached --name-only configs
+          if ! git diff --cached --quiet configs; then
             git commit -m "[bot] Update community standardized term vocab files from Google Sheets"
             git push origin main
           fi
