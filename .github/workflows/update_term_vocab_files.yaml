@@ -119,8 +119,13 @@ jobs:
 
       - name: Commit and push if any community config files have changed
         run: |
+          # Check for changes anywhere in repo as a sanity check
           git status
+
           git add configs
+          # Print names of changed config files for debugging
+          echo "Changed config files:"
+          git diff --cached --name-only configs
           if ! git diff --cached --quiet configs; then
             git commit -m "[bot] Update community standardized term vocab files from Google Sheets"
             git push origin main
