@@ -65,7 +65,7 @@ jobs:
       # (which is technically arbitrary) and to allow for future expansion to files for multiple standardized variables
       # (which the script already supports)
       - name: Upload community config directory as artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: ${{ matrix.community_name }}
           path: configs/${{ matrix.community_name }}
