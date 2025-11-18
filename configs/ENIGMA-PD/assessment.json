@@ -193,9 +193,9 @@
       },
       {
         "id": "trm_032",
-        "name": "Scales for Outcomes in PArkinson\u2019s disease - Psychiatric Complications",
+        "name": "Scales for Outcomes in Parkinson\u2019s disease - Psychiatric Complications",
         "abbreviation": "SCOPA-PC",
-        "description": "Scales for Outcomes in PArkinson\u2019s disease - Psychiatric Complications; psychiatry general"
+        "description": "Scales for Outcomes in Parkinson\u2019s disease - Psychiatric Complications; psychiatry general"
       },
       {
         "id": "trm_033",
@@ -736,6 +736,60 @@
         "name": "Purdue Pegboard Test",
         "abbreviation": "PPT",
         "description": "Purdue Pegboard Test"
+      },
+      {
+        "id": "trm_123",
+        "name": "Time since diagnosis",
+        "abbreviation": "Time_since_diagnosis",
+        "description": "Years since clinical diagnosis of Parkinson's disease"
+      },
+      {
+        "id": "trm_124",
+        "name": "Age at diagnosis",
+        "abbreviation": "Age_at_diagnosis",
+        "description": "Participant's age in years at time they received clinical diagnosis of Parkinson's Disease"
+      },
+      {
+        "id": "trm_125",
+        "name": "Age of onset symptoms",
+        "abbreviation": "Age_of_onset_symptoms",
+        "description": "Participant's age in years when first symptoms related to Parkinson's Disease were noticed/reported (self-report)"
+      },
+      {
+        "id": "trm_126",
+        "name": "Side of onset",
+        "abbreviation": "Side_of_onset",
+        "description": "Refers to the body side (left or right) where motor symptoms of Parkinson\u2019s disease first appeared; typically categorized as left, right, or bilateral/unknown if onset was not clearly lateralized"
+      },
+      {
+        "id": "trm_127",
+        "name": "Medication",
+        "abbreviation": "Medication",
+        "description": "Whether a participant is currently using dopaminergic medication, specifically levodopa or related treatments, for the management of Parkinson\u2019s disease symptoms"
+      },
+      {
+        "id": "trm_128",
+        "name": "Parkinson's Disease Questionnaire-39",
+        "abbreviation": "PDQ-39",
+        "description": "Parkinson's Disease Questionnaire-39; quality of life"
+      },
+      {
+        "id": "trm_129",
+        "name": "Scales for Outcomes in Parkinson\u2019s disease - Autonomic Dysfunction",
+        "abbreviation": "SCOPA-AUT",
+        "description": "Scales for Outcomes in Parkinson\u2019s disease - Autonomic Dysfunction; autonomic symptoms"
+      },
+      {
+        "id": "trm_130",
+        "name": "University of Pennsylvania Smell Identification Test",
+        "abbreviation": "UPSIT",
+        "description": "University of Pennsylvania Smell Identification Test; anosmia"
+      },
+      {
+        "id": "trm_131",
+        "name": "Sniffin\u2018 Sticks",
+        "abbreviation": "Sniffin_sticks",
+        "description": "Sniffin\u2018 Sticks; anosmia"
       }
     ]
   }
