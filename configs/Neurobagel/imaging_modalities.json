@@ -1,0 +1,58 @@
+[
+  {
+    "namespace_prefix": "nidm",
+    "namespace_url": "http://purl.org/nidash/nidm#",
+    "vocabulary_name": "Neurobagel vocabulary of imaging modality terms",
+    "version": "1.0.0",
+    "terms": [
+      {
+        "name": "T1-weighted image",
+        "id": "T1Weighted",
+        "abbreviation": "T1w",
+        "data_type": "anat"
+      },
+      {
+        "name": "T2-weighted image",
+        "id": "T2Weighted",
+        "abbreviation": "T2w",
+        "data_type": "anat"
+      },
+      {
+        "name": "Diffusion-weighted image",
+        "id": "DiffusionWeighted",
+        "abbreviation": "dwi",
+        "data_type": "anat"
+      },
+      {
+        "name": "Blood-Oxygen-Level Dependent image",
+        "id": "FlowWeighted",
+        "abbreviation": "bold",
+        "data_type": "func"
+      },
+      {
+        "name": "Arterial Spin Labeling",
+        "id": "ArterialSpinLabeling",
+        "abbreviation": "asl",
+        "data_type": "perf"
+      },
+      {
+        "name": "Electroencephalography",
+        "id": "Electroencephalography",
+        "abbreviation": "eeg",
+        "data_type": "eeg"
+      },
+      {
+        "name": "Magnetoencephalography",
+        "id": "Magnetoencephalography",
+        "abbreviation": "meg",
+        "data_type": "meg"
+      },
+      {
+        "name": "Positron Emission Tomography",
+        "id": "PositronEmissionTomography",
+        "abbreviation": "pet",
+        "data_type": "pet"
+      }
+    ]
+  }
+]
