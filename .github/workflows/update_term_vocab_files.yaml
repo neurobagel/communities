@@ -65,7 +65,7 @@ jobs:
       # (which is technically arbitrary) and to allow for future expansion to files for multiple standardized variables
       # (which the script already supports)
       - name: Upload community config directory as artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: ${{ matrix.community_name }}
           path: configs/${{ matrix.community_name }}
@@ -94,14 +94,14 @@ jobs:
 
       - name: Download all artifacts
         if: ${{ needs.define-matrix.outputs.num_communities != '1' }}
-        uses: actions/download-artifact@v5
+        uses: actions/download-artifact@v6
         with:
           path: configs
 
       # TODO: Remove this special workaround when we have >1 community (non-Neurobagel config)
       - name: Download single artifact
         if: ${{ needs.define-matrix.outputs.num_communities == '1' }}
-        uses: actions/download-artifact@v5
+        uses: actions/download-artifact@v6
         with:
           name: ${{ fromJson(needs.define-matrix.outputs.community_names)[0] }}
           path: configs/${{ fromJson(needs.define-matrix.outputs.community_names)[0] }}

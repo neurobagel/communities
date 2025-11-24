@@ -193,9 +193,9 @@
       },
       {
         "id": "trm_032",
-        "name": "Scales for Outcomes in PArkinson\u2019s disease - Psychiatric Complications",
+        "name": "Scales for Outcomes in Parkinson\u2019s disease - Psychiatric Complications",
         "abbreviation": "SCOPA-PC",
-        "description": "Scales for Outcomes in PArkinson\u2019s disease - Psychiatric Complications; psychiatry general"
+        "description": "Scales for Outcomes in Parkinson\u2019s disease - Psychiatric Complications; psychiatry general"
       },
       {
         "id": "trm_033",
@@ -304,6 +304,492 @@
         "name": "MDS-UPDRS (Revised Version) \u2013 Part IV: Motor Complications",
         "abbreviation": "MDS-UPDRS4",
         "description": "MDS-UPDRS (Revised Version) \u2013 Part IV: Motor Complications"
+      },
+      {
+        "id": "trm_051",
+        "name": "Rey's Auditory Verbal Learning Test",
+        "abbreviation": "RAVLT",
+        "description": "Rey's Auditory Verbal Learning Test"
+      },
+      {
+        "id": "trm_052",
+        "name": "California Verbal Learning Test",
+        "abbreviation": "CVLT/CVLT-II/CVLT3",
+        "description": "California Verbal Learning Test"
+      },
+      {
+        "id": "trm_053",
+        "name": "Philadelphia Verbal Learning Test",
+        "abbreviation": "PVLT",
+        "description": "Philadelphia Verbal Learning Test"
+      },
+      {
+        "id": "trm_054",
+        "name": "Hopkins Verbal Learning Test",
+        "abbreviation": "HVLT/HVLT-R",
+        "description": "Hopkins Verbal Learning Test"
+      },
+      {
+        "id": "trm_055",
+        "name": "Selective Reminding Test",
+        "abbreviation": "SRT",
+        "description": "Selective Reminding Test"
+      },
+      {
+        "id": "trm_056",
+        "name": "Wechsler Memory Scale-IV",
+        "abbreviation": "WMS-IV Logical Memory",
+        "description": "Wechsler Memory Scale-IV"
+      },
+      {
+        "id": "trm_057",
+        "name": "Rivermead Behavioural Memory Test",
+        "abbreviation": "RBMT/RBMT II/RBMT III",
+        "description": "Rivermead Behavioural Memory Test"
+      },
+      {
+        "id": "trm_058",
+        "name": "Rey-Osterrieth Complex Figure Test",
+        "abbreviation": "ROCFT",
+        "description": "Rey-Osterrieth Complex Figure Test"
+      },
+      {
+        "id": "trm_059",
+        "name": "Brief Visuospatial Memory Test",
+        "abbreviation": "BVMT/BVRT-R/BVRT-5",
+        "description": "Brief Visuospatial Memory Test"
+      },
+      {
+        "id": "trm_060",
+        "name": "Memory Binding Test/Memory Capacity Test",
+        "abbreviation": "MBT/MCT",
+        "description": "Memory Binding Test/Memory Capacity Test"
+      },
+      {
+        "id": "trm_061",
+        "name": "WAIS-III/IV Digit Span",
+        "abbreviation": "WAIS-III/IV Digit Span",
+        "description": "WAIS-III/IV Digit Span"
+      },
+      {
+        "id": "trm_062",
+        "name": "WAIS-IV Coding",
+        "abbreviation": "WAIS-IV Coding",
+        "description": "WAIS-IV Coding"
+      },
+      {
+        "id": "trm_063",
+        "name": "WAIS-IV Symbol Search",
+        "abbreviation": "WAIS-IV Symbol Search",
+        "description": "WAIS-IV Symbol Search"
+      },
+      {
+        "id": "trm_064",
+        "name": "Trail Making Test",
+        "abbreviation": "TMT",
+        "description": "Trail Making Test"
+      },
+      {
+        "id": "trm_065",
+        "name": "WAIS-IV Letter Number Sequencing",
+        "abbreviation": "WAIS-IV LNS",
+        "description": "WAIS-IV Letter Number Sequencing"
+      },
+      {
+        "id": "trm_066",
+        "name": "Symbol Digit Modality Test",
+        "abbreviation": "SDMT",
+        "description": "Symbol Digit Modality Test"
+      },
+      {
+        "id": "trm_067",
+        "name": "Modified Levin's Paced Auditory Serial Addition Test",
+        "abbreviation": "Modified Levin's PASAT",
+        "description": "Modified Levin's Paced Auditory Serial Addition Test"
+      },
+      {
+        "id": "trm_068",
+        "name": "Corsi Block Tapping",
+        "abbreviation": "Corsi Block Tapping",
+        "description": "Corsi Block Tapping"
+      },
+      {
+        "id": "trm_069",
+        "name": "Digit Ordering Test",
+        "abbreviation": "Digit Ordering Test",
+        "description": "Digit Ordering Test"
+      },
+      {
+        "id": "trm_070",
+        "name": "Visual Search Test",
+        "abbreviation": "Visual Search Test",
+        "description": "Visual Search Test"
+      },
+      {
+        "id": "trm_071",
+        "name": "Brief Test of Attention",
+        "abbreviation": "Brief Test of Attention",
+        "description": "Brief Test of Attention"
+      },
+      {
+        "id": "trm_072",
+        "name": "Test of Everyday Attention: Map Search/Visual Elevator",
+        "abbreviation": "TEA: Map Search/Visual Elevator",
+        "description": "Test of Everyday Attention: Map Search/Visual Elevator"
+      },
+      {
+        "id": "trm_073",
+        "name": "Serial Reaction Time Task",
+        "abbreviation": "Serial Reaction Time Task",
+        "description": "Serial Reaction Time Task"
+      },
+      {
+        "id": "trm_074",
+        "name": "Odd-Man Out Test",
+        "abbreviation": "Odd-Man Out Test",
+        "description": "Odd-Man Out Test"
+      },
+      {
+        "id": "trm_075",
+        "name": "Wechsler Memory Scale-III Mental Control",
+        "abbreviation": "WSM-III Mental Control",
+        "description": "Wechsler Memory Scale-III Mental Control"
+      },
+      {
+        "id": "trm_076",
+        "name": "Boston Naming Test",
+        "abbreviation": "BNT-60 / BNT-30 / BNT-15",
+        "description": "Boston Naming Test"
+      },
+      {
+        "id": "trm_077",
+        "name": "Picture Naming Object Test",
+        "abbreviation": "PNOT",
+        "description": "Picture Naming Object Test"
+      },
+      {
+        "id": "trm_078",
+        "name": "Pyramids and Palm Trees",
+        "abbreviation": "PPT",
+        "description": "Pyramids and Palm Trees"
+      },
+      {
+        "id": "trm_079",
+        "name": "Kissing and Dancing Test",
+        "abbreviation": "KDT",
+        "description": "Kissing and Dancing Test"
+      },
+      {
+        "id": "trm_080",
+        "name": "Rhode Island Test of Language Structure",
+        "abbreviation": "RITLS",
+        "description": "Rhode Island Test of Language Structure"
+      },
+      {
+        "id": "trm_081",
+        "name": "Gray Oral Reading Test",
+        "abbreviation": "GORT",
+        "description": "Gray Oral Reading Test"
+      },
+      {
+        "id": "trm_082",
+        "name": "Benton Judgment of Line Orientation",
+        "abbreviation": "B-JoLO",
+        "description": "Benton Judgment of Line Orientation"
+      },
+      {
+        "id": "trm_083",
+        "name": "Benton Facial Recognition Test",
+        "abbreviation": "BFRT",
+        "description": "Benton Facial Recognition Test"
+      },
+      {
+        "id": "trm_084",
+        "name": "Benton Visual Form Discrimination",
+        "abbreviation": "BVFD",
+        "description": "Benton Visual Form Discrimination"
+      },
+      {
+        "id": "trm_085",
+        "name": "Clock Copy/CLOX 2",
+        "abbreviation": "Clock Copy/CLOX 2",
+        "description": "Clock Copy/CLOX 2"
+      },
+      {
+        "id": "trm_086",
+        "name": "Hooper Visual Organization Test",
+        "abbreviation": "HVOT",
+        "description": "Hooper Visual Organization Test"
+      },
+      {
+        "id": "trm_087",
+        "name": "Mental rotation",
+        "abbreviation": "Mental rotation",
+        "description": "Mental rotation"
+      },
+      {
+        "id": "trm_088",
+        "name": "Intersecting pentagons",
+        "abbreviation": "Intersecting pentagons",
+        "description": "Intersecting pentagons"
+      },
+      {
+        "id": "trm_089",
+        "name": "Money Road Map Test",
+        "abbreviation": "MRMT",
+        "description": "Money Road Map Test"
+      },
+      {
+        "id": "trm_090",
+        "name": "Street Completion Test",
+        "abbreviation": "SCT",
+        "description": "Street Completion Test"
+      },
+      {
+        "id": "trm_091",
+        "name": "Overlapping Figures Test",
+        "abbreviation": "OFT",
+        "description": "Overlapping Figures Test"
+      },
+      {
+        "id": "trm_092",
+        "name": "Rosen Drawing Test",
+        "abbreviation": "RDT",
+        "description": "Rosen Drawing Test"
+      },
+      {
+        "id": "trm_093",
+        "name": "Wechsler Adult Intelligence Scale Block Design",
+        "abbreviation": "WAIS-III/WAIS-IV Block Design",
+        "description": "Wechsler Adult Intelligence Scale Block Design"
+      },
+      {
+        "id": "trm_094",
+        "name": "Wechsler Adult Intelligence Scale Matrix Reasoning",
+        "abbreviation": "WAIS-III/WAIS-IV Matrix Reasoning",
+        "description": "Wechsler Adult Intelligence Scale Matrix Reasoning"
+      },
+      {
+        "id": "trm_095",
+        "name": "Wechsler Adult Intelligence Scale Visual Puzzle/Object Assembly",
+        "abbreviation": "WAIS-III/WAIS-IV Visual Puzzle/Object Assembly",
+        "description": "Wechsler Adult Intelligence Scale Visual Puzzle/Object Assembly"
+      },
+      {
+        "id": "trm_096",
+        "name": "Wechsler Adult Intelligence Scale Picture Completion/Arrangement",
+        "abbreviation": "WAIS-III/WAIS-IV Picture Completion/Arrangement",
+        "description": "Wechsler Adult Intelligence Scale Picture Completion/Arrangement"
+      },
+      {
+        "id": "trm_097",
+        "name": "Wechsler Adult Intelligence Scale Figure weights",
+        "abbreviation": "WAIS-III/WAIS-IV Figure weights",
+        "description": "Wechsler Adult Intelligence Scale Figure weights"
+      },
+      {
+        "id": "trm_098",
+        "name": "Visual Object Space Perception Incomplete Letters",
+        "abbreviation": "VOSP Incomplete Letters",
+        "description": "Visual Object Space Perception Incomplete Letters"
+      },
+      {
+        "id": "trm_099",
+        "name": "Visual Object Space Perception Silhouettes",
+        "abbreviation": "VOSP Silhouettes",
+        "description": "Visual Object Space Perception Silhouettes"
+      },
+      {
+        "id": "trm_100",
+        "name": "Visual Object Space Perception Object Decision",
+        "abbreviation": "VOSP Object Decision",
+        "description": "Visual Object Space Perception Object Decision"
+      },
+      {
+        "id": "trm_101",
+        "name": "Visual Object Space Perception Progressive Silhouettes",
+        "abbreviation": "VOSP Progressive Silhouettes",
+        "description": "Visual Object Space Perception Progressive Silhouettes"
+      },
+      {
+        "id": "trm_102",
+        "name": "Visual Object Space Perception Dot Counting",
+        "abbreviation": "VOSP Dot Counting",
+        "description": "Visual Object Space Perception Dot Counting"
+      },
+      {
+        "id": "trm_103",
+        "name": "Visual Object Space Perception Position Discrimination",
+        "abbreviation": "VOSP Position Discrimination",
+        "description": "Visual Object Space Perception Position Discrimination"
+      },
+      {
+        "id": "trm_104",
+        "name": "Visual Object Space Perception Number Location",
+        "abbreviation": "VOSP Number Location",
+        "description": "Visual Object Space Perception Number Location"
+      },
+      {
+        "id": "trm_105",
+        "name": "Visual Object Space Perception Cube Analysis",
+        "abbreviation": "VOSP Cube Analysis",
+        "description": "Visual Object Space Perception Cube Analysis"
+      },
+      {
+        "id": "trm_106",
+        "name": "National Adult Reading Test",
+        "abbreviation": "NART/NAART/NAART-R",
+        "description": "National Adult Reading Test"
+      },
+      {
+        "id": "trm_107",
+        "name": "Oral Graded-Difficulty Spelling Test or Baxter Spelling Test",
+        "abbreviation": "GDST",
+        "description": "Oral Graded-Difficulty Spelling Test or Baxter Spelling Test"
+      },
+      {
+        "id": "trm_108",
+        "name": "Peabody Picture Vocabulary Test-4",
+        "abbreviation": "PPVT-4",
+        "description": "Peabody Picture Vocabulary Test-4"
+      },
+      {
+        "id": "trm_109",
+        "name": "WAIS-IV Similarities",
+        "abbreviation": "WAIS-IV Similarities",
+        "description": "WAIS-IV Similarities"
+      },
+      {
+        "id": "trm_110",
+        "name": "Wisconsin Card Sorting Test",
+        "abbreviation": "WCST",
+        "description": "Wisconsin Card Sorting Test"
+      },
+      {
+        "id": "trm_111",
+        "name": "Verbal Fluency Tests (Verbal Fluency Test, Controlled Oral Word Association Test, Controlled Oral Word Association, Word Fluency Test, the Letter Fluency Test, the FAS-Test, the Category Fluency Test, the Phonemic Fluency Test, the Semantic Fluency Test, Thurstone Word Fluency Test)",
+        "abbreviation": "VFT/COWAT/COWA",
+        "description": "Verbal Fluency Tests (Verbal Fluency Test, Controlled Oral Word Association Test, Controlled Oral Word Association, Word Fluency Test, the Letter Fluency Test, the FAS-Test, the Category Fluency Test, the Phonemic Fluency Test, the Semantic Fluency Test, Thurstone Word Fluency Test)"
+      },
+      {
+        "id": "trm_112",
+        "name": "Stroop Color-Word Test",
+        "abbreviation": "Stroop Color-Word Test",
+        "description": "Stroop Color-Word Test"
+      },
+      {
+        "id": "trm_113",
+        "name": "Tower of London",
+        "abbreviation": "ToL",
+        "description": "Tower of London"
+      },
+      {
+        "id": "trm_114",
+        "name": "10-Point Clock Drawing Test",
+        "abbreviation": "10-Point Clock Drawing Test",
+        "description": "10-Point Clock Drawing Test"
+      },
+      {
+        "id": "trm_115",
+        "name": "Frontal Assessment Battery",
+        "abbreviation": "Frontal Assessment Battery",
+        "description": "Frontal Assessment Battery"
+      },
+      {
+        "id": "trm_116",
+        "name": "WAIS-IV-Matrix Reasoning",
+        "abbreviation": "WAIS-IV-Matrix Reasoning",
+        "description": "WAIS-IV-Matrix Reasoning"
+      },
+      {
+        "id": "trm_117",
+        "name": "Iowa Gambling Task",
+        "abbreviation": "IGT",
+        "description": "Iowa Gambling Task"
+      },
+      {
+        "id": "trm_118",
+        "name": "Behavioral Assessment of the Dysexecutive Syndrome",
+        "abbreviation": "BADS",
+        "description": "Behavioral Assessment of the Dysexecutive Syndrome"
+      },
+      {
+        "id": "trm_119",
+        "name": "Hayling Sentence Completion Test",
+        "abbreviation": "HSCT",
+        "description": "Hayling Sentence Completion Test"
+      },
+      {
+        "id": "trm_120",
+        "name": "Brixton Spatial Anticipation Test",
+        "abbreviation": "BSAT",
+        "description": "Brixton Spatial Anticipation Test"
+      },
+      {
+        "id": "trm_121",
+        "name": "Design Fluency Test",
+        "abbreviation": "Design Fluency Test",
+        "description": "Design Fluency Test"
+      },
+      {
+        "id": "trm_122",
+        "name": "Purdue Pegboard Test",
+        "abbreviation": "PPT",
+        "description": "Purdue Pegboard Test"
+      },
+      {
+        "id": "trm_123",
+        "name": "Time since diagnosis",
+        "abbreviation": "Time_since_diagnosis",
+        "description": "Years since clinical diagnosis of Parkinson's disease"
+      },
+      {
+        "id": "trm_124",
+        "name": "Age at diagnosis",
+        "abbreviation": "Age_at_diagnosis",
+        "description": "Participant's age in years at time they received clinical diagnosis of Parkinson's Disease"
+      },
+      {
+        "id": "trm_125",
+        "name": "Age of onset symptoms",
+        "abbreviation": "Age_of_onset_symptoms",
+        "description": "Participant's age in years when first symptoms related to Parkinson's Disease were noticed/reported (self-report)"
+      },
+      {
+        "id": "trm_126",
+        "name": "Side of onset",
+        "abbreviation": "Side_of_onset",
+        "description": "Refers to the body side (left or right) where motor symptoms of Parkinson\u2019s disease first appeared; typically categorized as left, right, or bilateral/unknown if onset was not clearly lateralized"
+      },
+      {
+        "id": "trm_127",
+        "name": "Medication",
+        "abbreviation": "Medication",
+        "description": "Whether a participant is currently using dopaminergic medication, specifically levodopa or related treatments, for the management of Parkinson\u2019s disease symptoms"
+      },
+      {
+        "id": "trm_128",
+        "name": "Parkinson's Disease Questionnaire-39",
+        "abbreviation": "PDQ-39",
+        "description": "Parkinson's Disease Questionnaire-39; quality of life"
+      },
+      {
+        "id": "trm_129",
+        "name": "Scales for Outcomes in Parkinson\u2019s disease - Autonomic Dysfunction",
+        "abbreviation": "SCOPA-AUT",
+        "description": "Scales for Outcomes in Parkinson\u2019s disease - Autonomic Dysfunction; autonomic symptoms"
+      },
+      {
+        "id": "trm_130",
+        "name": "University of Pennsylvania Smell Identification Test",
+        "abbreviation": "UPSIT",
+        "description": "University of Pennsylvania Smell Identification Test; anosmia"
+      },
+      {
+        "id": "trm_131",
+        "name": "Sniffin\u2018 Sticks",
+        "abbreviation": "Sniffin_sticks",
+        "description": "Sniffin\u2018 Sticks; anosmia"
       }
     ]
   }
