@@ -14,12 +14,12 @@
           "namespace_url": "http://purl.bioontology.org/ontology/SNOMEDCT/"
         },
         {
-          "namespace_prefix": "ncit",
-          "namespace_url": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#"
-        },
-        {
           "namespace_prefix": "nidm",
           "namespace_url": "http://purl.org/nidash/nidm#"
+        },
+        {
+          "namespace_prefix": "ncit",
+          "namespace_url": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#"
         },
         {
           "namespace_prefix": "np",
