@@ -4,6 +4,12 @@
 
 Scripts and configuration files that allow Neurobagel subcommunities to define custom standardized vocabularies used among their studies or sites and make them available for use within the Neurobagel tool ecosystem.
 
+>[!NOTE]
+>Imaging modality terms are handled separately from subcommunity configs: 
+>The `imaging_modalities.json` file is used by all communities, 
+>and so we store it only in the Neurobagel community configuration.
+>Do not copy this file into a sub-community as it will be ignored.
+
 ## Creating a new subcommunity vocabulary of assessments (WIP)
 <!-- TODO: Once finalized, add instructions for creating a file with vocab namespace metadata. -->
 
