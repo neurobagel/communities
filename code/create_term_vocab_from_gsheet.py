@@ -36,6 +36,7 @@ vocab_file_schema = pa.DataFrameSchema(
         "description": pa.Column(str, nullable=True),
         "same_as": pa.Column(str, nullable=True, required=False),
         "status": pa.Column(str, nullable=True, required=False),
+        "invalid_reason": pa.Column(str, nullable=True, required=False),
     },
     # Only validate and pass to the result the columns defined in the schema
     strict="filter",
@@ -67,10 +68,38 @@ def fetch_gsheet_to_df(gsheet_id: str) -> pd.DataFrame:
     return vocab_df
 
 
+def remove_rows_with_invalid_reason(vocab_table: pd.DataFrame) -> pd.DataFrame:
+    """
+    Remove rows from the vocabulary table that have a non-empty 'invalid_reason' field,
+    i.e. terms that have been marked as invalid for some reason,
+    and remove the 'invalid_reason' column from the resulting filtered table.
+    """
+    if "invalid_reason" not in vocab_table.columns:
+        return vocab_table
+
+    invalid_term_mask = vocab_table["invalid_reason"].notna() & (
+        vocab_table["invalid_reason"].str.strip() != ""
+    )
+    if invalid_term_mask.any():
+        invalid_rows = vocab_table.loc[
+            invalid_term_mask, ["id", "name", "invalid_reason"]
+        ]
+        num_invalid_terms = len(invalid_rows)
+        print(f"{num_invalid_terms} invalid term(s) removed:")
+        for _, row in invalid_rows.iterrows():
+            print(
+                f"- id={row['id']}, name={row['name']}, invalid_reason={row['invalid_reason']}"
+            )
+    valid_term_rows = vocab_table[~invalid_term_mask].copy()
+    return valid_term_rows.drop(columns="invalid_reason")
+
+
 def create_terms_json(
     vocab_table: pd.DataFrame, vocab_metadata: dict
 ) -> list[dict]:
-    vocab_records = vocab_table.to_dict(orient="records")
+    """Create a standardized terms vocabulary dictionary from a vocabulary table."""
+    valid_term_rows = remove_rows_with_invalid_reason(vocab_table)
+    vocab_records = valid_term_rows.to_dict(orient="records")
     return [{**vocab_metadata, "terms": vocab_records}]
 
 
