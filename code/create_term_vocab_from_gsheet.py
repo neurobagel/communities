@@ -1,5 +1,6 @@
 import argparse
 import json
+import logging
 import os
 import sys
 from pathlib import Path
@@ -16,6 +17,13 @@ VOCAB_METADATA_KEYS = [
     "vocabulary_name",
     "version",
 ]
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s %(levelname)s %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S",
+)
+logger = logging.getLogger(__name__)
 
 gc = gspread.api_key(GOOGLE_API_KEY)
 
@@ -56,7 +64,7 @@ def fetch_gsheet_to_df(gsheet_id: str) -> pd.DataFrame:
     except (PermissionError, gspread.exceptions.APIError) as e:
         # gspread may wrap the original APIError in a PermissionError,
         # so we want to print the original cause if present
-        print("Failed to access Google Sheet:", e.__cause__ or e)
+        logger.error(f"Failed to access Google Sheet: {e.__cause__ or e}")
         sys.exit(1)
     vocab_worksheet = gsheet.get_worksheet(0)
     vocab_df = pd.DataFrame(
@@ -85,9 +93,9 @@ def remove_rows_with_invalid_reason(vocab_table: pd.DataFrame) -> pd.DataFrame:
             invalid_term_mask, ["id", "name", "invalid_reason"]
         ]
         num_invalid_terms = len(invalid_rows)
-        print(f"{num_invalid_terms} invalid term(s) removed:")
+        logger.info(f"{num_invalid_terms} invalid term(s) removed:")
         for _, row in invalid_rows.iterrows():
-            print(
+            logger.info(
                 f"- id={row['id']}, name={row['name']}, invalid_reason={row['invalid_reason']}"
             )
     valid_term_rows = vocab_table[~invalid_term_mask].copy()
@@ -118,14 +126,14 @@ def parse_args() -> argparse.Namespace:
 def main():
     args = parse_args()
     if not args.community_config_dir.is_dir():
-        print(
+        logger.error(
             f"Community directory does not exist: {args.community_config_dir}"
         )
         sys.exit(1)
     if not (
         args.community_config_dir / COMMUNITY_TERMS_MANIFEST_FILE
     ).is_file():
-        print(
+        logger.error(
             f"{COMMUNITY_TERMS_MANIFEST_FILE} not found in {args.community_config_dir}"
         )
         sys.exit(1)
@@ -141,7 +149,7 @@ def main():
             key: vocab_metadata.get(key) for key in VOCAB_METADATA_KEYS
         }
 
-        print(
+        logger.info(
             f"Generating {output_filepath} from Google Sheet ID {vocab_gsheet_id}..."
         )
 
@@ -150,7 +158,7 @@ def main():
         try:
             vocab_df = vocab_file_schema.validate(vocab_df)
         except pa.errors.SchemaError as err:
-            print("The provided vocabulary table is invalid: ", err)
+            logger.error(f"The provided vocabulary table is invalid: {err}")
             sys.exit(1)
 
         terms_json = create_terms_json(vocab_df, vocab_metadata)
@@ -158,7 +166,7 @@ def main():
         with open(Path(output_filepath), "w") as f:
             json.dump(terms_json, f, indent=2)
 
-        print(f"Successfully generated {output_filepath}.")
+        logger.info(f"Successfully generated {output_filepath}.")
 
 
 if __name__ == "__main__":
