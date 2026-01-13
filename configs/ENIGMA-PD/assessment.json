@@ -756,12 +756,6 @@
         "description": "Participant's age in years when first symptoms related to Parkinson's Disease were noticed/reported (self-report)"
       },
       {
-        "id": "trm_126",
-        "name": "Side of onset",
-        "abbreviation": "Side_of_onset",
-        "description": "Refers to the body side (left or right) where motor symptoms of Parkinson\u2019s disease first appeared; typically categorized as left, right, or bilateral/unknown if onset was not clearly lateralized"
-      },
-      {
         "id": "trm_127",
         "name": "Medication",
         "abbreviation": "Medication",
