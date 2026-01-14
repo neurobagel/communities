@@ -18,7 +18,8 @@ Neurobagel expects each subcommunity-curated vocabulary to be maintained in a si
 1. Use this [template Google Sheet](https://docs.google.com/spreadsheets/d/1O02EnpRCNMALeGpyVzDw6bSuDlJuvTPMNvqILDKk1xM/edit?usp=sharing) for creating a Neurobagel subcommunity vocabulary table.
 Make a copy of the template (**File** > **Make a copy**) and give it a descriptive name, e.g., "\<SUBCOMMUNITY NAME\> Assessment Vocabulary".
 
-2. Open the **Share** settings and set the access permissions for your Google Sheet to **Anyone with the link**.
+2. Open the **Share** settings and set the access permissions for your Google Sheet to **Anyone with the link can view**.
+    We strongly recommend restricting editor permissions by explicitly adding email addresses of community members.
 
 3. Populate the sheet with information about your subcommunity's assessment terms. 
 Guidelines for each column can be found in the spreadsheet comments or in the [section below](#about-the-subcommunity-vocabulary-table).
@@ -46,13 +47,21 @@ We recommend filling out all four columns whenever possible for optimal clarity 
 
 #### Information for each assessment term (row):  
 
+Column names are case-insensitive.
+
 - **ID** (required): A unique identifier for the assessment term. 
     This functions as a stable tag for the assessment, allowing it to be consistently referenced even if its name or other details are updated. 
     We recommend using the format `trm_` followed by a numeric ID.
 - **Name** (required): The full name of the assessment.
 - **Abbreviation** (optional): The short abbreviation or acronym for the assessment, if one is used.
 - **Description** (optional): A brief description of the assessment.
+- **Invalid_Reason** (optional): Reason or community-defined code indicating why a term must be excluded (e.g., `duplicate`, `deprecated`).
+    Any row with a non-empty value in this column will be automatically excluded from the final vocabulary.
 
 >[!WARNING]
 >Once an ID is assigned to an assessment, do not modify it (unless you need to remove that term from your vocabulary entirely). 
 >Changing an ID can create duplicates or conflicts with existing data dictionaries, potentially causing them to stop working correctly.
+
+## Questions?
+
+Open an [issue](https://github.com/neurobagel/communities/issues/new) or reach out to us on [Discord](https://discord.gg/HWMHYu44RM)!
