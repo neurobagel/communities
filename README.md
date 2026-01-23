@@ -45,7 +45,7 @@ Each row in the table describes a unique assessment used by studies or sites in 
 Columns supported by Neurobagel are listed below. Required/optional refers to a whether a value must be provided for each row. Column names are **case-insensitive**.
 
 - **`id`** (required)
-    - A unique identifier for the assessment term, including only alphanumeric characters (A–Z, a–z, 0–9), underscores (_), and/or hyphens (-).
+    - A unique identifier for the assessment term, including only alphanumeric characters (A–Z, a–z, 0–9), underscores (_), and hyphens (-).
     This functions as a stable tag for the assessment, allowing it to be consistently referenced even if its name or other details are updated. 
     We recommend using the format `trm_` followed by a numeric ID.
     - **Once your community vocabulary has been integrated into Neurobagel, do not modify IDs of existing assessment terms.** 
@@ -55,7 +55,7 @@ Columns supported by Neurobagel are listed below. Required/optional refers to a 
     - The full name of the assessment, as it should appear to users in the annotation tool.
 - **`abbreviation`** (optional)
     - The short abbreviation or acronym for the assessment, if one is used.
-    If provided, the abbreviation will also be included in the user-facing label in the annotation tool 
+    If provided, the abbreviation will be included in the user-facing label in the annotation tool 
     and allow the assessment to be found by abbreviation.
 - **`description`** (optional)
     - A brief description of the assessment.
