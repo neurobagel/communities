@@ -45,12 +45,9 @@ Each row in the table describes a unique assessment used by studies or sites in 
 Columns supported by Neurobagel are listed below. Required/optional refers to a whether a value must be provided for each row. Column names are **case-insensitive**.
 
 - **`id`** (required)
-    - A unique identifier for the assessment term, including only alphanumeric characters (A–Z, a–z, 0–9), underscores (_), and hyphens (-).
-    This functions as a stable tag for the assessment, allowing it to be consistently referenced even if its name or other details are updated. 
-    We recommend using the format `trm_` followed by a numeric ID.
-    - **Once your community vocabulary has been integrated into Neurobagel, do not modify IDs of existing assessment terms.** 
-    Changing an ID can create duplicates or conflicts with existing data dictionaries, potentially causing them to stop working correctly. 
-    To deprecate a term, use the `invalid_reason` column instead.
+    - A unique identifier for the assessment term, containing only alphanumeric characters (A–Z, a–z, 0–9), underscores (_), and hyphens (-).
+    This acts as a stable tag for the assessment that is used internally by Neurobagel, allowing the concept to be referenced consistently even if its name or other details are updated. 
+    We recommend using an abstract identifier (e.g., `trm_` followed by a numeric ID) rather than the term name or abbreviation, to ensure identifier uniqueness within your vocabulary.
 - **`name`** (required)
     - The full name of the assessment, as it should appear to users in the annotation tool.
 - **`abbreviation`** (optional)
@@ -62,6 +59,11 @@ Columns supported by Neurobagel are listed below. Required/optional refers to a 
 - **`invalid_reason`** (optional): 
     - Reason or community-defined code indicating why a term must be excluded (e.g., `duplicate`, `deprecated`).
     Any row with a non-empty value in this column will be automatically excluded from the final vocabulary.
+
+>[!WARNING]
+> Once your community vocabulary has been integrated into Neurobagel, do not modify IDs of existing assessment terms. 
+> Changing a term's ID can create duplicates or conflicts with existing data dictionaries, potentially causing them to stop working correctly.
+> To deprecate a term, use the `invalid_reason` column instead.
 
 >[!IMPORTANT]
 >Your spreadsheet must include at least the columns `id`, `name`, `abbreviation`, and `description`. 
