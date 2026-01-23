@@ -8,7 +8,7 @@ Scripts and configuration files that allow Neurobagel communities to define cust
 >Imaging modality terms are handled separately from community configs: 
 >The `imaging_modalities.json` file is used by all communities, 
 >and so we store it only in the Neurobagel community configuration.
->Do not copy this file into a sub-community as it will be ignored.
+>Do not copy this file into a community as it will be ignored.
 
 ## Creating a new community vocabulary of assessments (WIP)
 <!-- TODO: Once finalized, add instructions for creating a file with vocab namespace metadata. -->
@@ -38,17 +38,11 @@ trm_002 | Hamilton Rating Scale for Depression | HRDS | Clinician-administered s
 
 For more information on each column, see the [vocabulary curation table reference](#community-vocabulary-table-reference).
 
-#### Community vocabulary curation table reference
+## Community vocabulary curation table reference
 
 Each row in the table describes a unique assessment used by studies or sites in your community.
 
-Columns supported by Neurobagel are listed below. Required/optional refers to a whether a value must be provided for each row.
-
->[!IMPORTANT]
->Your spreadsheet must include at least the columns `id`, `name`, `abbreviation`, and `description`. 
-We recommend filling out all four of these columns whenever possible for optimal clarity and documentation.
-
-Column names are **case-insensitive**.
+Columns supported by Neurobagel are listed below. Required/optional refers to a whether a value must be provided for each row. Column names are **case-insensitive**.
 
 - **`id`** (required)
     - A unique identifier for the assessment term, including only alphanumeric characters (A–Z, a–z, 0–9), underscores (_), and/or hyphens (-).
@@ -69,7 +63,11 @@ Column names are **case-insensitive**.
     - Reason or community-defined code indicating why a term must be excluded (e.g., `duplicate`, `deprecated`).
     Any row with a non-empty value in this column will be automatically excluded from the final vocabulary.
 
-You may add more columns to your curation table beyond those listed above for community-specific use.  
+>[!IMPORTANT]
+>Your spreadsheet must include at least the columns `id`, `name`, `abbreviation`, and `description`. 
+We recommend filling out all four of these columns whenever possible for optimal clarity and documentation.
+
+You may also add more columns to your curation table beyond those listed above for community-specific use.  
 Additional columns will be safely ignored by Neurobagel.
 
 ## Questions?
