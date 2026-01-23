@@ -47,7 +47,7 @@ Columns supported by Neurobagel are listed below. Required/optional refers to a 
 - **`id`** (required)
     - A unique identifier for the assessment term, containing only alphanumeric characters (A–Z, a–z, 0–9), underscores (_), and hyphens (-).
     This acts as a stable tag for the assessment that is used internally by Neurobagel, allowing the concept to be referenced consistently even if its name or other details are updated. 
-    We recommend using an abstract identifier (e.g., `trm_` followed by a numeric ID) rather than the term name or abbreviation, to ensure identifier uniqueness within your vocabulary.
+    - We recommend using an abstract identifier (e.g., `trm_` followed by a numeric ID) rather than the term name or abbreviation, to ensure identifier uniqueness within your vocabulary.
 - **`name`** (required)
     - The full name of the assessment, as it should appear to users in the annotation tool.
 - **`abbreviation`** (optional)
