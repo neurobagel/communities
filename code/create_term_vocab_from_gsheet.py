@@ -34,9 +34,15 @@ vocab_file_schema = pa.DataFrameSchema(
     {
         "id": pa.Column(
             str,
-            checks=pa.Check(
-                lambda id: id.is_unique, error="Term IDs must be unique."
-            ),
+            checks=[
+                pa.Check(
+                    lambda id: id.is_unique, error="Term IDs must be unique."
+                ),
+                pa.Check.str_matches(
+                    pattern=r"^[A-Za-z0-9_-]+$",
+                    error="Term IDs must only contain alphanumeric characters, underscores, and hyphens.",
+                ),
+            ],
             nullable=False,
         ),
         "name": pa.Column(str, nullable=False),
