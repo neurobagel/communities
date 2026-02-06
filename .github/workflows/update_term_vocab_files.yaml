@@ -2,8 +2,8 @@ name: Update standardized term vocab files for community configs
 
 on:
   schedule:
-    # Run once a week on Monday at 8 AM EST in winter, 9 AM EDT in summer
-    - cron: '0 13 * * 1'
+    # Run once a day at 8 AM EST in winter, 9 AM EDT in summer
+    - cron: '0 13 * * *'
   workflow_dispatch:
 
 jobs:
