@@ -1,0 +1,9 @@
+{
+  "assessment.json": {
+    "source_spreadsheet_id": "1r8yyF2kpFG9CBSLsUZTAE3TQbKXv6UwjFB1WJrvI87s",
+    "namespace_prefix": "neuroad",
+    "namespace_url": "https://vocab.neurobagel.org/communities/neuroad/assessments/",
+    "vocabulary_name": "Alzheimer's Cohorts Assessment Vocabulary",
+    "version": "1.0.0"
+  }
+}

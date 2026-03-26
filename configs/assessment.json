@@ -1,0 +1,556 @@
+[
+  {
+    "namespace_prefix": "neuroad",
+    "namespace_url": "https://vocab.neurobagel.org/communities/neuroad/assessments/",
+    "vocabulary_name": "Alzheimer's Cohorts Assessment Vocabulary",
+    "version": "1.0.0",
+    "terms": [
+      {
+        "id": "AD_001",
+        "name": "Alzheimer's Disease VS Healthy Control",
+        "abbreviation": "ADvsHC",
+        "description": "Alzheimer's Disease VS Healthy Control; Diagnosis"
+      },
+      {
+        "id": "AD_002",
+        "name": "Alzheimer's Disease VS Mild Cognitive Impairment",
+        "abbreviation": "ADvsMCI",
+        "description": "Alzheimer's Disease VS Mild Cognitive Impairment; Diagnosis"
+      },
+      {
+        "id": "AD_003",
+        "name": "Mild Cognitive Impairment VS Healthy Control",
+        "abbreviation": "MCIvsHC",
+        "description": "Mild Cognitive Impairment VS Healthy Control; Diagnosis"
+      },
+      {
+        "id": "AD_004",
+        "name": "Weight",
+        "abbreviation": "Weight",
+        "description": "Patient's weight in kilograms"
+      },
+      {
+        "id": "AD_005",
+        "name": "Height",
+        "abbreviation": "Height",
+        "description": "Patient's height in centimetres"
+      },
+      {
+        "id": "AD_006",
+        "name": "Systolic Blood Pressure",
+        "abbreviation": "BPSYS",
+        "description": "Patient's systolic blood pressure"
+      },
+      {
+        "id": "AD_007",
+        "name": "Diastolic Blood Pressure",
+        "abbreviation": "BPDIA",
+        "description": "Patient's diastolic blood pressure"
+      },
+      {
+        "id": "AD_008",
+        "name": "Pulse rate",
+        "abbreviation": "BPM",
+        "description": "Number of heart beats per minute"
+      },
+      {
+        "id": "AD_009",
+        "name": "Respiration rate",
+        "abbreviation": "Resp",
+        "description": "Number of respirations per minute"
+      },
+      {
+        "id": "AD_010",
+        "name": "Temperature celsius",
+        "abbreviation": "Temp",
+        "description": "Patient's temperature in Celsius"
+      },
+      {
+        "id": "AD_011",
+        "name": "Body Mass Index",
+        "abbreviation": "BMI",
+        "description": "Patient's body mass index"
+      },
+      {
+        "id": "AD_012",
+        "name": "Participant Race",
+        "abbreviation": "Race",
+        "description": "Patient's race; genetics"
+      },
+      {
+        "id": "AD_013",
+        "name": "APOE count",
+        "abbreviation": "APOE_count",
+        "description": "Patient's APOE genotype coding, number of risk alleles; genetics"
+      },
+      {
+        "id": "AD_014",
+        "name": "APOE genotype",
+        "abbreviation": "APOE_genotype",
+        "description": "Patient's APOE genotype; genetics"
+      },
+      {
+        "id": "AD_015",
+        "name": "Family History Questionnaire - Mother Dementia Diagnosis",
+        "abbreviation": "FHQMOMDEM",
+        "description": "Family History Questionnaire, Clinical Diagnosis of Dementia in mother; genetics"
+      },
+      {
+        "id": "AD_016",
+        "name": "Family History Questionnaire - Mother AD Diagnosis",
+        "abbreviation": "FHQMOMAD",
+        "description": "Family History Questionnaire, Clinical Diagnosis of Alzheimer's Disease in mother; genetics"
+      },
+      {
+        "id": "AD_017",
+        "name": "Family History Questionnaire - Father Dementia Diagnosis",
+        "abbreviation": "FHQDADDEM",
+        "description": "Family History Questionnaire, Clinical Diagnosis of Dementia in father; genetics"
+      },
+      {
+        "id": "AD_018",
+        "name": "Family History Questionnaire - Father AD Diagnosis",
+        "abbreviation": "FHQDADAD",
+        "description": "Family History Questionnaire, Clinical Diagnosis of Alzheimer's Disease in father; genetics"
+      },
+      {
+        "id": "AD_019",
+        "name": "Family History Questionnaire - Siblings Dementia Diagnosis",
+        "abbreviation": "FHQSIBDEM",
+        "description": "Family History Questionnaire, Clinical Diagnosis of Dementia in sibling; genetics"
+      },
+      {
+        "id": "AD_020",
+        "name": "Fluorodeoxyglucose Positron Emission Tomography",
+        "abbreviation": "FDG_PET",
+        "description": "Average FDG-PET of angular, temporal, and posterior cingulate; biochemistry"
+      },
+      {
+        "id": "AD_021",
+        "name": "Amyvid Positron Emission Tomography",
+        "abbreviation": "AV45_PET",
+        "description": "Average AV45 SUVR of frontal, anterior cingulate, precuneus, and parietal cortex relative to the cerebellum; biochemistry"
+      },
+      {
+        "id": "AD_022",
+        "name": "Cerebrospinal fluid amyloid \u03b2-42 concentration",
+        "abbreviation": "CSF_ABETA",
+        "description": "Average AV45 SUVR of frontal, anterior cingulate, precuneus, and parietal cortex relative to the cerebellum; biochemistry"
+      },
+      {
+        "id": "AD_023",
+        "name": "Cerebrospinal fluid tau concentration",
+        "abbreviation": "CSF_TAU",
+        "description": "Amyloid-\u03b2-42 concentration in cerebrospinal fluid (pg/ml); biochemistry"
+      },
+      {
+        "id": "AD_024",
+        "name": "Cerebrospinal fluid phosphorylated-tau concentration",
+        "abbreviation": "CSF_PTAU",
+        "description": "Tau concentration in cerebrospinal fluid (pg/ml); biochemistry"
+      },
+      {
+        "id": "AD_025",
+        "name": "Marital Status",
+        "abbreviation": "MARITAL",
+        "description": "Patient's marital status at time of data collection"
+      },
+      {
+        "id": "AD_026",
+        "name": "Years of Education",
+        "abbreviation": "EDUCATION",
+        "description": "Number in years of education patient accomplished"
+      },
+      {
+        "id": "AD_027",
+        "name": "Neuropsychiatric Inventory",
+        "abbreviation": "NPI",
+        "description": "Neuropsychiatric Inventory; assesses a range of behavioral and psychological symptoms, including delusions, hallucinations, agitation, depression, anxiety, apathy, irritability, and sleep disturbances"
+      },
+      {
+        "id": "AD_028",
+        "name": "Geriatric Depression Scale",
+        "abbreviation": "GDS",
+        "description": "Geriatric Depression Scale; depression"
+      },
+      {
+        "id": "AD_029",
+        "name": "Modified Hachinski Ischaemic Scale",
+        "abbreviation": "MHIS",
+        "description": "Modified Hachinski Ischaemic Scale; Differentiates between Alzheimer's Disease and multi-infarct dementia"
+      },
+      {
+        "id": "AD_030",
+        "name": "Mini Mental State Exam",
+        "abbreviation": "MMSE",
+        "description": "Mini-Mental State Examination; global cognition"
+      },
+      {
+        "id": "AD_031",
+        "name": "Clinical Dementia Rating",
+        "abbreviation": "CDR",
+        "description": "Clinical Dementia Rating; global cognition"
+      },
+      {
+        "id": "AD_032",
+        "name": "Clinical Dementia Rating Memory",
+        "abbreviation": "CDR_MEM",
+        "description": "Clinical Dementia Rating: scale item - Memory; global cognition"
+      },
+      {
+        "id": "AD_033",
+        "name": "Clinical Dementia Rating Orientation",
+        "abbreviation": "CDR_ORI",
+        "description": "Clinical Dementia Rating: scale item - Orientation; global cognition"
+      },
+      {
+        "id": "AD_034",
+        "name": "Clinical Dementia Rating Judgement and Problem Solving",
+        "abbreviation": "CDR_JUDGE",
+        "description": "Clinical Dementia Rating: scale item - Judgment and problem solving; global cognition"
+      },
+      {
+        "id": "AD_035",
+        "name": "Clinical Dementia Rating Community Affairs",
+        "abbreviation": "CDR_COM",
+        "description": "Clinical Dementia Rating: scale item - Community affairs; global cognition"
+      },
+      {
+        "id": "AD_036",
+        "name": "Clinical Dementia Rating Home and Hobbies",
+        "abbreviation": "CDR_HOME",
+        "description": "Clinical Dementia Rating: scale item - Home and hobbies; global cognition"
+      },
+      {
+        "id": "AD_037",
+        "name": "Clinical Dementia Rating Personal Care",
+        "abbreviation": "CDR_CARE",
+        "description": "Clinical Dementia Rating: scale item - Personal care; global cognition"
+      },
+      {
+        "id": "AD_038",
+        "name": "Clinical Dementia Rating Sum of Boxes",
+        "abbreviation": "CDR_SOB",
+        "description": "Clinical Dementia Rating: Sum of all items scores; global cognition"
+      },
+      {
+        "id": "AD_039",
+        "name": "Alzheimers Disease Assessment Scale 11",
+        "abbreviation": "ADAS11",
+        "description": "Alzheimer's Disease Assessment Scale - 11 Item Cognitive Subscale; global cognition"
+      },
+      {
+        "id": "AD_040",
+        "name": "Alzheimers Disease Assessment Scale 13",
+        "abbreviation": "ADAS13",
+        "description": "Alzheimer's Disease Assessment Scale - 13 Item Cognitive Subscale; global cognition"
+      },
+      {
+        "id": "AD_041",
+        "name": "Alzheimers Disease Assessment Scale Q4",
+        "abbreviation": "ADASQ4",
+        "description": "Alzheimer's Disease Assessment Scale - 12 Item Cognitive Subscale; global cognition"
+      },
+      {
+        "id": "AD_042",
+        "name": "Rey Auditory Verbal Learning Test",
+        "abbreviation": "RAVLT",
+        "description": "Rey's Auditory Verbal Learning Test; global cognition"
+      },
+      {
+        "id": "AD_043",
+        "name": "Rey Auditory Verbal Learning Test immediate",
+        "abbreviation": "RAVLT_IMMEDIATE",
+        "description": "Rey's Auditory Verbal Learning Test: Immediate Recall Trials; global cognition"
+      },
+      {
+        "id": "AD_044",
+        "name": "Rey Auditory Verbal Learning Test learning",
+        "abbreviation": "RAVLT_LEARNING",
+        "description": "Rey's Auditory Verbal Learning Test: Learning Trials; global cognition"
+      },
+      {
+        "id": "AD_045",
+        "name": "Rey Auditory Verbal Learning Test forgetting",
+        "abbreviation": "RAVLT_FORGETTING",
+        "description": "Rey's Auditory Verbal Learning Test: Forgetting; global cognition"
+      },
+      {
+        "id": "AD_046",
+        "name": "Rey Auditory Verbal Learning Test percent forgetting",
+        "abbreviation": "RAVLT_PERCFORGETTING",
+        "description": "Rey's Auditory Verbal Learning Test: Percent Forgetting; global cognition"
+      },
+      {
+        "id": "AD_047",
+        "name": "Rey Auditory Verbal Learning Test delayed",
+        "abbreviation": "RAVLT_DELAYED",
+        "description": "Rey's Auditory Verbal Learning Test: Delayed Recall Trials; global cognition"
+      },
+      {
+        "id": "AD_048",
+        "name": "Logical Memory Immediate Recall",
+        "abbreviation": "LM_IMMEDIATE",
+        "description": "Logical Memory Delayed Recall (LM II) - Delayed Recall; global cognition"
+      },
+      {
+        "id": "AD_049",
+        "name": "Logical Memory Delayed Recall",
+        "abbreviation": "LM_DELAYED",
+        "description": "Logical Memory (LM) I - Immediate Recall; global cognition"
+      },
+      {
+        "id": "AD_050",
+        "name": "Digit Symbol Substitution Test",
+        "abbreviation": "DSST",
+        "description": "Digit Symbol Substitution Test; global cognition"
+      },
+      {
+        "id": "AD_051",
+        "name": "Trail Making Test A",
+        "abbreviation": "TRAIL_A",
+        "description": "Trail Making Test: A; global cognition"
+      },
+      {
+        "id": "AD_052",
+        "name": "Trail Making Test B",
+        "abbreviation": "TRAIL_B",
+        "description": "Trail Making Test: B; global cognition"
+      },
+      {
+        "id": "AD_053",
+        "name": "Functional Activities Questionnaire",
+        "abbreviation": "FAQ",
+        "description": "Functional Activities Questionnaire; global cognition"
+      },
+      {
+        "id": "AD_054",
+        "name": "Montreal Cognitive Assessment",
+        "abbreviation": "MoCA",
+        "description": "Montreal Cognitive Assessment; global cognition"
+      },
+      {
+        "id": "AD_055",
+        "name": "Everyday Cognition - Participant Self-Report on everyday memory",
+        "abbreviation": "EcogPtMem",
+        "description": "Everyday Cognition - Participant Self-Report on everyday memory; global cognition"
+      },
+      {
+        "id": "AD_056",
+        "name": "Everyday Cognition - Participant Self-Report on language",
+        "abbreviation": "EcogPtLang",
+        "description": "Everyday Cognition - Participant Self-Report on language; global cognition"
+      },
+      {
+        "id": "AD_057",
+        "name": "Everyday Cognition - Participant Self-Report on visuospatial abilities",
+        "abbreviation": "EcogPtVisspat",
+        "description": "Everyday Cognition - Participant Self-Report on visuospatial abilities; global cognition"
+      },
+      {
+        "id": "AD_058",
+        "name": "Everyday Cognition - Participant Self-Report on planning",
+        "abbreviation": "EcogPtPlan",
+        "description": "Everyday Cognition - Participant Self-Report on planning; global cognition"
+      },
+      {
+        "id": "AD_059",
+        "name": "Everyday Cognition - Participant Self-Report on organisation",
+        "abbreviation": "EcogPtOrgan",
+        "description": "Everyday Cognition - Participant Self-Report on organisation; global cognition"
+      },
+      {
+        "id": "AD_060",
+        "name": "Everyday Cognition - Participant Self-Report on divided attention",
+        "abbreviation": "EcogPtDivatt",
+        "description": "Everyday Cognition - Participant Self-Report on divided attention; global cognition"
+      },
+      {
+        "id": "AD_061",
+        "name": "Everyday Cognition - Sum of Participant Self-Reported information",
+        "abbreviation": "EcogPtTotal",
+        "description": "Everyday Cognition - Sum of Participant Self-Reported information; global cognition"
+      },
+      {
+        "id": "AD_062",
+        "name": "Everyday Cognition - Study Partner Report on everyday memory",
+        "abbreviation": "EcogSPMem",
+        "description": "Everyday Cognition - Study Partner Report on everyday memory; global cognition"
+      },
+      {
+        "id": "AD_063",
+        "name": "Everyday Cognition - Study Partner Report on language",
+        "abbreviation": "EcogSPLang",
+        "description": "Everyday Cognition - Study Partner Report on language; global cognition"
+      },
+      {
+        "id": "AD_064",
+        "name": "Everyday Cognition - Study Partner Report on visuospatial abilities",
+        "abbreviation": "EcogSPVisspat",
+        "description": "Everyday Cognition - Study Partner Report on visuospatial abilities; global cognition"
+      },
+      {
+        "id": "AD_065",
+        "name": "Everyday Cognition - Study Partner Report on planning",
+        "abbreviation": "EcogSPPlan",
+        "description": "Everyday Cognition - Study Partner Report on planning; global cognition"
+      },
+      {
+        "id": "AD_066",
+        "name": "Everyday Cognition - Study Partner Report on organisation",
+        "abbreviation": "EcogSPOrgan",
+        "description": "Everyday Cognition - Study Partner Report on organisation; global cognition"
+      },
+      {
+        "id": "AD_067",
+        "name": "Everyday Cognition - Study Partner Report on divided attention",
+        "abbreviation": "EcogSPDivatt",
+        "description": "Everyday Cognition - Study Partner Report on divided attention; global cognition"
+      },
+      {
+        "id": "AD_068",
+        "name": "Everyday Cognition - Sum of Study Partner Reported information",
+        "abbreviation": "EcogSPTotal",
+        "description": "Everyday Cognition - Sum of Study Partner Reported information; global cognition"
+      },
+      {
+        "id": "AD_069",
+        "name": "Boston Naming Test",
+        "abbreviation": "BNT",
+        "description": "Boston Naming Test; global cognition"
+      },
+      {
+        "id": "AD_070",
+        "name": "Boston Naming Test Spontaneous",
+        "abbreviation": "BNT_Spontaneous",
+        "description": "Boston Naming Test: Spontaneous; global cognition"
+      },
+      {
+        "id": "AD_071",
+        "name": "Boston Naming Test Semantic",
+        "abbreviation": "BNT_Semantic",
+        "description": "Boston Naming Test: Semantic; global cognition"
+      },
+      {
+        "id": "AD_072",
+        "name": "Boston Naming Test Semantic Correct",
+        "abbreviation": "BNT_Semantic_Correct",
+        "description": "Boston Naming Test: Semantic Correct; global cognition"
+      },
+      {
+        "id": "AD_073",
+        "name": "Boston Naming Test Phonemic",
+        "abbreviation": "BNT_Phonemic",
+        "description": "Boston Naming Test: Phonemic; global cognition"
+      },
+      {
+        "id": "AD_074",
+        "name": "Boston Naming Test Phonemic Correct",
+        "abbreviation": "BNT_Phonemic_Correct",
+        "description": "Boston Naming Test: Phonemic Correct; global cognition"
+      },
+      {
+        "id": "AD_075",
+        "name": "Alcohol use in last 30 days",
+        "abbreviation": "Alcohol_30days",
+        "description": "Alcohol; Patient consumed alcohol in past 30 days"
+      },
+      {
+        "id": "AD_076",
+        "name": "Tobacco use in last 30 days",
+        "abbreviation": "Tobacco_30days",
+        "description": "Tobacco; Patient consumed tobacco in past 30 days"
+      },
+      {
+        "id": "AD_077",
+        "name": "Clock Drawing Test",
+        "abbreviation": "CLOCKSCORE",
+        "description": "Clock Drawing Test: Total Score; global cognition"
+      },
+      {
+        "id": "AD_078",
+        "name": "Copy Score",
+        "abbreviation": "COPYSCORE",
+        "description": "Copy Score: Total Score; global cognition"
+      },
+      {
+        "id": "AD_079",
+        "name": "National Adult Reading Test",
+        "abbreviation": "NART",
+        "description": "National Adult Reading Test; global cognition"
+      },
+      {
+        "id": "AD_080",
+        "name": "Category Fluency Animals Total Correct",
+        "abbreviation": "ANIMALS_TOTAL",
+        "description": "Category Fluency Animals Total Correct"
+      },
+      {
+        "id": "AD_081",
+        "name": "Category Fluency Animals Perseverations",
+        "abbreviation": "ANIMALS_PERSEVERATIONS",
+        "description": "Category Fluency Animals Perseverations"
+      },
+      {
+        "id": "AD_082",
+        "name": "Category Fluency Animals Intrusions",
+        "abbreviation": "ANIMALS_INTRUSIONS",
+        "description": "Category Fluency Animals Intrusions"
+      },
+      {
+        "id": "AD_083",
+        "name": "Category Fluency Vegetables Total Correct",
+        "abbreviation": "VEG_TOTAL",
+        "description": "Category Fluency Vegetables Total Correct"
+      },
+      {
+        "id": "AD_084",
+        "name": "Category Fluency Vegetables Perseverations",
+        "abbreviation": "VEG_PERSEVERATIONS",
+        "description": "Category Fluency Vegetables Perseverations"
+      },
+      {
+        "id": "AD_085",
+        "name": "Category Fluency Vegetables Intrusions",
+        "abbreviation": "VEG_INTRUSIONS",
+        "description": "Category Fluency Vegetables Intrusions"
+      },
+      {
+        "id": "AD_086",
+        "name": "Benton Visual Retention Test",
+        "abbreviation": "BVRT",
+        "description": "Benton Visual Retention Test; global cognition"
+      },
+      {
+        "id": "AD_087",
+        "name": "Grooved Pegboard Test",
+        "abbreviation": "GPT",
+        "description": "Grooved Pegboard Test"
+      },
+      {
+        "id": "AD_088",
+        "name": "F-A-S Phonemic Fluency Test",
+        "abbreviation": "FAS",
+        "description": "F-A-S Phonemic Fluency Test; global cognition"
+      },
+      {
+        "id": "AD_089",
+        "name": "Block Design Test",
+        "abbreviation": "BDT",
+        "description": "Block Design Total Score; global cognition"
+      },
+      {
+        "id": "AD_090",
+        "name": "Digit Span Test Forward",
+        "abbreviation": "DST_FORWARD",
+        "description": "Digit Span Test: Forward; global cognition"
+      },
+      {
+        "id": "AD_091",
+        "name": "Digit Span test Backward",
+        "abbreviation": "DST_BACKWARD",
+        "description": "Digit Span Test: Backward; global cognition"
+      }
+    ]
+  }
+]
