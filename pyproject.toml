@@ -1,0 +1,53 @@
+[project]
+name = "communities"
+description = "Scripts and configuration files for Neurobagel communities Resources."
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Neurobagel Developers" }]
+maintainers = [
+  { name = "Alyssa Dai", email = "alyssa.dai@mcgill.ca" },
+  { name = "Arman Jahanpour", email = "arman.jahanpour@mcgill.ca" },
+  { name = "Sebastian Urchs", email = "sebastian.urchs@mcgill.ca" }
+]
+version = "0.0.1"
+requires-python = ">=3.10"
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering",
+  "License :: OSI Approved :: MIT License",
+  "Framework :: Pydantic :: 2",
+  "Typing :: Typed",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13"
+]
+
+dependencies = [
+    "gspread",
+    "pandas",
+    "pandera[pandas]"
+]
+
+[dependency-groups]
+dev = [
+    "pytest",
+    "pre-commit"
+]
+
+[tool.black]
+line-length = 79
+
+[tool.isort]
+profile = "black"
+filter_files = true
+line_length = 79
+
+[tool.mypy]
+ignore_missing_imports = true
+warn_no_return = false
+warn_redundant_casts = true
+show_error_codes = true
+pretty = true
+plugins = ["pydantic.mypy"]
