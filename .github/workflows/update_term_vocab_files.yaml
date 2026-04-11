@@ -92,20 +92,34 @@ jobs:
         with:
           token: ${{ steps.generate-token.outputs.token }}
 
-      - name: Download all artifacts
-        if: ${{ needs.define-matrix.outputs.num_communities != '1' }}
-        uses: actions/download-artifact@v8
-        with:
-          path: configs
+      # TODO: Restore this step once https://github.com/actions/download-artifact/issues/426
+      # and https://github.com/actions/download-artifact/issues/455 are resolved to handle the single-artifact edge case
+      # - name: Download all artifacts
+      #   uses: actions/download-artifact@v8
+      #   with:
+      #     path: configs
 
-      # TODO: Remove this special workaround when we have >1 community (non-Neurobagel config)
-      - name: Download single artifact
-        if: ${{ needs.define-matrix.outputs.num_communities == '1' }}
-        uses: actions/download-artifact@v8
-        with:
-          name: ${{ fromJson(needs.define-matrix.outputs.community_names)[0] }}
-          path: configs/${{ fromJson(needs.define-matrix.outputs.community_names)[0] }}
+      # We manually download artifacts in a loop rather than using the download-artifact action 
+      # to avoid the single-artifact edge case, which can happen if only one community is available
+      # OR only one succeeds the update-terms job due to transient Google Sheets API/Google backend errors (e.g., 503).
+      # 
+      # Because actions/download-artifact does not create a named subdirectory for a single artifact
+      # (https://github.com/actions/download-artifact/issues/426), when this happens due to intermittent API errors, 
+      # there is no easy way to recover the community name corresponding to the generated vocab files using the action.
+      - name: Manually download artifacts into correct community subdirectories
+        env:
+          GH_TOKEN: ${{ steps.generate-token.outputs.token }}
+        run: |
+          community_names='${{ needs.define-matrix.outputs.community_names }}'
 
+          # NOTE: This may break if community names have spaces, but we don't recommend that anyways
+          for community_name in $(echo "$community_names" | jq -r '.[]'); do
+            echo "Downloading artifact $community_name into configs/$community_name"
+            if ! gh run download ${{ github.run_id }} --name "$community_name" --dir "configs/$community_name"; then
+              echo "WARNING: artifact $community_name not found (update-terms may have failed). Skipping."
+              continue
+            fi
+          done
 
       - name: Get Neurobagel Bot App User ID
         id: get-user-id
