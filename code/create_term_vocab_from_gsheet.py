@@ -67,15 +67,18 @@ def fetch_gsheet_to_df(gsheet_id: str) -> pd.DataFrame:
     """Access and open a public Google spreadsheet by its ID (found in the spreadsheet URL after /d/)."""
     try:
         gsheet = gc.open_by_key(gsheet_id)
+        vocab_worksheet = gsheet.get_worksheet(0)
+        vocab_df = pd.DataFrame(
+            vocab_worksheet.get_all_records(default_blank=None)
+        )
     except (PermissionError, gspread.exceptions.APIError) as e:
         # gspread may wrap the original APIError in a PermissionError,
         # so we want to print the original cause if present
-        logger.error(f"Failed to access Google Sheet: {e.__cause__ or e}")
+        logger.error(
+            f"Failed to access or read Google Sheet: {e.__cause__ or e}"
+        )
         sys.exit(1)
-    vocab_worksheet = gsheet.get_worksheet(0)
-    vocab_df = pd.DataFrame(
-        vocab_worksheet.get_all_records(default_blank=None)
-    )
+
     # Make column names case-insensitive
     vocab_df = vocab_df.rename(columns=str.lower)
 
