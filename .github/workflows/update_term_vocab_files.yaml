@@ -13,8 +13,6 @@ jobs:
       contents: read
     outputs:
       community_names: ${{ steps.get-config-dirs.outputs.community_names }}
-      # TODO: Remove this special workaround when we have >1 community (non-Neurobagel config)
-      num_communities: ${{ steps.get-config-dirs.outputs.num_communities }}
     steps:
       - name: Checkout
         uses: actions/checkout@v6
@@ -27,10 +25,6 @@ jobs:
             | grep -v "Neurobagel" \
             | jq -R . | jq -s -c .)
           echo "community_names=$community_names" >> "$GITHUB_OUTPUT"
-
-          # TODO: Remove this special workaround when we have >1 community (non-Neurobagel config)
-          num_communities=$(echo "$community_names" | jq length)
-          echo "num_communities=$num_communities" >> "$GITHUB_OUTPUT"
 
   update-terms:
     needs: define-matrix
