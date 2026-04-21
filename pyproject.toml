@@ -1,6 +1,6 @@
 [project]
 name = "communities"
-description = "Scripts and configuration files for Neurobagel communities Resources."
+description = "Scripts and configuration files for Neurobagel communities."
 readme = "README.md"
 license = { file = "LICENSE" }
 authors = [{ name = "Neurobagel Developers" }]

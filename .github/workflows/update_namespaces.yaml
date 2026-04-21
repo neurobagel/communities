@@ -34,7 +34,7 @@ jobs:
           uv sync
 
       - name: Run script to update namespaces
-        run: uv run python code/create_config_namespace_map.py
+        run: uv run code/create_config_namespace_map.py
 
       - name: Get Neurobagel Bot App User ID
         id: get-user-id
