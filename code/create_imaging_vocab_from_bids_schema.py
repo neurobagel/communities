@@ -34,7 +34,7 @@ EXCLUDE_DATATYPES = [
     "photo",
     "task",
 ]
-DEPRECATION_TERMS = ["deprecated", "replaced", "**change:**"]
+DEPRECATION_DESCRIPTORS = ["deprecated", "replaced", "**change:**"]
 
 schema = bst.schema.load_schema()
 
@@ -91,11 +91,11 @@ def main():
 
                 # Exclude suffixes that are marked as deprecated in their description, to help avoid terms with duplicate labels
                 if any(
-                    deprecation_term in term["description"].lower()
-                    for deprecation_term in DEPRECATION_TERMS
+                    deprecation_descriptor in term["description"].lower()
+                    for deprecation_descriptor in DEPRECATION_DESCRIPTORS
                 ):
                     logger.warning(f"Skipping deprecated suffix: {suffix}")
-                # Some suffixes appear under multiple 'groups' within the same sub_datatype (e.g., suffix "meg")
+                # Some suffixes appear under multiple 'groups' within the same datatype (e.g., suffix "meg")
                 # and thus would have the same term metadata
                 elif term not in terms[suffix]:
                     terms[suffix].append(term)
@@ -120,7 +120,7 @@ def main():
     vocab = [
         {
             **VOCAB_METADATA,
-            "terms": list(terms.values()),
+            "terms": list(single_datatype_terms.values()),
         }
     ]
 

@@ -5,576 +5,412 @@
     "vocabulary_name": "BIDS imaging modalities",
     "version": "1.0.0",
     "terms": [
-      [
-        {
-          "id": "T1w",
-          "name": "T1-weighted image",
-          "abbreviation": "T1w",
-          "description": "In arbitrary units (arbitrary).\nThe contrast of these images is mainly determined by spatial variations in\nthe longitudinal relaxation time of the imaged specimen.\nIn spin-echo sequences this contrast is achieved at relatively short\nrepetition and echo times.\nTo achieve this weighting in gradient-echo images, again, short repetition\nand echo times are selected; however, at relatively large flip angles.\nAnother common approach to increase T1 weighting in gradient-echo images is\nto add an inversion preparation block to the beginning of the imaging\nsequence (for example, `TurboFLASH` or `MP-RAGE`).\n",
-          "data_type": "anat"
-        }
-      ],
-      [
-        {
-          "id": "T2w",
-          "name": "T2-weighted image",
-          "abbreviation": "T2w",
-          "description": "In arbitrary units (arbitrary).\nThe contrast of these images is mainly determined by spatial variations in\nthe (true) transverse relaxation time of the imaged specimen.\nIn spin-echo sequences this contrast is achieved at relatively long\nrepetition and echo times.\nGenerally, gradient echo sequences are not the most suitable option for\nachieving T2 weighting, as their contrast natively depends on T2-star rather\nthan on T2.\n",
-          "data_type": "anat"
-        }
-      ],
-      [
-        {
-          "id": "PDw",
-          "name": "Proton density (PD) weighted image",
-          "abbreviation": "PDw",
-          "description": "In arbitrary units (arbitrary).\nThe contrast of these images is mainly determined by spatial variations in\nthe spin density (1H) of the imaged specimen.\nThis contrast is achieved at short echo times and long repetition times;\nfor gradient echo, this weighting is also possible with a short TR (TR<<T1) and a small flip angle.\n",
-          "data_type": "anat"
-        }
-      ],
-      [
-        {
-          "id": "T2starw",
-          "name": "T2star weighted image",
-          "abbreviation": "T2starw",
-          "description": "In arbitrary units (arbitrary).\nThe contrast of these images is mainly determined by spatial variations in\nthe (observed) transverse relaxation time of the imaged specimen.\nIn spin-echo sequences, this effect is negated as the excitation is followed\nby an inversion pulse.\nThe contrast of gradient-echo images natively depends on T2-star effects.\nHowever, for T2-star variation to dominate the image contrast,\ngradient-echo acquisitions are carried out at long repetition and echo times,\nand at small flip angles.\n",
-          "data_type": "anat"
-        }
-      ],
-      [
-        {
-          "id": "FLAIR",
-          "name": "Fluid attenuated inversion recovery image",
-          "abbreviation": "FLAIR",
-          "description": "In arbitrary units (arbitrary).\nStructural images with predominant T2 contribution (also known as T2-FLAIR),\nin which signal from fluids (for example, CSF) is nulled out by adjusting\ninversion time, coupled with notably long repetition and echo times.\n",
-          "data_type": "anat"
-        }
-      ],
-      [
-        {
-          "id": "inplaneT1",
-          "name": "Inplane T1",
-          "abbreviation": "inplaneT1",
-          "description": "In arbitrary units (arbitrary).\nT1 weighted structural image matched to a functional (task) image.\n",
-          "data_type": "anat"
-        }
-      ],
-      [
-        {
-          "id": "inplaneT2",
-          "name": "Inplane T2",
-          "abbreviation": "inplaneT2",
-          "description": "In arbitrary units (arbitrary).\nT2 weighted structural image matched to a functional (task) image.\n",
-          "data_type": "anat"
-        }
-      ],
-      [
-        {
-          "id": "PDT2",
-          "name": "PD and T2 weighted image",
-          "abbreviation": "PDT2",
-          "description": "In arbitrary units (arbitrary).\nA two-volume 4D image, where the volumes are, respectively, PDw and T2w\nimages acquired simultaneously.\nIf separated into 3D volumes, the `PDw` and `T2w` suffixes SHOULD be used instead,\nand an acquisition entity MAY be used to distinguish the images from others with\nthe same suffix, for example, `acq-PDT2_PDw.nii` and `acq-PDT2_T2w.nii`.\n",
-          "data_type": "anat"
-        }
-      ],
-      [
-        {
-          "id": "angio",
-          "name": "Angiogram",
-          "abbreviation": "angio",
-          "description": "Magnetic resonance angiography sequences focus on enhancing the contrast of\nblood vessels (generally arteries, but sometimes veins) against other tissue\ntypes.\n",
-          "data_type": "anat"
-        }
-      ],
-      [
-        {
-          "id": "T1map",
-          "name": "Longitudinal relaxation time image",
-          "abbreviation": "T1map",
-          "description": "In seconds (s).\nT1 maps are REQUIRED to use this suffix regardless of the method used to\ngenerate them.\nSee [this interactive book on T1 mapping](https://qmrlab.org/t1_book/intro)\nfor further reading on T1-mapping.\n",
-          "data_type": "anat"
-        }
-      ],
-      [
-        {
-          "id": "T2map",
-          "name": "True transverse relaxation time image",
-          "abbreviation": "T2map",
-          "description": "In seconds (s).\nT2 maps are REQUIRED to use this suffix regardless of the method used to\ngenerate them.\n",
-          "data_type": "anat"
-        }
-      ],
-      [
-        {
-          "id": "T2starmap",
-          "name": "Observed transverse relaxation time image",
-          "abbreviation": "T2starmap",
-          "description": "In seconds (s).\nT2-star maps are REQUIRED to use this suffix regardless of the method used to\ngenerate them.\n",
-          "data_type": "anat"
-        }
-      ],
-      [
-        {
-          "id": "R1map",
-          "name": "Longitudinal relaxation rate image",
-          "abbreviation": "R1map",
-          "description": "In seconds<sup>-1</sup> (1/s).\nR1 maps (R1 = 1/T1) are REQUIRED to use this suffix regardless of the method\nused to generate them.\n",
-          "data_type": "anat"
-        }
-      ],
-      [
-        {
-          "id": "R2map",
-          "name": "True transverse relaxation rate image",
-          "abbreviation": "R2map",
-          "description": "In seconds<sup>-1</sup> (1/s).\nR2 maps (R2 = 1/T2) are REQUIRED to use this suffix regardless of the method\nused to generate them.\n",
-          "data_type": "anat"
-        }
-      ],
-      [
-        {
-          "id": "R2starmap",
-          "name": "Observed transverse relaxation rate image",
-          "abbreviation": "R2starmap",
-          "description": "In seconds<sup>-1</sup> (1/s).\nR2-star maps (R2star = 1/T2star) are REQUIRED to use this suffix regardless\nof the method used to generate them.\n",
-          "data_type": "anat"
-        }
-      ],
-      [
-        {
-          "id": "PDmap",
-          "name": "Proton density image",
-          "abbreviation": "PDmap",
-          "description": "In arbitrary units (arbitrary).\nPD maps are REQUIRED to use this suffix regardless of the method used to\ngenerate them.\n",
-          "data_type": "anat"
-        }
-      ],
-      [
-        {
-          "id": "MTRmap",
-          "name": "Magnetization transfer ratio image",
-          "abbreviation": "MTRmap",
-          "description": "In arbitrary units (arbitrary).\nMTR maps are REQUIRED to use this suffix regardless of the method used to\ngenerate them.\nMTRmap intensity values are RECOMMENDED to be represented in percentage in\nthe range of 0-100%.\n",
-          "data_type": "anat"
-        }
-      ],
-      [
-        {
-          "id": "MTsat",
-          "name": "Magnetization transfer saturation image",
-          "abbreviation": "MTsat",
-          "description": "In arbitrary units (arbitrary).\nMTsat maps are REQUIRED to use this suffix regardless of the method used to\ngenerate them.\n",
-          "data_type": "anat"
-        }
-      ],
-      [
-        {
-          "id": "UNIT1",
-          "name": "Homogeneous (flat) T1-weighted MP2RAGE image",
-          "abbreviation": "UNIT1",
-          "description": "In arbitrary units (arbitrary).\nUNIT1 images are REQUIRED to use this suffix regardless of the method used to\ngenerate them.\nNote that although this image is T1-weighted, regions without MR signal will\ncontain white salt-and-pepper noise that most segmentation algorithms will\nfail on.\nTherefore, it is important to dissociate it from `T1w`.\nPlease see [`MP2RAGE` specific notes](SPEC_ROOT/appendices/qmri.md#unit1-images)\nin the qMRI appendix for further information.\n",
-          "data_type": "anat"
-        }
-      ],
-      [
-        {
-          "id": "T1rho",
-          "name": "T1 in rotating frame (T1 rho) image",
-          "abbreviation": "T1rho",
-          "description": "In seconds (s).\nT1-rho maps are REQUIRED to use this suffix regardless of the method used to\ngenerate them.\n",
-          "data_type": "anat"
-        }
-      ],
-      [
-        {
-          "id": "MWFmap",
-          "name": "Myelin water fraction image",
-          "abbreviation": "MWFmap",
-          "description": "In arbitrary units (arbitrary).\nMWF maps are REQUIRED to use this suffix regardless of the method used to\ngenerate them.\nMWF intensity values are RECOMMENDED to be represented in percentage in the\nrange of 0-100%.\n",
-          "data_type": "anat"
-        }
-      ],
-      [
-        {
-          "id": "MTVmap",
-          "name": "Macromolecular tissue volume (MTV) image",
-          "abbreviation": "MTVmap",
-          "description": "In arbitrary units (arbitrary).\nMTV maps are REQUIRED to use this suffix regardless of the method used to\ngenerate them.\n",
-          "data_type": "anat"
-        }
-      ],
-      [
-        {
-          "id": "Chimap",
-          "name": "Quantitative susceptibility map (QSM)",
-          "abbreviation": "Chimap",
-          "description": "In parts per million (ppm).\nQSM allows for determining the underlying magnetic susceptibility of tissue\n(Chi)\n([Wang & Liu, 2014](https://doi.org/10.1002/mrm.25358)).\nChi maps are REQUIRED to use this suffix regardless of the method used to\ngenerate them.\n",
-          "data_type": "anat"
-        }
-      ],
-      [
-        {
-          "id": "S0map",
-          "name": "Projected baseline signal amplitude (S0) image",
-          "abbreviation": "S0map",
-          "description": "In arbitrary units (arbitrary).\nThis represents a model-based estimate of signal intensity\nin the absence of the contrast under investigation.\nFor a multi-echo sequence\n(for example, multi-echo spin echo T2 relaxometry or multi-echo fMRI),\nS0 maps index the baseline signal at a hypothetical echo time of zero\n(that is, in the absence of any T2 or T2-star decay).\nIn other words: the exponential of the intercept for a linear decay model\nacross log-transformed echos. For more information, please see, for example,\n[the tedana documentation](https://tedana.readthedocs.io/en/latest/\\\napproach.html#monoexponential-decay-model-fit).\nS0 maps are RECOMMENDED to use this suffix if derived from an ME-FMRI dataset.\nFor a diffusion-weighted sequence,\nS0 maps represent the model-based estimate of the signal intensity\nin the absence of any diffusion weighting;\nin other words, the image intensity at *b*=0\nas estimated by a diffusion model fit.\n",
-          "data_type": "anat"
-        },
-        {
-          "id": "S0map",
-          "name": "Projected baseline signal amplitude (S0) image",
-          "abbreviation": "S0map",
-          "description": "In arbitrary units (arbitrary).\nThis represents a model-based estimate of signal intensity\nin the absence of the contrast under investigation.\nFor a multi-echo sequence\n(for example, multi-echo spin echo T2 relaxometry or multi-echo fMRI),\nS0 maps index the baseline signal at a hypothetical echo time of zero\n(that is, in the absence of any T2 or T2-star decay).\nIn other words: the exponential of the intercept for a linear decay model\nacross log-transformed echos. For more information, please see, for example,\n[the tedana documentation](https://tedana.readthedocs.io/en/latest/\\\napproach.html#monoexponential-decay-model-fit).\nS0 maps are RECOMMENDED to use this suffix if derived from an ME-FMRI dataset.\nFor a diffusion-weighted sequence,\nS0 maps represent the model-based estimate of the signal intensity\nin the absence of any diffusion weighting;\nin other words, the image intensity at *b*=0\nas estimated by a diffusion model fit.\n",
-          "data_type": "dwi"
-        }
-      ],
-      [
-        {
-          "id": "M0map",
-          "name": "Equilibrium magnetization (M0) map",
-          "abbreviation": "M0map",
-          "description": "In arbitrary units (arbitrary).\nA common quantitative MRI (qMRI) fitting variable that represents the amount\nof magnetization at thermal equilibrium.\nM0 maps are RECOMMENDED to use this suffix if generated by qMRI applications\n(for example, variable flip angle T1 mapping).\n",
-          "data_type": "anat"
-        }
-      ],
-      [
-        {
-          "id": "defacemask",
-          "name": "Defacing Mask",
-          "abbreviation": "defacemask",
-          "description": "A binary mask that was used to remove facial features from an anatomical MRI\nimage.\n",
-          "data_type": "anat"
-        }
-      ],
-      [
-        {
-          "id": "MEGRE",
-          "name": "Multi-echo Gradient Recalled Echo",
-          "abbreviation": "MEGRE",
-          "description": "Anatomical gradient echo images acquired at different echo times.\nPlease note that this suffix is not intended for the logical grouping of\nimages acquired using an Echo Planar Imaging (EPI) readout.\n",
-          "data_type": "anat"
-        }
-      ],
-      [
-        {
-          "id": "MESE",
-          "name": "Multi-echo Spin Echo",
-          "abbreviation": "MESE",
-          "description": "The MESE method involves multiple spin echo images acquired at different echo\ntimes and is primarily used for T2 mapping.\nPlease note that this suffix is not intended for the logical grouping of\nimages acquired using an Echo Planar Imaging (EPI) readout.\n",
-          "data_type": "anat"
-        }
-      ],
-      [
-        {
-          "id": "VFA",
-          "name": "Variable flip angle",
-          "abbreviation": "VFA",
-          "description": "The VFA method involves at least two spoiled gradient echo (SPGR) of\nsteady-state free precession (SSFP) images acquired at different flip angles.\nDepending on the provided metadata fields and the sequence type,\ndata may be eligible for DESPOT1, DESPOT2 and their variants\n([Deoni et al. 2005](https://doi.org/10.1002/mrm.20314)).\n",
-          "data_type": "anat"
-        }
-      ],
-      [
-        {
-          "id": "IRT1",
-          "name": "Inversion recovery T1 mapping",
-          "abbreviation": "IRT1",
-          "description": "The IRT1 method involves multiple inversion recovery spin-echo images\nacquired at different inversion times\n([Barral et al. 2010](https://doi.org/10.1002/mrm.22497)).\n",
-          "data_type": "anat"
-        }
-      ],
-      [
-        {
-          "id": "MP2RAGE",
-          "name": "Magnetization Prepared Two Gradient Echoes",
-          "abbreviation": "MP2RAGE",
-          "description": "The MP2RAGE method is a special protocol that collects several images at\ndifferent flip angles and inversion times to create a parametric T1map by\ncombining the magnitude and phase images\n([Marques et al. 2010](https://doi.org/10.1016/j.neuroimage.2009.10.002)).\n",
-          "data_type": "anat"
-        }
-      ],
-      [
-        {
-          "id": "MPM",
-          "name": "Multi-parametric Mapping",
-          "abbreviation": "MPM",
-          "description": "The MPM approaches (a.k.a hMRI) involves the acquisition of highly-similar\nanatomical images that differ in terms of application of a magnetization\ntransfer RF pulse (MTon or MToff), flip angle and (optionally) echo time and\nmagnitue/phase parts\n([Weiskopf et al. 2013](https://doi.org/10.3389/fnins.2013.00095)).\nSee [here](https://owncloud.gwdg.de/index.php/s/iv2TOQwGy4FGDDZ) for\nsuggested MPM acquisition protocols.\n",
-          "data_type": "anat"
-        }
-      ],
-      [
-        {
-          "id": "MTS",
-          "name": "Magnetization transfer saturation",
-          "abbreviation": "MTS",
-          "description": "This method is to calculate a semi-quantitative magnetization transfer\nsaturation index map.\nThe MTS method involves three sets of anatomical images that differ in terms\nof application of a magnetization transfer RF pulse (MTon or MToff) and flip\nangle ([Helms et al. 2008](https://doi.org/10.1002/mrm.21732)).\n",
-          "data_type": "anat"
-        }
-      ],
-      [
-        {
-          "id": "MTR",
-          "name": "Magnetization Transfer Ratio",
-          "abbreviation": "MTR",
-          "description": "This method is to calculate a semi-quantitative magnetization transfer ratio\nmap.\n",
-          "data_type": "anat"
-        }
-      ],
-      [
-        {
-          "id": "dwi",
-          "name": "Diffusion-weighted image",
-          "abbreviation": "dwi",
-          "description": "Diffusion-weighted imaging contrast (specialized T2 weighting).\n",
-          "data_type": "dwi"
-        }
-      ],
-      [
-        {
-          "id": "sbref",
-          "name": "Single-band reference image",
-          "abbreviation": "sbref",
-          "description": "Single-band reference for one or more multi-band `dwi` images.\n",
-          "data_type": "dwi"
-        },
-        {
-          "id": "sbref",
-          "name": "Single-band reference image",
-          "abbreviation": "sbref",
-          "description": "Single-band reference for one or more multi-band `dwi` images.\n",
-          "data_type": "func"
-        }
-      ],
-      [
-        {
-          "id": "ADC",
-          "name": "Apparent diffusion coefficient (ADC)",
-          "abbreviation": "ADC",
-          "description": "Apparent diffusion coefficient (ADC) map",
-          "data_type": "dwi"
-        }
-      ],
-      [
-        {
-          "id": "FA",
-          "name": "Fractional Anisotropy image",
-          "abbreviation": "FA",
-          "description": "Scanner-generated derivative parametric map\nreflecting the anisotropy of the diffusion tensor\n",
-          "data_type": "dwi"
-        }
-      ],
-      [
-        {
-          "id": "colFA",
-          "name": "Colored Fractional Anisotropy image",
-          "abbreviation": "colFA",
-          "description": "Scanner-derived parametric map encoding both the anisotropy and principal direction of the diffusion tensor.\nImage intensity is proportional to the Fractional Anisotropy (FA) measure;\nimage color is determined by the principal eigenvector of the diffusion tensor,\nwhere red encodes the magnitude of the left-right component of that orientation,\nwith green and blue similarly encoding the anterior-posterior and inferior-superior components respectively.\n",
-          "data_type": "dwi"
-        }
-      ],
-      [
-        {
-          "id": "expADC",
-          "name": "Exponental ADC",
-          "abbreviation": "expADC",
-          "description": "Exponental ADC / Attenuation Coefficient / Attenuation Factor map,\nas the ratio of trace-weighted to non-diffusion-weighted image intensity\n",
-          "data_type": "dwi"
-        }
-      ],
-      [
-        {
-          "id": "trace",
-          "name": "Trace-weighted diffusion image",
-          "abbreviation": "trace",
-          "description": "Trace-weighted image, as the mean intensity of diffusion-weighted images\n",
-          "data_type": "dwi"
-        }
-      ],
-      [
-        {
-          "id": "eeg",
-          "name": "Electroencephalography",
-          "abbreviation": "eeg",
-          "description": "Electroencephalography recording data.\n",
-          "data_type": "eeg"
-        }
-      ],
-      [
-        {
-          "id": "emg",
-          "name": "Electromyography",
-          "abbreviation": "emg",
-          "description": "Electromyography recording data.\n",
-          "data_type": "emg"
-        }
-      ],
-      [
-        {
-          "id": "bold",
-          "name": "Blood-Oxygen-Level Dependent image",
-          "abbreviation": "bold",
-          "description": "Blood-Oxygen-Level Dependent contrast (specialized T2\\* weighting)\n",
-          "data_type": "func"
-        }
-      ],
-      [
-        {
-          "id": "cbv",
-          "name": "Cerebral blood volume image",
-          "abbreviation": "cbv",
-          "description": "Cerebral Blood Volume contrast (specialized T2\\* weighting or difference between T1 weighted images)\n",
-          "data_type": "func"
-        }
-      ],
-      [
-        {
-          "id": "noRF",
-          "name": "No Radio Frequency Excitation Scan",
-          "abbreviation": "noRF",
-          "description": "An MR noise scan often acquired alongside another MR scan.\n\nThese noise scans are acquired by disabling the radio frequency excitation,\nwhile maintaining all other parameters from the associated scan.\nThese can be acquired using some other sequence with RF excitation removed\nor as part of sequences that turns off RF at the beginning or end of a run.\nFor example a `bold` scan where a few volumes are acquired with RF off.\nThere is no consistent DICOM denotation for these scans.\n\nIf multiple sequences with different suffixes but otherwise the same entities have `noRF`\nsequences, they SHOULD be disambiguated using the modality entity\n(for example, `mod-bold_noRF.nii.gz` and `mod-cbv_noRF.nii`).\n\n`noRF` are typically used to estimate properties of the scanner and\nsequence that are independent from the object being imaged.\n",
-          "data_type": "func"
-        },
-        {
-          "id": "noRF",
-          "name": "No Radio Frequency Excitation Scan",
-          "abbreviation": "noRF",
-          "description": "An MR noise scan often acquired alongside another MR scan.\n\nThese noise scans are acquired by disabling the radio frequency excitation,\nwhile maintaining all other parameters from the associated scan.\nThese can be acquired using some other sequence with RF excitation removed\nor as part of sequences that turns off RF at the beginning or end of a run.\nFor example a `bold` scan where a few volumes are acquired with RF off.\nThere is no consistent DICOM denotation for these scans.\n\nIf multiple sequences with different suffixes but otherwise the same entities have `noRF`\nsequences, they SHOULD be disambiguated using the modality entity\n(for example, `mod-bold_noRF.nii.gz` and `mod-cbv_noRF.nii`).\n\n`noRF` are typically used to estimate properties of the scanner and\nsequence that are independent from the object being imaged.\n",
-          "data_type": "perf"
-        }
-      ],
-      [
-        {
-          "id": "ieeg",
-          "name": "Intracranial Electroencephalography",
-          "abbreviation": "ieeg",
-          "description": "Intracranial electroencephalography recording data.\n",
-          "data_type": "ieeg"
-        }
-      ],
-      [
-        {
-          "id": "meg",
-          "name": "Magnetoencephalography",
-          "abbreviation": "meg",
-          "description": "Unprocessed MEG data stored in the native file format of the MEG instrument\nwith which the data was collected.\n",
-          "data_type": "meg"
-        }
-      ],
-      [
-        {
-          "id": "headshape",
-          "name": "Headshape File",
-          "abbreviation": "headshape",
-          "description": "The 3-D locations of points that describe the head shape and/or electrode\nlocations can be digitized and stored in separate files.\n",
-          "data_type": "meg"
-        }
-      ],
-      [
-        {
-          "id": "markers",
-          "name": "MEG Sensor Coil Positions",
-          "abbreviation": "markers",
-          "description": "Another manufacturer-specific detail pertains to the KIT/Yokogawa/Ricoh\nsystem, which saves the MEG sensor coil positions in a separate file with two\npossible filename extensions  (`.sqd`, `.mrk`).\nFor these files, the `markers` suffix MUST be used.\nFor example: `sub-01_task-nback_markers.sqd`\n",
-          "data_type": "meg"
-        }
-      ],
-      [
-        {
-          "id": "svs",
-          "name": "Single-voxel spectroscopy",
-          "abbreviation": "svs",
-          "description": "MRS acquisitions where the detected MR signal is spatially localized to a single volume.\n",
-          "data_type": "mrs"
-        }
-      ],
-      [
-        {
-          "id": "mrsi",
-          "name": "Magnetic resonance spectroscopy imaging",
-          "abbreviation": "mrsi",
-          "description": "MRS acquisitions where additional imaging gradients are used\nto detect the MR signal from 1, 2, or 3 spatial dimensions.\n",
-          "data_type": "mrs"
-        }
-      ],
-      [
-        {
-          "id": "unloc",
-          "name": "Unlocalized spectroscopy",
-          "abbreviation": "unloc",
-          "description": "MRS acquisitions run without localization.\nThis includes signals detected using coil sensitivity only.\n",
-          "data_type": "mrs"
-        }
-      ],
-      [
-        {
-          "id": "mrsref",
-          "name": "MRS reference acquisition",
-          "abbreviation": "mrsref",
-          "description": "An MRS acquisition collected to serve as a concentration reference for absolute quantification\nor as a calibration reference for preprocessing (for example, eddy-current correction).\n",
-          "data_type": "mrs"
-        }
-      ],
-      [
-        {
-          "id": "nirs",
-          "name": "Near Infrared Spectroscopy",
-          "abbreviation": "nirs",
-          "description": "Data associated with a Shared Near Infrared Spectroscopy Format file.",
-          "data_type": "nirs"
-        }
-      ],
-      [
-        {
-          "id": "asl",
-          "name": "Arterial Spin Labeling",
-          "abbreviation": "asl",
-          "description": "The complete ASL time series stored as a 4D NIfTI file in the original\nacquisition order, with possible volume types including: control, label,\nm0scan, deltam, cbf.\n",
-          "data_type": "perf"
-        }
-      ],
-      [
-        {
-          "id": "m0scan",
-          "name": "M0 image",
-          "abbreviation": "m0scan",
-          "description": "The M0 image is a calibration image, used to estimate the equilibrium\nmagnetization of blood.\n",
-          "data_type": "perf"
-        }
-      ],
-      [
-        {
-          "id": "aslcontext",
-          "name": "Arterial Spin Labeling Context",
-          "abbreviation": "aslcontext",
-          "description": "A TSV file defining the image types for volumes in an associated ASL file.\n",
-          "data_type": "perf"
-        }
-      ],
-      [
-        {
-          "id": "asllabeling",
-          "name": "ASL Labeling Screenshot",
-          "abbreviation": "asllabeling",
-          "description": "A deidentified screenshot of the planning of the labeling slab/plane\nwith respect to the imaging slab or slices.\nThis screenshot is based on DICOM macro C.8.13.5.14.\n",
-          "data_type": "perf"
-        }
-      ],
-      [
-        {
-          "id": "pet",
-          "name": "Positron Emission Tomography",
-          "abbreviation": "pet",
-          "description": "PET imaging data SHOULD be stored in 4D\n(or 3D, if only one volume was acquired) NIfTI files with the `_pet` suffix.\nVolumes MUST be stored in chronological order\n(the order they were acquired in).\n",
-          "data_type": "pet"
-        }
-      ],
-      [
-        {
-          "id": "blood",
-          "name": "Blood recording data",
-          "abbreviation": "blood",
-          "description": "Blood measurements of radioactivity stored in\n[tabular files](SPEC_ROOT/common-principles.md#tabular-files)\nand located in the `pet/` directory along with the corresponding PET data.\n",
-          "data_type": "pet"
-        }
-      ]
+      {
+        "id": "T1w",
+        "name": "T1-weighted image",
+        "abbreviation": "T1w",
+        "description": "In arbitrary units (arbitrary).\nThe contrast of these images is mainly determined by spatial variations in\nthe longitudinal relaxation time of the imaged specimen.\nIn spin-echo sequences this contrast is achieved at relatively short\nrepetition and echo times.\nTo achieve this weighting in gradient-echo images, again, short repetition\nand echo times are selected; however, at relatively large flip angles.\nAnother common approach to increase T1 weighting in gradient-echo images is\nto add an inversion preparation block to the beginning of the imaging\nsequence (for example, `TurboFLASH` or `MP-RAGE`).\n",
+        "data_type": "anat"
+      },
+      {
+        "id": "T2w",
+        "name": "T2-weighted image",
+        "abbreviation": "T2w",
+        "description": "In arbitrary units (arbitrary).\nThe contrast of these images is mainly determined by spatial variations in\nthe (true) transverse relaxation time of the imaged specimen.\nIn spin-echo sequences this contrast is achieved at relatively long\nrepetition and echo times.\nGenerally, gradient echo sequences are not the most suitable option for\nachieving T2 weighting, as their contrast natively depends on T2-star rather\nthan on T2.\n",
+        "data_type": "anat"
+      },
+      {
+        "id": "PDw",
+        "name": "Proton density (PD) weighted image",
+        "abbreviation": "PDw",
+        "description": "In arbitrary units (arbitrary).\nThe contrast of these images is mainly determined by spatial variations in\nthe spin density (1H) of the imaged specimen.\nThis contrast is achieved at short echo times and long repetition times;\nfor gradient echo, this weighting is also possible with a short TR (TR<<T1) and a small flip angle.\n",
+        "data_type": "anat"
+      },
+      {
+        "id": "T2starw",
+        "name": "T2star weighted image",
+        "abbreviation": "T2starw",
+        "description": "In arbitrary units (arbitrary).\nThe contrast of these images is mainly determined by spatial variations in\nthe (observed) transverse relaxation time of the imaged specimen.\nIn spin-echo sequences, this effect is negated as the excitation is followed\nby an inversion pulse.\nThe contrast of gradient-echo images natively depends on T2-star effects.\nHowever, for T2-star variation to dominate the image contrast,\ngradient-echo acquisitions are carried out at long repetition and echo times,\nand at small flip angles.\n",
+        "data_type": "anat"
+      },
+      {
+        "id": "FLAIR",
+        "name": "Fluid attenuated inversion recovery image",
+        "abbreviation": "FLAIR",
+        "description": "In arbitrary units (arbitrary).\nStructural images with predominant T2 contribution (also known as T2-FLAIR),\nin which signal from fluids (for example, CSF) is nulled out by adjusting\ninversion time, coupled with notably long repetition and echo times.\n",
+        "data_type": "anat"
+      },
+      {
+        "id": "inplaneT1",
+        "name": "Inplane T1",
+        "abbreviation": "inplaneT1",
+        "description": "In arbitrary units (arbitrary).\nT1 weighted structural image matched to a functional (task) image.\n",
+        "data_type": "anat"
+      },
+      {
+        "id": "inplaneT2",
+        "name": "Inplane T2",
+        "abbreviation": "inplaneT2",
+        "description": "In arbitrary units (arbitrary).\nT2 weighted structural image matched to a functional (task) image.\n",
+        "data_type": "anat"
+      },
+      {
+        "id": "PDT2",
+        "name": "PD and T2 weighted image",
+        "abbreviation": "PDT2",
+        "description": "In arbitrary units (arbitrary).\nA two-volume 4D image, where the volumes are, respectively, PDw and T2w\nimages acquired simultaneously.\nIf separated into 3D volumes, the `PDw` and `T2w` suffixes SHOULD be used instead,\nand an acquisition entity MAY be used to distinguish the images from others with\nthe same suffix, for example, `acq-PDT2_PDw.nii` and `acq-PDT2_T2w.nii`.\n",
+        "data_type": "anat"
+      },
+      {
+        "id": "angio",
+        "name": "Angiogram",
+        "abbreviation": "angio",
+        "description": "Magnetic resonance angiography sequences focus on enhancing the contrast of\nblood vessels (generally arteries, but sometimes veins) against other tissue\ntypes.\n",
+        "data_type": "anat"
+      },
+      {
+        "id": "T1map",
+        "name": "Longitudinal relaxation time image",
+        "abbreviation": "T1map",
+        "description": "In seconds (s).\nT1 maps are REQUIRED to use this suffix regardless of the method used to\ngenerate them.\nSee [this interactive book on T1 mapping](https://qmrlab.org/t1_book/intro)\nfor further reading on T1-mapping.\n",
+        "data_type": "anat"
+      },
+      {
+        "id": "T2map",
+        "name": "True transverse relaxation time image",
+        "abbreviation": "T2map",
+        "description": "In seconds (s).\nT2 maps are REQUIRED to use this suffix regardless of the method used to\ngenerate them.\n",
+        "data_type": "anat"
+      },
+      {
+        "id": "T2starmap",
+        "name": "Observed transverse relaxation time image",
+        "abbreviation": "T2starmap",
+        "description": "In seconds (s).\nT2-star maps are REQUIRED to use this suffix regardless of the method used to\ngenerate them.\n",
+        "data_type": "anat"
+      },
+      {
+        "id": "R1map",
+        "name": "Longitudinal relaxation rate image",
+        "abbreviation": "R1map",
+        "description": "In seconds<sup>-1</sup> (1/s).\nR1 maps (R1 = 1/T1) are REQUIRED to use this suffix regardless of the method\nused to generate them.\n",
+        "data_type": "anat"
+      },
+      {
+        "id": "R2map",
+        "name": "True transverse relaxation rate image",
+        "abbreviation": "R2map",
+        "description": "In seconds<sup>-1</sup> (1/s).\nR2 maps (R2 = 1/T2) are REQUIRED to use this suffix regardless of the method\nused to generate them.\n",
+        "data_type": "anat"
+      },
+      {
+        "id": "R2starmap",
+        "name": "Observed transverse relaxation rate image",
+        "abbreviation": "R2starmap",
+        "description": "In seconds<sup>-1</sup> (1/s).\nR2-star maps (R2star = 1/T2star) are REQUIRED to use this suffix regardless\nof the method used to generate them.\n",
+        "data_type": "anat"
+      },
+      {
+        "id": "PDmap",
+        "name": "Proton density image",
+        "abbreviation": "PDmap",
+        "description": "In arbitrary units (arbitrary).\nPD maps are REQUIRED to use this suffix regardless of the method used to\ngenerate them.\n",
+        "data_type": "anat"
+      },
+      {
+        "id": "MTRmap",
+        "name": "Magnetization transfer ratio image",
+        "abbreviation": "MTRmap",
+        "description": "In arbitrary units (arbitrary).\nMTR maps are REQUIRED to use this suffix regardless of the method used to\ngenerate them.\nMTRmap intensity values are RECOMMENDED to be represented in percentage in\nthe range of 0-100%.\n",
+        "data_type": "anat"
+      },
+      {
+        "id": "MTsat",
+        "name": "Magnetization transfer saturation image",
+        "abbreviation": "MTsat",
+        "description": "In arbitrary units (arbitrary).\nMTsat maps are REQUIRED to use this suffix regardless of the method used to\ngenerate them.\n",
+        "data_type": "anat"
+      },
+      {
+        "id": "UNIT1",
+        "name": "Homogeneous (flat) T1-weighted MP2RAGE image",
+        "abbreviation": "UNIT1",
+        "description": "In arbitrary units (arbitrary).\nUNIT1 images are REQUIRED to use this suffix regardless of the method used to\ngenerate them.\nNote that although this image is T1-weighted, regions without MR signal will\ncontain white salt-and-pepper noise that most segmentation algorithms will\nfail on.\nTherefore, it is important to dissociate it from `T1w`.\nPlease see [`MP2RAGE` specific notes](SPEC_ROOT/appendices/qmri.md#unit1-images)\nin the qMRI appendix for further information.\n",
+        "data_type": "anat"
+      },
+      {
+        "id": "T1rho",
+        "name": "T1 in rotating frame (T1 rho) image",
+        "abbreviation": "T1rho",
+        "description": "In seconds (s).\nT1-rho maps are REQUIRED to use this suffix regardless of the method used to\ngenerate them.\n",
+        "data_type": "anat"
+      },
+      {
+        "id": "MWFmap",
+        "name": "Myelin water fraction image",
+        "abbreviation": "MWFmap",
+        "description": "In arbitrary units (arbitrary).\nMWF maps are REQUIRED to use this suffix regardless of the method used to\ngenerate them.\nMWF intensity values are RECOMMENDED to be represented in percentage in the\nrange of 0-100%.\n",
+        "data_type": "anat"
+      },
+      {
+        "id": "MTVmap",
+        "name": "Macromolecular tissue volume (MTV) image",
+        "abbreviation": "MTVmap",
+        "description": "In arbitrary units (arbitrary).\nMTV maps are REQUIRED to use this suffix regardless of the method used to\ngenerate them.\n",
+        "data_type": "anat"
+      },
+      {
+        "id": "Chimap",
+        "name": "Quantitative susceptibility map (QSM)",
+        "abbreviation": "Chimap",
+        "description": "In parts per million (ppm).\nQSM allows for determining the underlying magnetic susceptibility of tissue\n(Chi)\n([Wang & Liu, 2014](https://doi.org/10.1002/mrm.25358)).\nChi maps are REQUIRED to use this suffix regardless of the method used to\ngenerate them.\n",
+        "data_type": "anat"
+      },
+      {
+        "id": "M0map",
+        "name": "Equilibrium magnetization (M0) map",
+        "abbreviation": "M0map",
+        "description": "In arbitrary units (arbitrary).\nA common quantitative MRI (qMRI) fitting variable that represents the amount\nof magnetization at thermal equilibrium.\nM0 maps are RECOMMENDED to use this suffix if generated by qMRI applications\n(for example, variable flip angle T1 mapping).\n",
+        "data_type": "anat"
+      },
+      {
+        "id": "defacemask",
+        "name": "Defacing Mask",
+        "abbreviation": "defacemask",
+        "description": "A binary mask that was used to remove facial features from an anatomical MRI\nimage.\n",
+        "data_type": "anat"
+      },
+      {
+        "id": "MEGRE",
+        "name": "Multi-echo Gradient Recalled Echo",
+        "abbreviation": "MEGRE",
+        "description": "Anatomical gradient echo images acquired at different echo times.\nPlease note that this suffix is not intended for the logical grouping of\nimages acquired using an Echo Planar Imaging (EPI) readout.\n",
+        "data_type": "anat"
+      },
+      {
+        "id": "MESE",
+        "name": "Multi-echo Spin Echo",
+        "abbreviation": "MESE",
+        "description": "The MESE method involves multiple spin echo images acquired at different echo\ntimes and is primarily used for T2 mapping.\nPlease note that this suffix is not intended for the logical grouping of\nimages acquired using an Echo Planar Imaging (EPI) readout.\n",
+        "data_type": "anat"
+      },
+      {
+        "id": "VFA",
+        "name": "Variable flip angle",
+        "abbreviation": "VFA",
+        "description": "The VFA method involves at least two spoiled gradient echo (SPGR) of\nsteady-state free precession (SSFP) images acquired at different flip angles.\nDepending on the provided metadata fields and the sequence type,\ndata may be eligible for DESPOT1, DESPOT2 and their variants\n([Deoni et al. 2005](https://doi.org/10.1002/mrm.20314)).\n",
+        "data_type": "anat"
+      },
+      {
+        "id": "IRT1",
+        "name": "Inversion recovery T1 mapping",
+        "abbreviation": "IRT1",
+        "description": "The IRT1 method involves multiple inversion recovery spin-echo images\nacquired at different inversion times\n([Barral et al. 2010](https://doi.org/10.1002/mrm.22497)).\n",
+        "data_type": "anat"
+      },
+      {
+        "id": "MP2RAGE",
+        "name": "Magnetization Prepared Two Gradient Echoes",
+        "abbreviation": "MP2RAGE",
+        "description": "The MP2RAGE method is a special protocol that collects several images at\ndifferent flip angles and inversion times to create a parametric T1map by\ncombining the magnitude and phase images\n([Marques et al. 2010](https://doi.org/10.1016/j.neuroimage.2009.10.002)).\n",
+        "data_type": "anat"
+      },
+      {
+        "id": "MPM",
+        "name": "Multi-parametric Mapping",
+        "abbreviation": "MPM",
+        "description": "The MPM approaches (a.k.a hMRI) involves the acquisition of highly-similar\nanatomical images that differ in terms of application of a magnetization\ntransfer RF pulse (MTon or MToff), flip angle and (optionally) echo time and\nmagnitue/phase parts\n([Weiskopf et al. 2013](https://doi.org/10.3389/fnins.2013.00095)).\nSee [here](https://owncloud.gwdg.de/index.php/s/iv2TOQwGy4FGDDZ) for\nsuggested MPM acquisition protocols.\n",
+        "data_type": "anat"
+      },
+      {
+        "id": "MTS",
+        "name": "Magnetization transfer saturation",
+        "abbreviation": "MTS",
+        "description": "This method is to calculate a semi-quantitative magnetization transfer\nsaturation index map.\nThe MTS method involves three sets of anatomical images that differ in terms\nof application of a magnetization transfer RF pulse (MTon or MToff) and flip\nangle ([Helms et al. 2008](https://doi.org/10.1002/mrm.21732)).\n",
+        "data_type": "anat"
+      },
+      {
+        "id": "MTR",
+        "name": "Magnetization Transfer Ratio",
+        "abbreviation": "MTR",
+        "description": "This method is to calculate a semi-quantitative magnetization transfer ratio\nmap.\n",
+        "data_type": "anat"
+      },
+      {
+        "id": "dwi",
+        "name": "Diffusion-weighted image",
+        "abbreviation": "dwi",
+        "description": "Diffusion-weighted imaging contrast (specialized T2 weighting).\n",
+        "data_type": "dwi"
+      },
+      {
+        "id": "ADC",
+        "name": "Apparent diffusion coefficient (ADC)",
+        "abbreviation": "ADC",
+        "description": "Apparent diffusion coefficient (ADC) map",
+        "data_type": "dwi"
+      },
+      {
+        "id": "FA",
+        "name": "Fractional Anisotropy image",
+        "abbreviation": "FA",
+        "description": "Scanner-generated derivative parametric map\nreflecting the anisotropy of the diffusion tensor\n",
+        "data_type": "dwi"
+      },
+      {
+        "id": "colFA",
+        "name": "Colored Fractional Anisotropy image",
+        "abbreviation": "colFA",
+        "description": "Scanner-derived parametric map encoding both the anisotropy and principal direction of the diffusion tensor.\nImage intensity is proportional to the Fractional Anisotropy (FA) measure;\nimage color is determined by the principal eigenvector of the diffusion tensor,\nwhere red encodes the magnitude of the left-right component of that orientation,\nwith green and blue similarly encoding the anterior-posterior and inferior-superior components respectively.\n",
+        "data_type": "dwi"
+      },
+      {
+        "id": "expADC",
+        "name": "Exponental ADC",
+        "abbreviation": "expADC",
+        "description": "Exponental ADC / Attenuation Coefficient / Attenuation Factor map,\nas the ratio of trace-weighted to non-diffusion-weighted image intensity\n",
+        "data_type": "dwi"
+      },
+      {
+        "id": "trace",
+        "name": "Trace-weighted diffusion image",
+        "abbreviation": "trace",
+        "description": "Trace-weighted image, as the mean intensity of diffusion-weighted images\n",
+        "data_type": "dwi"
+      },
+      {
+        "id": "eeg",
+        "name": "Electroencephalography",
+        "abbreviation": "eeg",
+        "description": "Electroencephalography recording data.\n",
+        "data_type": "eeg"
+      },
+      {
+        "id": "emg",
+        "name": "Electromyography",
+        "abbreviation": "emg",
+        "description": "Electromyography recording data.\n",
+        "data_type": "emg"
+      },
+      {
+        "id": "bold",
+        "name": "Blood-Oxygen-Level Dependent image",
+        "abbreviation": "bold",
+        "description": "Blood-Oxygen-Level Dependent contrast (specialized T2\\* weighting)\n",
+        "data_type": "func"
+      },
+      {
+        "id": "cbv",
+        "name": "Cerebral blood volume image",
+        "abbreviation": "cbv",
+        "description": "Cerebral Blood Volume contrast (specialized T2\\* weighting or difference between T1 weighted images)\n",
+        "data_type": "func"
+      },
+      {
+        "id": "ieeg",
+        "name": "Intracranial Electroencephalography",
+        "abbreviation": "ieeg",
+        "description": "Intracranial electroencephalography recording data.\n",
+        "data_type": "ieeg"
+      },
+      {
+        "id": "meg",
+        "name": "Magnetoencephalography",
+        "abbreviation": "meg",
+        "description": "Unprocessed MEG data stored in the native file format of the MEG instrument\nwith which the data was collected.\n",
+        "data_type": "meg"
+      },
+      {
+        "id": "headshape",
+        "name": "Headshape File",
+        "abbreviation": "headshape",
+        "description": "The 3-D locations of points that describe the head shape and/or electrode\nlocations can be digitized and stored in separate files.\n",
+        "data_type": "meg"
+      },
+      {
+        "id": "markers",
+        "name": "MEG Sensor Coil Positions",
+        "abbreviation": "markers",
+        "description": "Another manufacturer-specific detail pertains to the KIT/Yokogawa/Ricoh\nsystem, which saves the MEG sensor coil positions in a separate file with two\npossible filename extensions  (`.sqd`, `.mrk`).\nFor these files, the `markers` suffix MUST be used.\nFor example: `sub-01_task-nback_markers.sqd`\n",
+        "data_type": "meg"
+      },
+      {
+        "id": "svs",
+        "name": "Single-voxel spectroscopy",
+        "abbreviation": "svs",
+        "description": "MRS acquisitions where the detected MR signal is spatially localized to a single volume.\n",
+        "data_type": "mrs"
+      },
+      {
+        "id": "mrsi",
+        "name": "Magnetic resonance spectroscopy imaging",
+        "abbreviation": "mrsi",
+        "description": "MRS acquisitions where additional imaging gradients are used\nto detect the MR signal from 1, 2, or 3 spatial dimensions.\n",
+        "data_type": "mrs"
+      },
+      {
+        "id": "unloc",
+        "name": "Unlocalized spectroscopy",
+        "abbreviation": "unloc",
+        "description": "MRS acquisitions run without localization.\nThis includes signals detected using coil sensitivity only.\n",
+        "data_type": "mrs"
+      },
+      {
+        "id": "mrsref",
+        "name": "MRS reference acquisition",
+        "abbreviation": "mrsref",
+        "description": "An MRS acquisition collected to serve as a concentration reference for absolute quantification\nor as a calibration reference for preprocessing (for example, eddy-current correction).\n",
+        "data_type": "mrs"
+      },
+      {
+        "id": "nirs",
+        "name": "Near Infrared Spectroscopy",
+        "abbreviation": "nirs",
+        "description": "Data associated with a Shared Near Infrared Spectroscopy Format file.",
+        "data_type": "nirs"
+      },
+      {
+        "id": "asl",
+        "name": "Arterial Spin Labeling",
+        "abbreviation": "asl",
+        "description": "The complete ASL time series stored as a 4D NIfTI file in the original\nacquisition order, with possible volume types including: control, label,\nm0scan, deltam, cbf.\n",
+        "data_type": "perf"
+      },
+      {
+        "id": "m0scan",
+        "name": "M0 image",
+        "abbreviation": "m0scan",
+        "description": "The M0 image is a calibration image, used to estimate the equilibrium\nmagnetization of blood.\n",
+        "data_type": "perf"
+      },
+      {
+        "id": "aslcontext",
+        "name": "Arterial Spin Labeling Context",
+        "abbreviation": "aslcontext",
+        "description": "A TSV file defining the image types for volumes in an associated ASL file.\n",
+        "data_type": "perf"
+      },
+      {
+        "id": "asllabeling",
+        "name": "ASL Labeling Screenshot",
+        "abbreviation": "asllabeling",
+        "description": "A deidentified screenshot of the planning of the labeling slab/plane\nwith respect to the imaging slab or slices.\nThis screenshot is based on DICOM macro C.8.13.5.14.\n",
+        "data_type": "perf"
+      },
+      {
+        "id": "pet",
+        "name": "Positron Emission Tomography",
+        "abbreviation": "pet",
+        "description": "PET imaging data SHOULD be stored in 4D\n(or 3D, if only one volume was acquired) NIfTI files with the `_pet` suffix.\nVolumes MUST be stored in chronological order\n(the order they were acquired in).\n",
+        "data_type": "pet"
+      },
+      {
+        "id": "blood",
+        "name": "Blood recording data",
+        "abbreviation": "blood",
+        "description": "Blood measurements of radioactivity stored in\n[tabular files](SPEC_ROOT/common-principles.md#tabular-files)\nand located in the `pet/` directory along with the corresponding PET data.\n",
+        "data_type": "pet"
+      }
     ]
   }
 ]
