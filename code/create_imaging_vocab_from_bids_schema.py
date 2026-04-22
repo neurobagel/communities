@@ -46,14 +46,15 @@ def create_term_for_suffix(suffix: str, datatype: str) -> dict:
         "name": suffix_info["display_name"],
         "abbreviation": suffix,  # TODO: Can consider removing since 'id' will now always have the same value
         "description": suffix_info["description"],
-        "data_type": datatype,
+        # Some suffixes are associated with multiple datatypes
+        "data_type": [datatype],
     }
 
 
-def get_terms_with_duplicate_labels(terms: dict) -> dict:
+def get_terms_with_duplicate_labels(terms: list) -> dict:
     terms_by_label = defaultdict(list)
 
-    for term in terms.values():
+    for term in terms:
         key = term["name"].lower()
         terms_by_label[key].append(term)
 
@@ -80,34 +81,39 @@ def main():
     args = parse_args()
     out_file = args.community_config_dir / "imaging_modalities.json"
 
-    terms = defaultdict(list)
+    terms = {}
     for datatype, datatype_info in schema.rules.files.raw.items():
         if datatype in EXCLUDE_DATATYPES:
             continue
 
         for group in datatype_info.values():
             for suffix in group["suffixes"]:
-                term = create_term_for_suffix(suffix, datatype)
+                # NOTE: some suffixes are associated with multiple 'groups' within the same datatype (e.g., suffix "meg")
+                if suffix in terms:
+                    if datatype not in terms[suffix]["data_type"]:
+                        terms[suffix]["data_type"].append(datatype)
+                else:
+                    term = create_term_for_suffix(suffix, datatype)
+                    # Exclude suffixes marked as deprecated in their description, to help avoid terms with duplicate labels
+                    if any(
+                        deprecation_descriptor in term["description"].lower()
+                        for deprecation_descriptor in DEPRECATION_DESCRIPTORS
+                    ):
+                        logger.warning(f"Skipping deprecated suffix: {suffix}")
+                    else:
+                        terms[suffix] = term
 
-                # Exclude suffixes that are marked as deprecated in their description, to help avoid terms with duplicate labels
-                if any(
-                    deprecation_descriptor in term["description"].lower()
-                    for deprecation_descriptor in DEPRECATION_DESCRIPTORS
-                ):
-                    logger.warning(f"Skipping deprecated suffix: {suffix}")
-                # Some suffixes appear under multiple 'groups' within the same datatype (e.g., suffix "meg")
-                # and thus would have the same term metadata
-                elif term not in terms[suffix]:
-                    terms[suffix].append(term)
-
-    single_datatype_terms = {}
-    for suffix, instances in terms.items():
-        if len(instances) > 1:
+    single_datatype_terms = []
+    for suffix, term in terms.items():
+        if len(term["data_type"]) > 1:
             logger.warning(
-                f"Excluding suffix '{suffix}' - appears in multiple datatypes: {[instance['data_type'] for instance in instances]}."
+                f"Excluding suffix '{suffix}' - appears in multiple datatypes: {term['data_type']}."
             )
         else:
-            single_datatype_terms[suffix] = instances[0]
+            # Convert from a list to a string since we know there's only one datatype,
+            # as expected by the current imaging modality vocab schema
+            term["data_type"] = term["data_type"][0]
+            single_datatype_terms.append(term)
 
     # Sanity check for any remaining terms with different suffixes but the same label
     duplicate_labels = get_terms_with_duplicate_labels(single_datatype_terms)
@@ -120,7 +126,7 @@ def main():
     vocab = [
         {
             **VOCAB_METADATA,
-            "terms": list(single_datatype_terms.values()),
+            "terms": single_datatype_terms,
         }
     ]
 
