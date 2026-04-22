@@ -89,6 +89,9 @@ def main():
         for group in datatype_info.values():
             for suffix in group["suffixes"]:
                 # NOTE: some suffixes are associated with multiple 'groups' within the same datatype (e.g., suffix "meg")
+                # Similarly, some suffixes are associated with multiple datatypes,
+                # so we keep track of all the datatypes in a list and then use it for duplicate detection downstream
+                # (list will be unpacked to a str for the final vocab file).
                 if suffix in terms:
                     if datatype not in terms[suffix]["data_type"]:
                         terms[suffix]["data_type"].append(datatype)
@@ -99,7 +102,7 @@ def main():
                         deprecation_descriptor in term["description"].lower()
                         for deprecation_descriptor in DEPRECATION_DESCRIPTORS
                     ):
-                        logger.warning(f"Skipping deprecated suffix: {suffix}")
+                        logger.info(f"Skipping deprecated suffix: {suffix}")
                     else:
                         terms[suffix] = term
 
