@@ -118,6 +118,11 @@ def main():
             term["data_type"] = term["data_type"][0]
             single_datatype_terms.append(term)
 
+    # Sort terms first by datatype and then by id to ensure a more stable output order
+    single_datatype_terms.sort(
+        key=lambda term: (term["data_type"], term["id"])
+    )
+
     # Sanity check for any remaining terms with different suffixes but the same label
     duplicate_labels = get_terms_with_duplicate_labels(single_datatype_terms)
     if duplicate_labels:
