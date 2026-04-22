@@ -46,7 +46,7 @@ def create_term_for_suffix(suffix: str, datatype: str) -> dict:
         "name": suffix_info["display_name"],
         "abbreviation": suffix,  # TODO: Can consider removing since 'id' will now always have the same value
         "description": suffix_info["description"],
-        # Some suffixes are associated with multiple datatypes
+        # Some suffixes are associated with multiple datatypes (e.g., "sbref")
         "data_type": [datatype],
     }
 
