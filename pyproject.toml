@@ -25,6 +25,7 @@ classifiers = [
 ]
 
 dependencies = [
+    "bidsschematools",
     "gspread",
     "pandas",
     "pandera[pandas]"
