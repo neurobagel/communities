@@ -1,6 +1,8 @@
 name: Update imaging modality vocab file from BIDS schema
 
 on:
+  # TODO: Once we have better-defined handling of BIDS suffix hierarchies (or once BIDS offers this)
+  # we can consider switching to a schedule-based workflow (e.g., monthly)
   workflow_dispatch:
 
 jobs:
