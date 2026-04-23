@@ -3,6 +3,7 @@ import json
 import logging
 import os
 import sys
+import time
 from pathlib import Path
 
 import gspread
@@ -17,6 +18,8 @@ VOCAB_METADATA_KEYS = [
     "vocabulary_name",
     "version",
 ]
+
+RETRY_HTTP_STATUS_CODES = [429, 503, 504]
 
 logging.basicConfig(
     level=logging.INFO,
@@ -63,23 +66,48 @@ def load_community_terms_manifest(community_config_dir: Path) -> dict:
         return json.load(f)
 
 
-def fetch_gsheet_to_df(gsheet_id: str) -> pd.DataFrame:
+def fetch_gsheet_to_df(
+    gsheet_id: str, max_retries: int = 3, retry_sleep_s: float = 2
+) -> pd.DataFrame:
     """Access and open a public Google spreadsheet by its ID (found in the spreadsheet URL after /d/)."""
-    try:
-        gsheet = gc.open_by_key(gsheet_id)
-    except (PermissionError, gspread.exceptions.APIError) as e:
-        # gspread may wrap the original APIError in a PermissionError,
-        # so we want to print the original cause if present
-        logger.error(f"Failed to access Google Sheet: {e.__cause__ or e}")
-        sys.exit(1)
-    vocab_worksheet = gsheet.get_worksheet(0)
-    vocab_df = pd.DataFrame(
-        vocab_worksheet.get_all_records(default_blank=None)
-    )
-    # Make column names case-insensitive
-    vocab_df = vocab_df.rename(columns=str.lower)
+    last_err = None
 
-    return vocab_df
+    for attempt in range(max_retries + 1):
+        try:
+            gsheet = gc.open_by_key(gsheet_id)
+            vocab_worksheet = gsheet.get_worksheet(0)
+            vocab_df = pd.DataFrame(
+                vocab_worksheet.get_all_records(default_blank=None)
+            )
+            # Make column names case-insensitive
+            vocab_df = vocab_df.rename(columns=str.lower)
+            return vocab_df
+        except PermissionError as e:
+            # gspread may wrap the original APIError in a PermissionError,
+            # so we want to print the original cause if present
+            last_err = e.__cause__ or e
+            break
+        except gspread.exceptions.APIError as e:
+            last_err = e.__cause__ or e
+            status_code = getattr(
+                getattr(e, "response", None), "status_code", None
+            )
+            if (
+                status_code in RETRY_HTTP_STATUS_CODES
+                and attempt < max_retries
+            ):
+                logger.warning(
+                    f"(Attempt {attempt+1}/{max_retries}) Potentially transient Google API error; "
+                    f"retrying in {retry_sleep_s}s. Error: {e.__cause__ or e}"
+                )
+                time.sleep(retry_sleep_s)
+                continue
+
+            # Not retryable or retries exhausted
+            break
+
+    logger.error(f"Failed to access or read Google Sheet: {last_err}")
+    sys.exit(1)
 
 
 def remove_rows_with_invalid_reason(vocab_table: pd.DataFrame) -> pd.DataFrame:
