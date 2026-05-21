@@ -39,6 +39,10 @@
       ],
       "terms": [
         {
+          "namespace_prefix": "scand",
+          "namespace_url": "https://vocab.neurobagel.org/communities/scand/assessments/"
+        },
+        {
           "namespace_prefix": "snomed",
           "namespace_url": "http://purl.bioontology.org/ontology/SNOMEDCT/"
         },
