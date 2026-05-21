@@ -1,0 +1,9 @@
+{
+  "assessment.json": {
+    "source_spreadsheet_id": "1WK5BAgp3j6EpOkT7tHlw0pDV4a-594iaZKDTiCPxdF0",
+    "namespace_prefix": "scand",
+    "namespace_url": "https://vocab.neurobagel.org/communities/scand/assessments/",
+    "vocabulary_name": "SCAND vocabulary of assessment terms",
+    "version": "1.0.0"
+  }
+}
