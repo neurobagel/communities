@@ -1,0 +1,80 @@
+[
+  {
+    "namespace_prefix": "scand",
+    "namespace_url": "https://vocab.neurobagel.org/communities/scand/assessments/",
+    "vocabulary_name": "SCAND vocabulary of assessment terms",
+    "version": "1.0.0",
+    "terms": [
+      {
+        "id": "trm_001",
+        "name": "Schizotypal Personality Questionnaire",
+        "abbreviation": "SPQ",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_002",
+        "name": "Scale for the Assessment of Negative Symptoms",
+        "abbreviation": "SANS",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_003",
+        "name": "MATRICS Consensus Cognitive Battery",
+        "abbreviation": "MCCB",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_004",
+        "name": "Awareness of Social Inference Test\u2013Revised",
+        "abbreviation": "TASIT-R",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_005",
+        "name": "Reading the Mind in the Eyes Test",
+        "abbreviation": "RMET",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_006",
+        "name": "Relationships Across Domains",
+        "abbreviation": "RAD",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_007",
+        "name": "Penn Emotion Recognition Task-40",
+        "abbreviation": "ER-40",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_008",
+        "name": "Interpersonal Reactivity Index",
+        "abbreviation": "IRI",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_009",
+        "name": "Schedule for the Deficit Syndrome",
+        "abbreviation": "SDS",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_010",
+        "name": "COWAT \u2013 Letter and Category Fluency",
+        "abbreviation": "COWAT",
+        "description": null,
+        "same_as": null
+      }
+    ]
+  }
+]
