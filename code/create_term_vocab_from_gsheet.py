@@ -67,7 +67,7 @@ def load_community_terms_manifest(community_config_dir: Path) -> dict:
 
 
 def fetch_gsheet_to_df(
-    gsheet_id: str, max_retries: int = 3, retry_sleep_s: float = 2
+    gsheet_id: str, max_retries: int = 5, retry_sleep_s: float = 2
 ) -> pd.DataFrame:
     """Access and open a public Google spreadsheet by its ID (found in the spreadsheet URL after /d/)."""
     last_err = None
