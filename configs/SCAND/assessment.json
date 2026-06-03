@@ -130,6 +130,27 @@
         "abbreviation": "TMT",
         "description": null,
         "same_as": null
+      },
+      {
+        "id": "trm_019",
+        "name": "NIH toolbox",
+        "abbreviation": "NIH",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_020",
+        "name": "California Verbal Learning and Memory Test",
+        "abbreviation": "CVLT-2",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_021",
+        "name": "Positive and Negative Syndrome Scale",
+        "abbreviation": "PANSS",
+        "description": null,
+        "same_as": null
       }
     ]
   }
