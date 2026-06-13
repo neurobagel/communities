@@ -74,6 +74,83 @@
         "abbreviation": "COWAT",
         "description": null,
         "same_as": null
+      },
+      {
+        "id": "trm_011",
+        "name": "Calgary Depression Scale for Schizophrenia",
+        "abbreviation": "CDSS",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_012",
+        "name": "Brief Psychiatric Rating Scale",
+        "abbreviation": "BPRS",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_013",
+        "name": "The Birchwood Scale of Social Functioning",
+        "abbreviation": "BSFS",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_014",
+        "name": "Quality of Life Scale ",
+        "abbreviation": "QLS",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_015",
+        "name": "Repeatable Battery for the Assessment of Neuropsychological Status",
+        "abbreviation": "RBANS",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_016",
+        "name": "Stroop Neuropsychological Screening Test",
+        "abbreviation": "SNST",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_017",
+        "name": "Finger Tapping",
+        "abbreviation": "FT",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_018",
+        "name": "Trail Making Test",
+        "abbreviation": "TMT",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_019",
+        "name": "NIH toolbox",
+        "abbreviation": "NIH",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_020",
+        "name": "California Verbal Learning and Memory Test",
+        "abbreviation": "CVLT-2",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_021",
+        "name": "Positive and Negative Syndrome Scale",
+        "abbreviation": "PANSS",
+        "description": null,
+        "same_as": null
       }
     ]
   }
