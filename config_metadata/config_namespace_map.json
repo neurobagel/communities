@@ -39,6 +39,10 @@
       ],
       "terms": [
         {
+          "namespace_prefix": "nichy",
+          "namespace_url": "https://nichy-consortium.github.io/nichy/vocab/assessments/"
+        },
+        {
           "namespace_prefix": "ncit",
           "namespace_url": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#"
         },
