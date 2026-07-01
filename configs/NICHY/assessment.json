@@ -1,0 +1,70 @@
+[
+  {
+    "namespace_prefix": "nichy",
+    "namespace_url": "https://nichy-consortium.github.io/nichy/vocab/assessments/",
+    "vocabulary_name": "NICHY vocabulary of assessment terms",
+    "version": "1.0.0",
+    "terms": [
+      {
+        "id": "trm_001",
+        "name": "excessive daytime sleepiness onset",
+        "abbreviation": "EDS",
+        "description": "onset of excessive daytime sleepiness (EDS)"
+      },
+      {
+        "id": "trm_002",
+        "name": "sleep paralysis",
+        "abbreviation": null,
+        "description": "presence of sleep paralysis"
+      },
+      {
+        "id": "trm_003",
+        "name": "cataplexy",
+        "abbreviation": null,
+        "description": "presence of cataplexy"
+      },
+      {
+        "id": "trm_004",
+        "name": "gender",
+        "abbreviation": null,
+        "description": "gender (not biological sex)"
+      },
+      {
+        "id": "trm_005",
+        "name": "hypersomnolence medication",
+        "abbreviation": null,
+        "description": "hypersomnolence disorder specific medication"
+      },
+      {
+        "id": "trm_006",
+        "name": "Epworth sleepiness scale",
+        "abbreviation": "ESS",
+        "description": "total score on the Epworth Sleepiness Scale (ESS)"
+      },
+      {
+        "id": "trm_007",
+        "name": "polysomnography total sleep time",
+        "abbreviation": "TST",
+        "description": "total sleep time from overall recording (daytime + nocturnal period)"
+      },
+      {
+        "id": "trm_008",
+        "name": "hypocretin deficiency",
+        "abbreviation": null,
+        "description": "hypocretin deficiency based on CSF measurements"
+      },
+      {
+        "id": "trm_009",
+        "name": "hypersomnia severity index",
+        "abbreviation": "HSI",
+        "description": "total score on the hypersomnia severity index (HSI)"
+      },
+      {
+        "id": "trm_010",
+        "name": "insomnia severity index",
+        "abbreviation": "ISI",
+        "description": "total score on the insomnia severity index (ISI)"
+      }
+    ]
+  }
+]
