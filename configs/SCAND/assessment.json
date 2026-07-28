@@ -151,6 +151,20 @@
         "abbreviation": "PANSS",
         "description": null,
         "same_as": null
+      },
+      {
+        "id": "trm_022",
+        "name": "UCSD Performance-Based Skills Assessment",
+        "abbreviation": "UPSA",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_023",
+        "name": "N-back Task Cognitive Assessment",
+        "abbreviation": "N-BACK",
+        "description": null,
+        "same_as": null
       }
     ]
   }
