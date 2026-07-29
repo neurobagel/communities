@@ -175,9 +175,9 @@
       },
       {
         "id": "trm_036",
-        "name": "Hoehn and Yarh stage",
+        "name": "Hoehn and Yahr stage",
         "abbreviation": "Hoehn_Yahr_stage",
-        "description": "Hoehn and Yarh stage; a clinical rating scale to describe severity and progression of motor symptoms in Parkinson's Disease"
+        "description": "Hoehn and Yahr stage; a clinical rating scale to describe severity and progression of motor symptoms in Parkinson's Disease"
       },
       {
         "id": "trm_086",
