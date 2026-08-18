@@ -1,0 +1,1072 @@
+[
+  {
+    "namespace_prefix": "nichy",
+    "namespace_url": "https://nichy-consortium.github.io/nichy/vocab/assessments/",
+    "vocabulary_name": "NICHY vocabulary of assessment terms",
+    "version": "1.0.0",
+    "terms": [
+      {
+        "id": "mri_difference",
+        "name": "MRI subject ID (only select if there are multiple subject IDs)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "eunn_id",
+        "name": "EUNN database ID",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "month_of_birth",
+        "name": "Month of birth",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "year_of_birth",
+        "name": "Year of Birth",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "gender",
+        "name": "Gender identity",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "ethnicgroup",
+        "name": "Ethnic group",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "height",
+        "name": "Subject height",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "weight",
+        "name": "Subject weight",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "bmi",
+        "name": "Body Mass Index (BMI)",
+        "abbreviation": "BMI",
+        "description": null
+      },
+      {
+        "id": "education",
+        "name": "Total number of years of education (including primary school without preschool)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "vaccinationagainst",
+        "name": "Received 2009-2010 H1N1 vaccination before onset of central disorders of hypersomnolence",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "vaccinationtype",
+        "name": "Type of H1N1 vaccination",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "date_of_mri",
+        "name": "Date MRI acquisition",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "dateofvisit",
+        "name": "Date clinical assessment (symptoms presence and severity)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "data_availability_medication",
+        "name": "Medication status during MRI acquisition",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "data_availability_medication_other_1",
+        "name": "Number of days of discontinuation medication leading up to MRI",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complainthistorytaking",
+        "name": "Hypersomnolence medication use during clinical assessment",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "mostlyuseddrug1name",
+        "name": "Name of hypersomnolence disorder specific medication used at time of MRI acquisition",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "mostlyuseddrug1date",
+        "name": "Dosage and frequency of hypersomnolence disorder specific medication used at time of MRI acquisition",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "mostlyuseddrug1dose",
+        "name": "Start date of hypersomnolence disorder specific medication used at time of MRI acquisition",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complainteds",
+        "name": "Presence of excessive daytime sleepiness (EDS)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complaintedssince",
+        "name": "Year of excessive daytime sleepiness (EDS) onset",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complaintedsepisodesofirr",
+        "name": "Presence of episodes of irresistible daytime sleep",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complaintedsfrequ",
+        "name": "Frequency of unintended sleep episodes",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complaintedsnrofnapsaday",
+        "name": "Frequency of total naps (unintended + scheduled naps combined)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complaintedsnapduration",
+        "name": "Duration per unscheduled sleep episode (in the majority of episodes)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complaintedsschedulednapsf",
+        "name": "Frequency of scheduled naps",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complaintedsnrschednapsday",
+        "name": "Number of scheduled naps per day",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complaintedsschedulednapsd",
+        "name": "Duration per scheduled nap (in the majority of episodes)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complaintedstotalsleeptime",
+        "name": "Average cumulative duration of daytime sleep (unintended + scheduled), averaged over the full week (e.g. 2 days with each 3.5h and 5 days without nap: 60 minutes)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complaintedsnaprefreshing",
+        "name": "Sleep episodes are refreshing",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complaintedswakinguponday",
+        "name": "Experience waking up upon daytime sleep (e.g. easy, difficult, nearly impossible to wake up)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complaintcataplexy",
+        "name": "Presence cataplexy",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complaintcataplexycertaint",
+        "name": "Cataplexy certainty",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complaintcataplexysince",
+        "name": "Year of cataplexy onset",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complaintcataplexyemotions",
+        "name": "Cataplexy triggered by emotions",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "emotions_classification_Laughing",
+        "name": "Cataplexy triggers (e.g. laughing, being angry, being startled, telling a joke, being concentrated, running, eating, feeling proud, watching funny programs, spontaneously, unknown)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complaintcataplexyfrequ",
+        "name": "Cataplexy frequency (average frequency of occurence of episodes of muscle weakness, complete and partial attacks combined)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complaintcataplexyconsciou",
+        "name": "Consciousness during cataplexy (e.g. preserved throughout the attack, preserved in the beginning of the attack, lost, unknown)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complaintcataplexyduration",
+        "name": "Duration of a single cataplexy attack (in the majority of attacks)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "Body_parts_envolvment_Whole_body",
+        "name": "Possibly involved body parts with muscle weakness during a cataplexy attack (on a recurring basis, e.g. whole body, face/jaw, neck/head drop, knees, arms/hands)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complaintcataplexycmusclef",
+        "name": "Return of muscle function after cataplexy",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complaintsp",
+        "name": "Presence of sleep paralysis",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complaintspcerainty",
+        "name": "Sleep paralysis certainty",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complaintspsince",
+        "name": "Onset of sleep paralysis",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complaintspfrequency",
+        "name": "Frequency of sleep paralysis",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complaintspappearsduring",
+        "name": "Sleep paralysis timing (during falling asleep, waking up, both, unknown)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complainthh",
+        "name": "Presence hypnagogic/hypnopompic hallucinations",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complainthhcretainty",
+        "name": "Certainty hypnagogic/hypnopompic hallucinations",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complainthhsince",
+        "name": "Onset of hypnagogic/hypnopompic hallucinations",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complainthhfrequency",
+        "name": "Frequency of hypnagogic/hypnopompic hallucinations",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complainthhappearsduring",
+        "name": "Hypnagogic/hypnopompic hallucinations timing (during falling asleep, waking up, both, unknown)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complainthhappearstogether",
+        "name": "Co-occurrence sleep paralysis and hypnagogic/hypnopompic hallucinations",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complaintnsdurationtoeds",
+        "name": "Change in nocturnal sleep duration since EDS started",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complaintnsestimatedsleepl",
+        "name": "Estimated subjective sleep latency (mean duration between 'lights off' and sleep onset, as estimated by the patient)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complaintdisturbedns",
+        "name": "Presence disturbed nocturnal sleep",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complaintdisturbednssince",
+        "name": "Onset of disturbed nocturnal sleep",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complaintawakenings",
+        "name": "Number of nightly awakenings according to the patient",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complaintawakeningsdur",
+        "name": "Average cumulative duration of awakenings per night according to the patient",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complaintdnstimeinbed",
+        "name": "Subjective time in bed during nighttime sleep episodes (averaged over the full week, not including naps)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complaintnssleeplengthweek",
+        "name": "Subjective sleep length during nighttime sleep episodes (averaged over the full week, not including naps)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complaintdnstimeinbed_we",
+        "name": "Subjective daily sleep length (averaged over the full week, e.g. scheduled naps and sleep attacks 1h, nighttime sleep 8h: 9h)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complaintnssleeplengthdiff",
+        "name": "Subjective weekend-week day daily sleep length difference (e.g. weekend day 9h, week day 8.5h: 0.5h)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complaintdnsdrunkenness",
+        "name": "Presence of sleep drunkenness in the morning",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "complaintdnsdrunkennesstyp",
+        "name": "Sleep drunkenness severity",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "during_sleep_Sleep_walking",
+        "name": "Presence of behaviours during sleep - subjective experience (e.g. sleep walking, snoring, interrupted breathing, violent behaviour during sleep, frequent nightmares, dream enactment, nocturnal eating, unknown)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "neurocognitive_symtpoms_Attention",
+        "name": "Subjective experience of neurocognitive symptoms (e.g. attention, concentrating, learning, memory, distraction, impulsiveness, procastination, unknown)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "other_symtpoms_Fatigue",
+        "name": "Presence of other symptoms (e.g. automatic behaviour, fatigue, mood complaints, relevant weight gain, episodes of uncontrolled eating behaviour, currently smoking, addictive behaviour, libido/erection problems, unknown)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "beveragesofcaffeine",
+        "name": "Number of daily caffeinated drinks (e.g., coffee, non-herbal tea, energy drinks, soda like Coca Cola)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "cat_sys",
+        "name": "International Classification of Sleep Disorders (ICSD) classification system use (ICSD-2/ICSD-3/ICSD3-TR)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "icsd3tr_insomnia_1",
+        "name": "ICSD insomnia diagnosis presence",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "icsd3tr_breathing_1",
+        "name": "ICSD breathing disorder diagnosis presence (e.g., OSAS/CSAS)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "icsd3tr_hypersomn_1",
+        "name": "ICSD hypersomnolence diagnosis (e.g., NT1, NT2, IH, KLS)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "icsd3tr_circadian_1",
+        "name": "ICSD circadian rhythm disorder diagnosis presence",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "icsd3tr_parasomnia_1",
+        "name": "ICSD parasomnia diagnosis presence",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "icsd3tr_sleeprel_1",
+        "name": "ICSD sleep-related movement disorder diagnosis (e.g., RLS, PLMD, bruxism, myoclonus)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "icsd3tr_othersleep_1",
+        "name": "ICSD other sleep disorder diagnosis presence",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "sleepdiagnosiscertainty",
+        "name": "Physician certainty of the Central Hypersomnolence Disorder diagnosis (e.g., possible, probable, definite)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "sleepdiagnosisdate",
+        "name": "Date of central hypersomnolence disorder diagnosis",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "neurologic_diagnosis",
+        "name": "Presence of (other) neurologic comorbidities",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "psychaitric_diagnosis",
+        "name": "Presence of psychiatric comorbidities",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "gen_med_diag_1",
+        "name": "Presence of other comorbidities",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "AES_total",
+        "name": "Total score Apathy Evaluation Scale (AES)",
+        "abbreviation": "AES",
+        "description": null
+      },
+      {
+        "id": "BAI_total",
+        "name": "Total score Beck Anxiety Inventory (BAI)",
+        "abbreviation": "BAI",
+        "description": null
+      },
+      {
+        "id": "BDI_total",
+        "name": "Total score Beck Depression Inventory (BDI)",
+        "abbreviation": "BDI",
+        "description": null
+      },
+      {
+        "id": "ESS_total",
+        "name": "Total score Epworth Sleepiness Scale (ESS)",
+        "abbreviation": "ESS",
+        "description": null
+      },
+      {
+        "id": "ESSCHAD_total",
+        "name": "Total score Epworth Sleepiness Scale for Children and Adolescents (ESS-CHAD)",
+        "abbreviation": "ESSCHAD",
+        "description": null
+      },
+      {
+        "id": "FSS_total",
+        "name": "Total score Fatigue Severity Scale (FSS, provide mean score)",
+        "abbreviation": "FSS",
+        "description": null
+      },
+      {
+        "id": "HADS_total",
+        "name": "Hospital Anxiety and Depression Scale (HADS) total",
+        "abbreviation": "HADS",
+        "description": null
+      },
+      {
+        "id": "HADS_Anxiety",
+        "name": "Hospital Anxiety and Depression Scale (HADS) Anxiety subscale score",
+        "abbreviation": "HADS",
+        "description": null
+      },
+      {
+        "id": "HADS_Depression",
+        "name": "Hospital Anxiety and Depression Scale (HADS) Depression subscale score",
+        "abbreviation": "HADS",
+        "description": null
+      },
+      {
+        "id": "HAMA_total",
+        "name": "Total score Hamilton Anxiety Rating Scale (HAM-A)",
+        "abbreviation": "HAMA",
+        "description": null
+      },
+      {
+        "id": "HAMD_total",
+        "name": "Total score Hamilton Depression Rating Scale (HAM-D)",
+        "abbreviation": "HAMD",
+        "description": null
+      },
+      {
+        "id": "HSI_total",
+        "name": "Total score Hypersomnia Severity Index (HSI)",
+        "abbreviation": "HSI",
+        "description": null
+      },
+      {
+        "id": "IHSS_total",
+        "name": "Total score Idiopathic Hypersomnia Severity Scale (IHSS)",
+        "abbreviation": "IHSS",
+        "description": null
+      },
+      {
+        "id": "ISI_total",
+        "name": "Total score Insomnia Severity Index (ISI)",
+        "abbreviation": "ISI",
+        "description": null
+      },
+      {
+        "id": "KSS_total",
+        "name": "Total score Karolinska Sleepiness Scale (KSS)",
+        "abbreviation": "KSS",
+        "description": null
+      },
+      {
+        "id": "MCTQ_MSFsc",
+        "name": "Munich Chronotype Questionnaire (MCTQ) mid-sleep on free days, sleep-corrected (MSFsc), as clock time (HH:MM)",
+        "abbreviation": "MCTQ",
+        "description": null
+      },
+      {
+        "id": "MCTQ_SJL",
+        "name": "Munich Chronotype Questionnaire (MCTQ) social jetlag (SJL)",
+        "abbreviation": "MCTQ",
+        "description": null
+      },
+      {
+        "id": "MEQ_total",
+        "name": "Total score Morningness-Eveningness Questionnaire (MEQ)",
+        "abbreviation": "MEQ",
+        "description": null
+      },
+      {
+        "id": "NART_IQ_total",
+        "name": "National Adult Reading Test (NART), calculated IQ",
+        "abbreviation": "NART",
+        "description": null
+      },
+      {
+        "id": "NSS_total",
+        "name": "Total score Narcolepsy Severity Scale (NSS)",
+        "abbreviation": "NSS",
+        "description": null
+      },
+      {
+        "id": "NSS_P_total",
+        "name": "Total score Pediatric Narcolepsy Severity Scale (NSS-P)",
+        "abbreviation": "NSS",
+        "description": null
+      },
+      {
+        "id": "PSQI_total",
+        "name": "Total score Pittsburgh Sleep Quality Index (PSQI)",
+        "abbreviation": "PSQI",
+        "description": null
+      },
+      {
+        "id": "RAND36_PF_subscale",
+        "name": "RAND 36-Item Health Survey (RAND-36) - Physical Functioning subscale",
+        "abbreviation": "RAND36_PF",
+        "description": null
+      },
+      {
+        "id": "RAND36_RP_subscale",
+        "name": "RAND 36-Item Health Survey (RAND-36) - Role limitations due to physical health subscale",
+        "abbreviation": "RAND36_RP",
+        "description": null
+      },
+      {
+        "id": "RAND36_BP_subscale",
+        "name": "RAND 36-Item Health Survey (RAND-36) - Bodily Pain subscale",
+        "abbreviation": "RAND36_BP",
+        "description": null
+      },
+      {
+        "id": "RAND36_GH_subscale",
+        "name": "RAND 36-Item Health Survey (RAND-36) - General Health subscale",
+        "abbreviation": "RAND36_GH",
+        "description": null
+      },
+      {
+        "id": "RAND36_VT_subscale",
+        "name": "RAND 36-Item Health Survey (RAND-36) - Vitality, Energy and Fatigue subscale",
+        "abbreviation": "RAND36_VT",
+        "description": null
+      },
+      {
+        "id": "RAND36_SF_subscale",
+        "name": "RAND 36-Item Health Survey (RAND-36) - Social Functioning subscale",
+        "abbreviation": "RAND36_SF",
+        "description": null
+      },
+      {
+        "id": "RAND36_RE_subscale",
+        "name": "RAND 36-Item Health Survey (RAND-36) - Role limitations due to emotional problems subscale",
+        "abbreviation": "RAND36_RE",
+        "description": null
+      },
+      {
+        "id": "RAND36_MH_subscale",
+        "name": "RAND 36-Item Health Survey (RAND-36) - Mental Health subscale",
+        "abbreviation": "RAND36_MH",
+        "description": null
+      },
+      {
+        "id": "RBD1Q_total",
+        "name": "Score REM Sleep Behaviour Disorder Single-Question Screen (RBD1Q)",
+        "abbreviation": "RBD1Q",
+        "description": null
+      },
+      {
+        "id": "RBDSQ_total",
+        "name": "Total score REM Sleep Behaviour Disorder Screening Questionnaire (RBD-SQ)",
+        "abbreviation": "RBDSQ",
+        "description": null
+      },
+      {
+        "id": "RLSRS_total",
+        "name": "Total score Restless Legs Syndrome Rating Scale (RLSRS)",
+        "abbreviation": "RLSRS",
+        "description": null
+      },
+      {
+        "id": "SF36_PF_subscale",
+        "name": "Short Form Health Survey (SF-36) - Physical Functioning subscale",
+        "abbreviation": "SF36_PF",
+        "description": null
+      },
+      {
+        "id": "SF36_RP_subscale",
+        "name": "Short Form Health Survey (SF-36) - Role limitations due to physical health subscale",
+        "abbreviation": "SF36_RP",
+        "description": null
+      },
+      {
+        "id": "SF36_BP_subscale",
+        "name": "Short Form Health Survey (SF-36) - Bodily Pain subscale",
+        "abbreviation": "SF36_BP",
+        "description": null
+      },
+      {
+        "id": "SF36_GH_subscale",
+        "name": "Short Form Health Survey (SF-36) - General Health subscale",
+        "abbreviation": "SF36_GH",
+        "description": null
+      },
+      {
+        "id": "SF36_VT_subscale",
+        "name": "Short Form Health Survey (SF-36) - Vitality, Energy and Fatigue subscale",
+        "abbreviation": "SF36_VT",
+        "description": null
+      },
+      {
+        "id": "SF36_SF_subscale",
+        "name": "Short Form Health Survey (SF-36) - Social Functioning subscale",
+        "abbreviation": "SF36_SF",
+        "description": null
+      },
+      {
+        "id": "SF36_RE_subscale",
+        "name": "Short Form Health Survey (SF-36) - Role limitations due to emotional problems subscale",
+        "abbreviation": "SF36_RE",
+        "description": null
+      },
+      {
+        "id": "SF36_MH_subscale",
+        "name": "Short Form Health Survey (SF-36) - Mental Health subscale",
+        "abbreviation": "SF36_MH",
+        "description": null
+      },
+      {
+        "id": "SF36_PCS",
+        "name": "Short Form Health Survey (SF-36) - Physical Component Summary",
+        "abbreviation": "SF36_PC",
+        "description": null
+      },
+      {
+        "id": "SF36_MCS",
+        "name": "Short Form Health Survey (SF-36) - Mental Component Summary",
+        "abbreviation": "SF36_MC",
+        "description": null
+      },
+      {
+        "id": "SIQ_total",
+        "name": "Total score Sleep Inertia Questionnaire (SIQ)",
+        "abbreviation": "SIQ",
+        "description": null
+      },
+      {
+        "id": "SNS_total",
+        "name": "Total score Swiss Narcolepsy Scale (SNS)",
+        "abbreviation": "SNS",
+        "description": null
+      },
+      {
+        "id": "SSS_total",
+        "name": "Total score Stanford Sleepiness Scale (SSS)",
+        "abbreviation": "SSS",
+        "description": null
+      },
+      {
+        "id": "STOPBANG_total",
+        "name": "Total score STOP-BANG Questionnaire for Obstructive Sleep Apnea (STOP-BANG)",
+        "abbreviation": "STOPBANG",
+        "description": null
+      },
+      {
+        "id": "UNS_total",
+        "name": "Total score Ullanlinna Narcolepsy Scale (UNS)",
+        "abbreviation": "UNS",
+        "description": null
+      },
+      {
+        "id": "psg_medication",
+        "name": "Hypersomnolence medication use during PSG",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "psg_date",
+        "name": "Date of the PSG",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "psg_acq_setting",
+        "name": "PSG acquisition setting (ambulatory, clinical)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "psg_protocol_extended",
+        "name": "Use of extended PSG protocol (24/32 hours)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "psg_recording_duration",
+        "name": "PSG total recording duration",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "psg_sleep_time_day_noct",
+        "name": "PSG Total sleep time from overall recording (daytime + nocturnal period)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "psg_sleep_time_noct_only",
+        "name": "PSG nocturnal sleep time",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "sleep_efficiency",
+        "name": "PSG Sleep efficiency (%)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "psg_sleep_latency",
+        "name": "PSG Sleep latency to any sleep stage",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "psg_rem_latency",
+        "name": "PSG REM latency",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "psg_soremp",
+        "name": "PSG Sleep-Onset REM Period (SOREMP) presence",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "psg_NREM1_duration",
+        "name": "PSG NREM1 sleep duration",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "psg_NREM2_duration",
+        "name": "PSG NREM2 sleep duration",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "psg_NREM3_duration",
+        "name": "PSG NREM3 sleep duration",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "psg_REM_duration",
+        "name": "PSG REM sleep duration",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "psg_AHI",
+        "name": "PSG Apnea-Hypopnea Index (AHI)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "psg_PLMI",
+        "name": "PSG Periodic Limb Movement Index (PLMI)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "psg_RSWA",
+        "name": "PSG REM Sleep Without Atonia percentage (RSWA)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "psg_WASO",
+        "name": "PSG Wake After Sleep Onset (WASO)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "psg_arousal_index",
+        "name": "PSG Arousal Index",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "mslt_medication",
+        "name": "Hypersomnolence medication use during MSLT",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "mslt_n_trials",
+        "name": "Number of MSLT trials",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "mslt_date",
+        "name": "Date of Multiple Sleep Latency Test (MSLT)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "mslt_n_trials_sleep",
+        "name": "MSLT Nap trials with sleep (count)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "mslt_n_trials_REM_sleep",
+        "name": "MSLT Nap trials with REM sleep within 15 minutes after sleep onset (SOREMP, count)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "mslt_mean_sleep_lat",
+        "name": "MSLT Mean sleep latency to any sleep stage across all naps",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "mslt_mean_REM_sleep_lat",
+        "name": "MSLT Mean REM sleep latency after sleep onset across all naps",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "mwt_date",
+        "name": "Date of Maintenance of Wakefulness Test (MWT)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "mwt_medication",
+        "name": "Hypersomnolence medication use during MWT",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "mwt_n_trials",
+        "name": "Number of MWT trials",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "mwt_n_trials_sleep",
+        "name": "MWT Trials with sleep (count)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "mwt_n_trials_REM_sleep",
+        "name": "MWT Trials with REM sleep (count)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "mwt_mean_sleep_lat",
+        "name": "MWT Mean sleep latency across all trials",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "mwt_min_sleep_lat",
+        "name": "MWT Minimum sleep latency across all trials",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "mwt_max_sleep_lat",
+        "name": "MWT Maximum sleep latency across all trials",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "actigraphy_days",
+        "name": "Actigraphy recording duration",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "actigraphy_medication",
+        "name": "Hypersomnolence medication use during actigraphy",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "date_start_actigraphy",
+        "name": "Start date of actigraphy",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "actigraphy_rest",
+        "name": "Actigraphy percentage of the 24-hour period",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "actigraphy_mean_onset_rest",
+        "name": "Actigraphy mean onset time of the nocturnal rest period",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "actigraphy_mean_offset_rest",
+        "name": "Actigraphy mean end time of the nocturnal rest period",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "hla_dqb",
+        "name": "HLA DQB1*0602 positivity",
+        "abbreviation": "HLA",
+        "description": null
+      },
+      {
+        "id": "hla_hypocretin",
+        "name": "Absolute hypocretin (orexin) level",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "hypocretin_deficient",
+        "name": "Hypocretin (orexin) deficiency presence",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "hypocretin_date",
+        "name": "Date of hypocretin (orexin) assessment ",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "hypocretin_assay",
+        "name": "Type of hypocretin (orexin) assay (e.g., radioimmunoassay, RIA)",
+        "abbreviation": null,
+        "description": null
+      },
+      {
+        "id": "hla_stanford",
+        "name": "Type of hypocretin (orexin) reference method (e.g., Stanford)",
+        "abbreviation": null,
+        "description": null
+      }
+    ]
+  }
+]

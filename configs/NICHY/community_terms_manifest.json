@@ -1,0 +1,9 @@
+{
+  "assessment.json": {
+    "source_spreadsheet_id": "1DGRYWOF0n4RBbWnF3LO2ILSoAStKgviFUd8GYm9E-fk",
+    "namespace_prefix": "nichy",
+    "namespace_url": "https://nichy-consortium.github.io/nichy/vocab/assessments/",
+    "vocabulary_name": "NICHY vocabulary of assessment terms",
+    "version": "1.0.0"
+  }
+}
