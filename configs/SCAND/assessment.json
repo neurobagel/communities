@@ -165,6 +165,181 @@
         "abbreviation": "N-BACK",
         "description": null,
         "same_as": null
+      },
+      {
+        "id": "trm_024",
+        "name": "Task-switching Task",
+        "abbreviation": "TST",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_025",
+        "name": "Spatial Capacity Task (SCAP)",
+        "abbreviation": "SCAP",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_026",
+        "name": "Verbal Capacity Task (VCAP)",
+        "abbreviation": "VCAP",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_027",
+        "name": "Delay Discounting Task (DDT)",
+        "abbreviation": "DDT",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_028",
+        "name": "Balloon Analog Risk Task (BART)",
+        "abbreviation": "BART",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_029",
+        "name": "Attention Network Task (ANT)",
+        "abbreviation": "ANT",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_030",
+        "name": "Continuous Performance Go/NoGo Task (CPT)",
+        "abbreviation": "CPT",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_031",
+        "name": "Stroop Color Word Task (SCWT)",
+        "abbreviation": "SCWT",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_032",
+        "name": "Stop Signal Task (SST)",
+        "abbreviation": "SST",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_033",
+        "name": "Scene Recognition Task",
+        "abbreviation": "SRT",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_034",
+        "name": "Remember-Know Task",
+        "abbreviation": "RKT",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_035",
+        "name": "Spatial Maintenance and Manipulation Task (SMNM)",
+        "abbreviation": "SMNM",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_036",
+        "name": "Verbal Maintenance and Manipulation Task (VMNM)",
+        "abbreviation": "VMNM",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_037",
+        "name": "Probabilistic Reversal Learning Task (PRLT)",
+        "abbreviation": "PRLT",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_038",
+        "name": "Deterministic Reversal Learning Task (DRLT)",
+        "abbreviation": "DRLT",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_040",
+        "name": "WMS-IV Symbol Span",
+        "abbreviation": "WMS-SS",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_041",
+        "name": "WMS-IV Visual Reproduction",
+        "abbreviation": "WMS-VP",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_042",
+        "name": "WAIS-IV Letter Number Sequencing",
+        "abbreviation": "WAIS-LNS",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_043",
+        "name": "WMS-IV Digit Span",
+        "abbreviation": "WMS-DS",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_044",
+        "name": "WAIS-IV Vocabulary",
+        "abbreviation": "WAIS-VC",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_045",
+        "name": "WAIS-IV Matrix Reasoning",
+        "abbreviation": "WAIS-MR",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_046",
+        "name": "Color Trails Test",
+        "abbreviation": "CTT",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_047",
+        "name": "Young Mania Rating Scale-C",
+        "abbreviation": "YMRS",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_048",
+        "name": "Scale for the Assessment of Positive Symptoms",
+        "abbreviation": "SAPS",
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_049",
+        "name": "Hamilton Psychiatric Rating Scale for Depression (HAMD-28)",
+        "abbreviation": "HAMD-28",
+        "description": null,
+        "same_as": null
       }
     ]
   }
