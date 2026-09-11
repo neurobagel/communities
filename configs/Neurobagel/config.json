@@ -37,21 +37,22 @@
         "formats": [
           {
             "id": "FromFloat",
-            "name": "float",
+            "name": "decimal",
             "examples": [
+              "31",
               "31.5"
             ]
           },
           {
             "id": "FromEuro",
-            "name": "euro",
+            "name": "European decimal",
             "examples": [
               "31,5"
             ]
           },
           {
             "id": "FromBounded",
-            "name": "bounded",
+            "name": "lower-bounded",
             "examples": [
               "30+"
             ]
@@ -65,7 +66,7 @@
           },
           {
             "id": "FromISO8601",
-            "name": "iso8601",
+            "name": "ISO 8601",
             "examples": [
               "31Y6M"
             ]
