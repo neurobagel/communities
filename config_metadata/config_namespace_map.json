@@ -138,6 +138,10 @@
       ],
       "terms": [
         {
+          "namespace_prefix": "enigmaaddict",
+          "namespace_url": "https://vocab.neurobagel.org/communities/enigmaaddict/assessments/"
+        },
+        {
           "namespace_prefix": "snomed",
           "namespace_url": "http://purl.bioontology.org/ontology/SNOMEDCT/"
         },
