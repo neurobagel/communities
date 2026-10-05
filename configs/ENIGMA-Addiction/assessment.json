@@ -1,0 +1,6674 @@
+[
+  {
+    "namespace_prefix": "enigmaaddict",
+    "namespace_url": "https://vocab.neurobagel.org/communities/enigmaaddict/assessments/",
+    "vocabulary_name": "ENIGMA Addiction vocabulary of assessment terms",
+    "version": "1.0.0",
+    "terms": [
+      {
+        "id": "trm_001",
+        "name": "Alcohol Use Disorder: age of onset",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_002",
+        "name": "Alcohol Use Disorder: current remission",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_003",
+        "name": "Alcohol Use Disorder: current severity",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_004",
+        "name": "Alcohol Use Disorder: diagnosis current",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_005",
+        "name": "Alcohol Use Disorder: diagnosis lifetime",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_006",
+        "name": "Alcohol Use Disorder: diagnosis past year",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_007",
+        "name": "Alcohol Use Disorder: duration current episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_008",
+        "name": "Alcohol Use Disorder: duration last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_009",
+        "name": "Alcohol Use Disorder: duration second-to-last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_010",
+        "name": "Alcohol Use Disorder: lifetime symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_011",
+        "name": "Alcohol Use Disorder: number of past episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_012",
+        "name": "Alcohol Use Disorder: remission specifier",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_013",
+        "name": "Alcohol: average daily use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_014",
+        "name": "Alcohol: average weekly use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_015",
+        "name": "Alcohol: duration current abstinence",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_016",
+        "name": "Alcohol: duration last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_017",
+        "name": "Alcohol: duration second-to-last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_018",
+        "name": "Alcohol: ever used",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_019",
+        "name": "Alcohol: first use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_020",
+        "name": "Alcohol: last week use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_021",
+        "name": "Alcohol: lifetime number of past abstinence episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_022",
+        "name": "Alcohol: lifetime use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_023",
+        "name": "Alcohol: onset regular use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_024",
+        "name": "Alcohol: past month use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_025",
+        "name": "Alcohol: past year number of unsuccessful quit attempts",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_026",
+        "name": "Alcohol: past year symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_027",
+        "name": "Alcohol: past year use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_028",
+        "name": "Alcohol: typical product use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_029",
+        "name": "Amphetamine Use Disorder: age of onset",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_030",
+        "name": "Amphetamine Use Disorder: current remission",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_031",
+        "name": "Amphetamine Use Disorder: current severity",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_032",
+        "name": "Amphetamine Use Disorder: diagnosis current",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_033",
+        "name": "Amphetamine Use Disorder: diagnosis lifetime",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_034",
+        "name": "Amphetamine Use Disorder: diagnosis past year",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_035",
+        "name": "Amphetamine Use Disorder: duration current episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_036",
+        "name": "Amphetamine Use Disorder: duration last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_037",
+        "name": "Amphetamine Use Disorder: duration second-to-last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_038",
+        "name": "Amphetamine Use Disorder: lifetime symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_039",
+        "name": "Amphetamine Use Disorder: number of past episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_040",
+        "name": "Amphetamine Use Disorder: remission specifier",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_041",
+        "name": "Amphetamine: average daily use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_042",
+        "name": "Amphetamine: average weekly use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_043",
+        "name": "Amphetamine: duration current abstinence",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_044",
+        "name": "Amphetamine: duration last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_045",
+        "name": "Amphetamine: duration second-to-last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_046",
+        "name": "Amphetamine: ever used",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_047",
+        "name": "Amphetamine: first use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_048",
+        "name": "Amphetamine: last week use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_049",
+        "name": "Amphetamine: lifetime number of past abstinence episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_050",
+        "name": "Amphetamine: lifetime use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_051",
+        "name": "Amphetamine: onset regular use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_052",
+        "name": "Amphetamine: past month use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_053",
+        "name": "Amphetamine: past year number of unsuccessful quit attempts",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_054",
+        "name": "Amphetamine: past year symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_055",
+        "name": "Amphetamine: past year use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_056",
+        "name": "Amphetamine: typical product use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_057",
+        "name": "Anxiolytic Use Disorder: age of onset",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_058",
+        "name": "Anxiolytic Use Disorder: current remission",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_059",
+        "name": "Anxiolytic Use Disorder: current severity",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_060",
+        "name": "Anxiolytic Use Disorder: diagnosis current",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_061",
+        "name": "Anxiolytic Use Disorder: diagnosis lifetime",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_062",
+        "name": "Anxiolytic Use Disorder: diagnosis past year",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_063",
+        "name": "Anxiolytic Use Disorder: duration current episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_064",
+        "name": "Anxiolytic Use Disorder: duration last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_065",
+        "name": "Anxiolytic Use Disorder: duration second-to-last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_066",
+        "name": "Anxiolytic Use Disorder: lifetime symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_067",
+        "name": "Anxiolytic Use Disorder: number of past episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_068",
+        "name": "Anxiolytic Use Disorder: remission specifier",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_069",
+        "name": "Anxiolytic: average daily use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_070",
+        "name": "Anxiolytic: average weekly use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_071",
+        "name": "Anxiolytic: duration current abstinence",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_072",
+        "name": "Anxiolytic: duration last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_073",
+        "name": "Anxiolytic: duration second-to-last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_074",
+        "name": "Anxiolytic: ever used",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_075",
+        "name": "Anxiolytic: first use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_076",
+        "name": "Anxiolytic: last week use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_077",
+        "name": "Anxiolytic: lifetime number of past abstinence episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_078",
+        "name": "Anxiolytic: lifetime use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_079",
+        "name": "Anxiolytic: onset regular use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_080",
+        "name": "Anxiolytic: past month use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_081",
+        "name": "Anxiolytic: past year number of unsuccessful quit attempts",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_082",
+        "name": "Anxiolytic: past year symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_083",
+        "name": "Anxiolytic: past year use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_084",
+        "name": "Anxiolytic: typical product use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_085",
+        "name": "Any Substance Use Disorder: age of onset",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_086",
+        "name": "Any Substance Use Disorder: current remission",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_087",
+        "name": "Any Substance Use Disorder: current severity",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_088",
+        "name": "Any Substance Use Disorder: diagnosis current",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_089",
+        "name": "Any Substance Use Disorder: diagnosis lifetime",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_090",
+        "name": "Any Substance Use Disorder: diagnosis past year",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_091",
+        "name": "Any Substance Use Disorder: duration current episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_092",
+        "name": "Any Substance Use Disorder: duration last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_093",
+        "name": "Any Substance Use Disorder: duration second-to-last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_094",
+        "name": "Any Substance Use Disorder: lifetime symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_095",
+        "name": "Any Substance Use Disorder: number of past episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_096",
+        "name": "Any Substance Use Disorder: remission specifier",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_097",
+        "name": "Any Substance: average daily use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_098",
+        "name": "Any Substance: average weekly use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_099",
+        "name": "Any Substance: duration current abstinence",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_100",
+        "name": "Any Substance: duration last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_101",
+        "name": "Any Substance: duration second-to-last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_102",
+        "name": "Any Substance: ever used",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_103",
+        "name": "Any Substance: first use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_104",
+        "name": "Any Substance: last week use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_105",
+        "name": "Any Substance: lifetime number of past abstinence episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_106",
+        "name": "Any Substance: lifetime use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_107",
+        "name": "Any Substance: onset regular use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_108",
+        "name": "Any Substance: past month use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_109",
+        "name": "Any Substance: past year number of unsuccessful quit attempts",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_110",
+        "name": "Any Substance: past year symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_111",
+        "name": "Any Substance: past year use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_112",
+        "name": "Any Substance: typical product use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_113",
+        "name": "Barbiturate Use Disorder: age of onset",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_114",
+        "name": "Barbiturate Use Disorder: current remission",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_115",
+        "name": "Barbiturate Use Disorder: current severity",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_116",
+        "name": "Barbiturate Use Disorder: diagnosis current",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_117",
+        "name": "Barbiturate Use Disorder: diagnosis lifetime",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_118",
+        "name": "Barbiturate Use Disorder: diagnosis past year",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_119",
+        "name": "Barbiturate Use Disorder: duration current episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_120",
+        "name": "Barbiturate Use Disorder: duration last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_121",
+        "name": "Barbiturate Use Disorder: duration second-to-last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_122",
+        "name": "Barbiturate Use Disorder: lifetime symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_123",
+        "name": "Barbiturate Use Disorder: number of past episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_124",
+        "name": "Barbiturate Use Disorder: remission specifier",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_125",
+        "name": "Barbiturate: average daily use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_126",
+        "name": "Barbiturate: average weekly use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_127",
+        "name": "Barbiturate: duration current abstinence",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_128",
+        "name": "Barbiturate: duration last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_129",
+        "name": "Barbiturate: duration second-to-last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_130",
+        "name": "Barbiturate: ever used",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_131",
+        "name": "Barbiturate: first use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_132",
+        "name": "Barbiturate: last week use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_133",
+        "name": "Barbiturate: lifetime number of past abstinence episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_134",
+        "name": "Barbiturate: lifetime use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_135",
+        "name": "Barbiturate: onset regular use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_136",
+        "name": "Barbiturate: past month use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_137",
+        "name": "Barbiturate: past year number of unsuccessful quit attempts",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_138",
+        "name": "Barbiturate: past year symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_139",
+        "name": "Barbiturate: past year use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_140",
+        "name": "Barbiturate: typical product use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_141",
+        "name": "Caffeine Use Disorder: age of onset",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_142",
+        "name": "Caffeine Use Disorder: current remission",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_143",
+        "name": "Caffeine Use Disorder: current severity",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_144",
+        "name": "Caffeine Use Disorder: diagnosis current",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_145",
+        "name": "Caffeine Use Disorder: diagnosis lifetime",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_146",
+        "name": "Caffeine Use Disorder: diagnosis past year",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_147",
+        "name": "Caffeine Use Disorder: duration current episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_148",
+        "name": "Caffeine Use Disorder: duration last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_149",
+        "name": "Caffeine Use Disorder: duration second-to-last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_150",
+        "name": "Caffeine Use Disorder: lifetime symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_151",
+        "name": "Caffeine Use Disorder: number of past episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_152",
+        "name": "Caffeine Use Disorder: remission specifier",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_153",
+        "name": "Caffeine: average daily use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_154",
+        "name": "Caffeine: average weekly use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_155",
+        "name": "Caffeine: duration current abstinence",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_156",
+        "name": "Caffeine: duration last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_157",
+        "name": "Caffeine: duration second-to-last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_158",
+        "name": "Caffeine: ever used",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_159",
+        "name": "Caffeine: first use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_160",
+        "name": "Caffeine: last week use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_161",
+        "name": "Caffeine: lifetime number of past abstinence episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_162",
+        "name": "Caffeine: lifetime use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_163",
+        "name": "Caffeine: onset regular use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_164",
+        "name": "Caffeine: past month use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_165",
+        "name": "Caffeine: past year number of unsuccessful quit attempts",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_166",
+        "name": "Caffeine: past year symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_167",
+        "name": "Caffeine: past year use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_168",
+        "name": "Caffeine: typical product use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_169",
+        "name": "Cannabis Use Disorder: age of onset",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_170",
+        "name": "Cannabis Use Disorder: current remission",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_171",
+        "name": "Cannabis Use Disorder: current severity",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_172",
+        "name": "Cannabis Use Disorder: diagnosis current",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_173",
+        "name": "Cannabis Use Disorder: diagnosis lifetime",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_174",
+        "name": "Cannabis Use Disorder: diagnosis past year",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_175",
+        "name": "Cannabis Use Disorder: duration current episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_176",
+        "name": "Cannabis Use Disorder: duration last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_177",
+        "name": "Cannabis Use Disorder: duration second-to-last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_178",
+        "name": "Cannabis Use Disorder: lifetime symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_179",
+        "name": "Cannabis Use Disorder: number of past episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_180",
+        "name": "Cannabis Use Disorder: remission specifier",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_181",
+        "name": "Cannabis: average daily use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_182",
+        "name": "Cannabis: average weekly use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_183",
+        "name": "Cannabis: duration current abstinence",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_184",
+        "name": "Cannabis: duration last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_185",
+        "name": "Cannabis: duration second-to-last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_186",
+        "name": "Cannabis: ever used",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_187",
+        "name": "Cannabis: first use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_188",
+        "name": "Cannabis: last week use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_189",
+        "name": "Cannabis: lifetime number of past abstinence episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_190",
+        "name": "Cannabis: lifetime use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_191",
+        "name": "Cannabis: onset regular use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_192",
+        "name": "Cannabis: past month use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_193",
+        "name": "Cannabis: past year number of unsuccessful quit attempts",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_194",
+        "name": "Cannabis: past year symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_195",
+        "name": "Cannabis: past year use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_196",
+        "name": "Cannabis: typical product use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_197",
+        "name": "Cocaine Use Disorder: age of onset",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_198",
+        "name": "Cocaine Use Disorder: current remission",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_199",
+        "name": "Cocaine Use Disorder: current severity",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_200",
+        "name": "Cocaine Use Disorder: diagnosis current",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_201",
+        "name": "Cocaine Use Disorder: diagnosis lifetime",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_202",
+        "name": "Cocaine Use Disorder: diagnosis past year",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_203",
+        "name": "Cocaine Use Disorder: duration current episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_204",
+        "name": "Cocaine Use Disorder: duration last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_205",
+        "name": "Cocaine Use Disorder: duration second-to-last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_206",
+        "name": "Cocaine Use Disorder: lifetime symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_207",
+        "name": "Cocaine Use Disorder: number of past episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_208",
+        "name": "Cocaine Use Disorder: remission specifier",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_209",
+        "name": "Cocaine: average daily use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_210",
+        "name": "Cocaine: average weekly use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_211",
+        "name": "Cocaine: duration current abstinence",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_212",
+        "name": "Cocaine: duration last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_213",
+        "name": "Cocaine: duration second-to-last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_214",
+        "name": "Cocaine: ever used",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_215",
+        "name": "Cocaine: first use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_216",
+        "name": "Cocaine: last week use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_217",
+        "name": "Cocaine: lifetime number of past abstinence episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_218",
+        "name": "Cocaine: lifetime use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_219",
+        "name": "Cocaine: onset regular use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_220",
+        "name": "Cocaine: past month use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_221",
+        "name": "Cocaine: past year number of unsuccessful quit attempts",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_222",
+        "name": "Cocaine: past year symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_223",
+        "name": "Cocaine: past year use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_224",
+        "name": "Cocaine: typical product use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_225",
+        "name": "Entomidate Use Disorder: age of onset",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_226",
+        "name": "Entomidate Use Disorder: current remission",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_227",
+        "name": "Entomidate Use Disorder: current severity",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_228",
+        "name": "Entomidate Use Disorder: diagnosis current",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_229",
+        "name": "Entomidate Use Disorder: diagnosis lifetime",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_230",
+        "name": "Entomidate Use Disorder: diagnosis past year",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_231",
+        "name": "Entomidate Use Disorder: duration current episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_232",
+        "name": "Entomidate Use Disorder: duration last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_233",
+        "name": "Entomidate Use Disorder: duration second-to-last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_234",
+        "name": "Entomidate Use Disorder: lifetime symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_235",
+        "name": "Entomidate Use Disorder: number of past episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_236",
+        "name": "Entomidate Use Disorder: remission specifier",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_237",
+        "name": "Entomidate: average daily use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_238",
+        "name": "Entomidate: average weekly use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_239",
+        "name": "Entomidate: duration current abstinence",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_240",
+        "name": "Entomidate: duration last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_241",
+        "name": "Entomidate: duration second-to-last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_242",
+        "name": "Entomidate: ever used",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_243",
+        "name": "Entomidate: first use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_244",
+        "name": "Entomidate: last week use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_245",
+        "name": "Entomidate: lifetime number of past abstinence episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_246",
+        "name": "Entomidate: lifetime use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_247",
+        "name": "Entomidate: onset regular use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_248",
+        "name": "Entomidate: past month use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_249",
+        "name": "Entomidate: past year number of unsuccessful quit attempts",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_250",
+        "name": "Entomidate: past year symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_251",
+        "name": "Entomidate: past year use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_252",
+        "name": "Entomidate: typical product use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_253",
+        "name": "Food Use Disorder: age of onset",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_254",
+        "name": "Food Use Disorder: current remission",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_255",
+        "name": "Food Use Disorder: current severity",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_256",
+        "name": "Food Use Disorder: diagnosis current",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_257",
+        "name": "Food Use Disorder: diagnosis lifetime",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_258",
+        "name": "Food Use Disorder: diagnosis past year",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_259",
+        "name": "Food Use Disorder: duration current episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_260",
+        "name": "Food Use Disorder: duration last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_261",
+        "name": "Food Use Disorder: duration second-to-last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_262",
+        "name": "Food Use Disorder: lifetime symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_263",
+        "name": "Food Use Disorder: number of past episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_264",
+        "name": "Food Use Disorder: remission specifier",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_265",
+        "name": "Food: average daily use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_266",
+        "name": "Food: average weekly use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_267",
+        "name": "Food: duration current abstinence",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_268",
+        "name": "Food: duration last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_269",
+        "name": "Food: duration second-to-last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_270",
+        "name": "Food: ever used",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_271",
+        "name": "Food: first use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_272",
+        "name": "Food: last week use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_273",
+        "name": "Food: lifetime number of past abstinence episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_274",
+        "name": "Food: lifetime use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_275",
+        "name": "Food: onset regular use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_276",
+        "name": "Food: past month use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_277",
+        "name": "Food: past year number of unsuccessful quit attempts",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_278",
+        "name": "Food: past year symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_279",
+        "name": "Food: past year use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_280",
+        "name": "Food: typical product use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_281",
+        "name": "Gambling Use Disorder: age of onset",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_282",
+        "name": "Gambling Use Disorder: current remission",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_283",
+        "name": "Gambling Use Disorder: current severity",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_284",
+        "name": "Gambling Use Disorder: diagnosis current",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_285",
+        "name": "Gambling Use Disorder: diagnosis lifetime",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_286",
+        "name": "Gambling Use Disorder: diagnosis past year",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_287",
+        "name": "Gambling Use Disorder: duration current episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_288",
+        "name": "Gambling Use Disorder: duration last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_289",
+        "name": "Gambling Use Disorder: duration second-to-last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_290",
+        "name": "Gambling Use Disorder: lifetime symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_291",
+        "name": "Gambling Use Disorder: number of past episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_292",
+        "name": "Gambling Use Disorder: remission specifier",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_293",
+        "name": "Gambling: average daily use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_294",
+        "name": "Gambling: average weekly use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_295",
+        "name": "Gambling: duration current abstinence",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_296",
+        "name": "Gambling: duration last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_297",
+        "name": "Gambling: duration second-to-last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_298",
+        "name": "Gambling: ever used",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_299",
+        "name": "Gambling: first use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_300",
+        "name": "Gambling: last week use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_301",
+        "name": "Gambling: lifetime number of past abstinence episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_302",
+        "name": "Gambling: lifetime use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_303",
+        "name": "Gambling: onset regular use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_304",
+        "name": "Gambling: past month use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_305",
+        "name": "Gambling: past year number of unsuccessful quit attempts",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_306",
+        "name": "Gambling: past year symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_307",
+        "name": "Gambling: past year use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_308",
+        "name": "Gambling: typical product use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_309",
+        "name": "Hallucinogen Use Disorder: age of onset",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_310",
+        "name": "Hallucinogen Use Disorder: current remission",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_311",
+        "name": "Hallucinogen Use Disorder: current severity",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_312",
+        "name": "Hallucinogen Use Disorder: diagnosis current",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_313",
+        "name": "Hallucinogen Use Disorder: diagnosis lifetime",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_314",
+        "name": "Hallucinogen Use Disorder: diagnosis past year",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_315",
+        "name": "Hallucinogen Use Disorder: duration current episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_316",
+        "name": "Hallucinogen Use Disorder: duration last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_317",
+        "name": "Hallucinogen Use Disorder: duration second-to-last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_318",
+        "name": "Hallucinogen Use Disorder: lifetime symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_319",
+        "name": "Hallucinogen Use Disorder: number of past episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_320",
+        "name": "Hallucinogen Use Disorder: remission specifier",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_321",
+        "name": "Hallucinogen: average daily use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_322",
+        "name": "Hallucinogen: average weekly use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_323",
+        "name": "Hallucinogen: duration current abstinence",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_324",
+        "name": "Hallucinogen: duration last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_325",
+        "name": "Hallucinogen: duration second-to-last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_326",
+        "name": "Hallucinogen: ever used",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_327",
+        "name": "Hallucinogen: first use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_328",
+        "name": "Hallucinogen: last week use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_329",
+        "name": "Hallucinogen: lifetime number of past abstinence episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_330",
+        "name": "Hallucinogen: lifetime use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_331",
+        "name": "Hallucinogen: onset regular use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_332",
+        "name": "Hallucinogen: past month use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_333",
+        "name": "Hallucinogen: past year number of unsuccessful quit attempts",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_334",
+        "name": "Hallucinogen: past year symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_335",
+        "name": "Hallucinogen: past year use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_336",
+        "name": "Hallucinogen: typical product use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_337",
+        "name": "Hypnotic Use Disorder: age of onset",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_338",
+        "name": "Hypnotic Use Disorder: current remission",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_339",
+        "name": "Hypnotic Use Disorder: current severity",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_340",
+        "name": "Hypnotic Use Disorder: diagnosis current",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_341",
+        "name": "Hypnotic Use Disorder: diagnosis lifetime",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_342",
+        "name": "Hypnotic Use Disorder: diagnosis past year",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_343",
+        "name": "Hypnotic Use Disorder: duration current episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_344",
+        "name": "Hypnotic Use Disorder: duration last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_345",
+        "name": "Hypnotic Use Disorder: duration second-to-last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_346",
+        "name": "Hypnotic Use Disorder: lifetime symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_347",
+        "name": "Hypnotic Use Disorder: number of past episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_348",
+        "name": "Hypnotic Use Disorder: remission specifier",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_349",
+        "name": "Hypnotic: average daily use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_350",
+        "name": "Hypnotic: average weekly use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_351",
+        "name": "Hypnotic: duration current abstinence",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_352",
+        "name": "Hypnotic: duration last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_353",
+        "name": "Hypnotic: duration second-to-last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_354",
+        "name": "Hypnotic: ever used",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_355",
+        "name": "Hypnotic: first use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_356",
+        "name": "Hypnotic: last week use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_357",
+        "name": "Hypnotic: lifetime number of past abstinence episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_358",
+        "name": "Hypnotic: lifetime use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_359",
+        "name": "Hypnotic: onset regular use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_360",
+        "name": "Hypnotic: past month use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_361",
+        "name": "Hypnotic: past year number of unsuccessful quit attempts",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_362",
+        "name": "Hypnotic: past year symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_363",
+        "name": "Hypnotic: past year use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_364",
+        "name": "Hypnotic: typical product use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_365",
+        "name": "Internet Use Disorder: age of onset",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_366",
+        "name": "Internet Use Disorder: current remission",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_367",
+        "name": "Internet Use Disorder: current severity",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_368",
+        "name": "Internet Use Disorder: diagnosis current",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_369",
+        "name": "Internet Use Disorder: diagnosis lifetime",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_370",
+        "name": "Internet Use Disorder: diagnosis past year",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_371",
+        "name": "Internet Use Disorder: duration current episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_372",
+        "name": "Internet Use Disorder: duration last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_373",
+        "name": "Internet Use Disorder: duration second-to-last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_374",
+        "name": "Internet Use Disorder: lifetime symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_375",
+        "name": "Internet Use Disorder: number of past episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_376",
+        "name": "Internet Use Disorder: remission specifier",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_377",
+        "name": "Internet: average daily use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_378",
+        "name": "Internet: average weekly use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_379",
+        "name": "Internet: duration current abstinence",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_380",
+        "name": "Internet: duration last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_381",
+        "name": "Internet: duration second-to-last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_382",
+        "name": "Internet: ever used",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_383",
+        "name": "Internet: first use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_384",
+        "name": "Internet: last week use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_385",
+        "name": "Internet: lifetime number of past abstinence episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_386",
+        "name": "Internet: lifetime use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_387",
+        "name": "Internet: onset regular use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_388",
+        "name": "Internet: past month use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_389",
+        "name": "Internet: past year number of unsuccessful quit attempts",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_390",
+        "name": "Internet: past year symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_391",
+        "name": "Internet: past year use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_392",
+        "name": "Internet: typical product use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_393",
+        "name": "Ketamine Use Disorder: age of onset",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_394",
+        "name": "Ketamine Use Disorder: current remission",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_395",
+        "name": "Ketamine Use Disorder: current severity",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_396",
+        "name": "Ketamine Use Disorder: diagnosis current",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_397",
+        "name": "Ketamine Use Disorder: diagnosis lifetime",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_398",
+        "name": "Ketamine Use Disorder: diagnosis past year",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_399",
+        "name": "Ketamine Use Disorder: duration current episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_400",
+        "name": "Ketamine Use Disorder: duration last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_401",
+        "name": "Ketamine Use Disorder: duration second-to-last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_402",
+        "name": "Ketamine Use Disorder: lifetime symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_403",
+        "name": "Ketamine Use Disorder: number of past episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_404",
+        "name": "Ketamine Use Disorder: remission specifier",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_405",
+        "name": "Ketamine: average daily use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_406",
+        "name": "Ketamine: average weekly use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_407",
+        "name": "Ketamine: duration current abstinence",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_408",
+        "name": "Ketamine: duration last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_409",
+        "name": "Ketamine: duration second-to-last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_410",
+        "name": "Ketamine: ever used",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_411",
+        "name": "Ketamine: first use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_412",
+        "name": "Ketamine: last week use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_413",
+        "name": "Ketamine: lifetime number of past abstinence episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_414",
+        "name": "Ketamine: lifetime use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_415",
+        "name": "Ketamine: onset regular use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_416",
+        "name": "Ketamine: past month use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_417",
+        "name": "Ketamine: past year number of unsuccessful quit attempts",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_418",
+        "name": "Ketamine: past year symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_419",
+        "name": "Ketamine: past year use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_420",
+        "name": "Ketamine: typical product use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_421",
+        "name": "Methamphetamine Use Disorder: age of onset",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_422",
+        "name": "Methamphetamine Use Disorder: current remission",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_423",
+        "name": "Methamphetamine Use Disorder: current severity",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_424",
+        "name": "Methamphetamine Use Disorder: diagnosis current",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_425",
+        "name": "Methamphetamine Use Disorder: diagnosis lifetime",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_426",
+        "name": "Methamphetamine Use Disorder: diagnosis past year",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_427",
+        "name": "Methamphetamine Use Disorder: duration current episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_428",
+        "name": "Methamphetamine Use Disorder: duration last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_429",
+        "name": "Methamphetamine Use Disorder: duration second-to-last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_430",
+        "name": "Methamphetamine Use Disorder: lifetime symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_431",
+        "name": "Methamphetamine Use Disorder: number of past episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_432",
+        "name": "Methamphetamine Use Disorder: remission specifier",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_433",
+        "name": "Methamphetamine: average daily use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_434",
+        "name": "Methamphetamine: average weekly use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_435",
+        "name": "Methamphetamine: duration current abstinence",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_436",
+        "name": "Methamphetamine: duration last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_437",
+        "name": "Methamphetamine: duration second-to-last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_438",
+        "name": "Methamphetamine: ever used",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_439",
+        "name": "Methamphetamine: first use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_440",
+        "name": "Methamphetamine: last week use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_441",
+        "name": "Methamphetamine: lifetime number of past abstinence episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_442",
+        "name": "Methamphetamine: lifetime use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_443",
+        "name": "Methamphetamine: onset regular use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_444",
+        "name": "Methamphetamine: past month use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_445",
+        "name": "Methamphetamine: past year number of unsuccessful quit attempts",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_446",
+        "name": "Methamphetamine: past year symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_447",
+        "name": "Methamphetamine: past year use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_448",
+        "name": "Methamphetamine: typical product use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_449",
+        "name": "Methylenedioxymethamphetamine Use Disorder: age of onset",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_450",
+        "name": "Methylenedioxymethamphetamine Use Disorder: current remission",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_451",
+        "name": "Methylenedioxymethamphetamine Use Disorder: current severity",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_452",
+        "name": "Methylenedioxymethamphetamine Use Disorder: diagnosis current",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_453",
+        "name": "Methylenedioxymethamphetamine Use Disorder: diagnosis lifetime",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_454",
+        "name": "Methylenedioxymethamphetamine Use Disorder: diagnosis past year",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_455",
+        "name": "Methylenedioxymethamphetamine Use Disorder: duration current episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_456",
+        "name": "Methylenedioxymethamphetamine Use Disorder: duration last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_457",
+        "name": "Methylenedioxymethamphetamine Use Disorder: duration second-to-last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_458",
+        "name": "Methylenedioxymethamphetamine Use Disorder: lifetime symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_459",
+        "name": "Methylenedioxymethamphetamine Use Disorder: number of past episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_460",
+        "name": "Methylenedioxymethamphetamine Use Disorder: remission specifier",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_461",
+        "name": "Methylenedioxymethamphetamine: average daily use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_462",
+        "name": "Methylenedioxymethamphetamine: average weekly use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_463",
+        "name": "Methylenedioxymethamphetamine: duration current abstinence",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_464",
+        "name": "Methylenedioxymethamphetamine: duration last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_465",
+        "name": "Methylenedioxymethamphetamine: duration second-to-last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_466",
+        "name": "Methylenedioxymethamphetamine: ever used",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_467",
+        "name": "Methylenedioxymethamphetamine: first use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_468",
+        "name": "Methylenedioxymethamphetamine: last week use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_469",
+        "name": "Methylenedioxymethamphetamine: lifetime number of past abstinence episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_470",
+        "name": "Methylenedioxymethamphetamine: lifetime use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_471",
+        "name": "Methylenedioxymethamphetamine: onset regular use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_472",
+        "name": "Methylenedioxymethamphetamine: past month use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_473",
+        "name": "Methylenedioxymethamphetamine: past year number of unsuccessful quit attempts",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_474",
+        "name": "Methylenedioxymethamphetamine: past year symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_475",
+        "name": "Methylenedioxymethamphetamine: past year use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_476",
+        "name": "Methylenedioxymethamphetamine: typical product use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_477",
+        "name": "Nicotine Use Disorder: age of onset",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_478",
+        "name": "Nicotine Use Disorder: current remission",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_479",
+        "name": "Nicotine Use Disorder: current severity",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_480",
+        "name": "Nicotine Use Disorder: diagnosis current",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_481",
+        "name": "Nicotine Use Disorder: diagnosis lifetime",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_482",
+        "name": "Nicotine Use Disorder: diagnosis past year",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_483",
+        "name": "Nicotine Use Disorder: duration current episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_484",
+        "name": "Nicotine Use Disorder: duration last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_485",
+        "name": "Nicotine Use Disorder: duration second-to-last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_486",
+        "name": "Nicotine Use Disorder: lifetime symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_487",
+        "name": "Nicotine Use Disorder: number of past episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_488",
+        "name": "Nicotine Use Disorder: remission specifier",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_489",
+        "name": "Nicotine: average daily use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_490",
+        "name": "Nicotine: average weekly use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_491",
+        "name": "Nicotine: duration current abstinence",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_492",
+        "name": "Nicotine: duration last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_493",
+        "name": "Nicotine: duration second-to-last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_494",
+        "name": "Nicotine: ever used",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_495",
+        "name": "Nicotine: first use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_496",
+        "name": "Nicotine: last week use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_497",
+        "name": "Nicotine: lifetime number of past abstinence episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_498",
+        "name": "Nicotine: lifetime use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_499",
+        "name": "Nicotine: onset regular use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_500",
+        "name": "Nicotine: past month use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_501",
+        "name": "Nicotine: past year number of unsuccessful quit attempts",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_502",
+        "name": "Nicotine: past year symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_503",
+        "name": "Nicotine: past year use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_504",
+        "name": "Nicotine: typical product use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_505",
+        "name": "Opioid Use Disorder: age of onset",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_506",
+        "name": "Opioid Use Disorder: current remission",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_507",
+        "name": "Opioid Use Disorder: current severity",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_508",
+        "name": "Opioid Use Disorder: diagnosis current",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_509",
+        "name": "Opioid Use Disorder: diagnosis lifetime",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_510",
+        "name": "Opioid Use Disorder: diagnosis past year",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_511",
+        "name": "Opioid Use Disorder: duration current episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_512",
+        "name": "Opioid Use Disorder: duration last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_513",
+        "name": "Opioid Use Disorder: duration second-to-last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_514",
+        "name": "Opioid Use Disorder: lifetime symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_515",
+        "name": "Opioid Use Disorder: number of past episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_516",
+        "name": "Opioid Use Disorder: remission specifier",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_517",
+        "name": "Opioid: average daily use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_518",
+        "name": "Opioid: average weekly use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_519",
+        "name": "Opioid: duration current abstinence",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_520",
+        "name": "Opioid: duration last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_521",
+        "name": "Opioid: duration second-to-last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_522",
+        "name": "Opioid: ever used",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_523",
+        "name": "Opioid: first use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_524",
+        "name": "Opioid: last week use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_525",
+        "name": "Opioid: lifetime number of past abstinence episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_526",
+        "name": "Opioid: lifetime use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_527",
+        "name": "Opioid: onset regular use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_528",
+        "name": "Opioid: past month use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_529",
+        "name": "Opioid: past year number of unsuccessful quit attempts",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_530",
+        "name": "Opioid: past year symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_531",
+        "name": "Opioid: past year use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_532",
+        "name": "Opioid: typical product use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_533",
+        "name": "Other Use Disorder: age of onset",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_534",
+        "name": "Other Use Disorder: current remission",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_535",
+        "name": "Other Use Disorder: current severity",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_536",
+        "name": "Other Use Disorder: diagnosis current",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_537",
+        "name": "Other Use Disorder: diagnosis lifetime",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_538",
+        "name": "Other Use Disorder: diagnosis past year",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_539",
+        "name": "Other Use Disorder: duration current episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_540",
+        "name": "Other Use Disorder: duration last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_541",
+        "name": "Other Use Disorder: duration second-to-last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_542",
+        "name": "Other Use Disorder: lifetime symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_543",
+        "name": "Other Use Disorder: number of past episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_544",
+        "name": "Other Use Disorder: remission specifier",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_545",
+        "name": "Other: average daily use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_546",
+        "name": "Other: average weekly use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_547",
+        "name": "Other: duration current abstinence",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_548",
+        "name": "Other: duration last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_549",
+        "name": "Other: duration second-to-last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_550",
+        "name": "Other: ever used",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_551",
+        "name": "Other: first use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_552",
+        "name": "Other: last week use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_553",
+        "name": "Other: lifetime number of past abstinence episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_554",
+        "name": "Other: lifetime use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_555",
+        "name": "Other: onset regular use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_556",
+        "name": "Other: past month use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_557",
+        "name": "Other: past year number of unsuccessful quit attempts",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_558",
+        "name": "Other: past year symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_559",
+        "name": "Other: past year use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_560",
+        "name": "Other: typical product use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_561",
+        "name": "Phencyclidine Use Disorder: age of onset",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_562",
+        "name": "Phencyclidine Use Disorder: current remission",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_563",
+        "name": "Phencyclidine Use Disorder: current severity",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_564",
+        "name": "Phencyclidine Use Disorder: diagnosis current",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_565",
+        "name": "Phencyclidine Use Disorder: diagnosis lifetime",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_566",
+        "name": "Phencyclidine Use Disorder: diagnosis past year",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_567",
+        "name": "Phencyclidine Use Disorder: duration current episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_568",
+        "name": "Phencyclidine Use Disorder: duration last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_569",
+        "name": "Phencyclidine Use Disorder: duration second-to-last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_570",
+        "name": "Phencyclidine Use Disorder: lifetime symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_571",
+        "name": "Phencyclidine Use Disorder: number of past episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_572",
+        "name": "Phencyclidine Use Disorder: remission specifier",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_573",
+        "name": "Phencyclidine: average daily use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_574",
+        "name": "Phencyclidine: average weekly use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_575",
+        "name": "Phencyclidine: duration current abstinence",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_576",
+        "name": "Phencyclidine: duration last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_577",
+        "name": "Phencyclidine: duration second-to-last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_578",
+        "name": "Phencyclidine: ever used",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_579",
+        "name": "Phencyclidine: first use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_580",
+        "name": "Phencyclidine: last week use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_581",
+        "name": "Phencyclidine: lifetime number of past abstinence episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_582",
+        "name": "Phencyclidine: lifetime use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_583",
+        "name": "Phencyclidine: onset regular use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_584",
+        "name": "Phencyclidine: past month use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_585",
+        "name": "Phencyclidine: past year number of unsuccessful quit attempts",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_586",
+        "name": "Phencyclidine: past year symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_587",
+        "name": "Phencyclidine: past year use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_588",
+        "name": "Phencyclidine: typical product use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_589",
+        "name": "Plastic surgery Use Disorder: age of onset",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_590",
+        "name": "Plastic surgery Use Disorder: current remission",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_591",
+        "name": "Plastic surgery Use Disorder: current severity",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_592",
+        "name": "Plastic surgery Use Disorder: diagnosis current",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_593",
+        "name": "Plastic surgery Use Disorder: diagnosis lifetime",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_594",
+        "name": "Plastic surgery Use Disorder: diagnosis past year",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_595",
+        "name": "Plastic surgery Use Disorder: duration current episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_596",
+        "name": "Plastic surgery Use Disorder: duration last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_597",
+        "name": "Plastic surgery Use Disorder: duration second-to-last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_598",
+        "name": "Plastic surgery Use Disorder: lifetime symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_599",
+        "name": "Plastic surgery Use Disorder: number of past episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_600",
+        "name": "Plastic surgery Use Disorder: remission specifier",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_601",
+        "name": "Plastic surgery: average daily use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_602",
+        "name": "Plastic surgery: average weekly use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_603",
+        "name": "Plastic surgery: duration current abstinence",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_604",
+        "name": "Plastic surgery: duration last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_605",
+        "name": "Plastic surgery: duration second-to-last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_606",
+        "name": "Plastic surgery: ever used",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_607",
+        "name": "Plastic surgery: first use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_608",
+        "name": "Plastic surgery: last week use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_609",
+        "name": "Plastic surgery: lifetime number of past abstinence episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_610",
+        "name": "Plastic surgery: lifetime use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_611",
+        "name": "Plastic surgery: onset regular use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_612",
+        "name": "Plastic surgery: past month use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_613",
+        "name": "Plastic surgery: past year number of unsuccessful quit attempts",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_614",
+        "name": "Plastic surgery: past year symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_615",
+        "name": "Plastic surgery: past year use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_616",
+        "name": "Plastic surgery: typical product use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_617",
+        "name": "Psychoactive Use Disorder: age of onset",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_618",
+        "name": "Psychoactive Use Disorder: current remission",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_619",
+        "name": "Psychoactive Use Disorder: current severity",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_620",
+        "name": "Psychoactive Use Disorder: diagnosis current",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_621",
+        "name": "Psychoactive Use Disorder: diagnosis lifetime",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_622",
+        "name": "Psychoactive Use Disorder: diagnosis past year",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_623",
+        "name": "Psychoactive Use Disorder: duration current episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_624",
+        "name": "Psychoactive Use Disorder: duration last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_625",
+        "name": "Psychoactive Use Disorder: duration second-to-last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_626",
+        "name": "Psychoactive Use Disorder: lifetime symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_627",
+        "name": "Psychoactive Use Disorder: number of past episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_628",
+        "name": "Psychoactive Use Disorder: remission specifier",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_629",
+        "name": "Psychoactive: average daily use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_630",
+        "name": "Psychoactive: average weekly use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_631",
+        "name": "Psychoactive: duration current abstinence",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_632",
+        "name": "Psychoactive: duration last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_633",
+        "name": "Psychoactive: duration second-to-last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_634",
+        "name": "Psychoactive: ever used",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_635",
+        "name": "Psychoactive: first use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_636",
+        "name": "Psychoactive: last week use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_637",
+        "name": "Psychoactive: lifetime number of past abstinence episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_638",
+        "name": "Psychoactive: lifetime use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_639",
+        "name": "Psychoactive: onset regular use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_640",
+        "name": "Psychoactive: past month use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_641",
+        "name": "Psychoactive: past year number of unsuccessful quit attempts",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_642",
+        "name": "Psychoactive: past year symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_643",
+        "name": "Psychoactive: past year use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_644",
+        "name": "Psychoactive: typical product use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_645",
+        "name": "Screen Use Disorder: age of onset",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_646",
+        "name": "Screen Use Disorder: current remission",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_647",
+        "name": "Screen Use Disorder: current severity",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_648",
+        "name": "Screen Use Disorder: diagnosis current",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_649",
+        "name": "Screen Use Disorder: diagnosis lifetime",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_650",
+        "name": "Screen Use Disorder: diagnosis past year",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_651",
+        "name": "Screen Use Disorder: duration current episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_652",
+        "name": "Screen Use Disorder: duration last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_653",
+        "name": "Screen Use Disorder: duration second-to-last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_654",
+        "name": "Screen Use Disorder: lifetime symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_655",
+        "name": "Screen Use Disorder: number of past episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_656",
+        "name": "Screen Use Disorder: remission specifier",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_657",
+        "name": "Screen: average daily use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_658",
+        "name": "Screen: average weekly use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_659",
+        "name": "Screen: duration current abstinence",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_660",
+        "name": "Screen: duration last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_661",
+        "name": "Screen: duration second-to-last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_662",
+        "name": "Screen: ever used",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_663",
+        "name": "Screen: first use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_664",
+        "name": "Screen: last week use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_665",
+        "name": "Screen: lifetime number of past abstinence episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_666",
+        "name": "Screen: lifetime use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_667",
+        "name": "Screen: onset regular use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_668",
+        "name": "Screen: past month use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_669",
+        "name": "Screen: past year number of unsuccessful quit attempts",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_670",
+        "name": "Screen: past year symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_671",
+        "name": "Screen: past year use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_672",
+        "name": "Screen: typical product use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_673",
+        "name": "Sedative Use Disorder: age of onset",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_674",
+        "name": "Sedative Use Disorder: current remission",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_675",
+        "name": "Sedative Use Disorder: current severity",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_676",
+        "name": "Sedative Use Disorder: diagnosis current",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_677",
+        "name": "Sedative Use Disorder: diagnosis lifetime",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_678",
+        "name": "Sedative Use Disorder: diagnosis past year",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_679",
+        "name": "Sedative Use Disorder: duration current episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_680",
+        "name": "Sedative Use Disorder: duration last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_681",
+        "name": "Sedative Use Disorder: duration second-to-last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_682",
+        "name": "Sedative Use Disorder: lifetime symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_683",
+        "name": "Sedative Use Disorder: number of past episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_684",
+        "name": "Sedative Use Disorder: remission specifier",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_685",
+        "name": "Sedative: average daily use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_686",
+        "name": "Sedative: average weekly use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_687",
+        "name": "Sedative: duration current abstinence",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_688",
+        "name": "Sedative: duration last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_689",
+        "name": "Sedative: duration second-to-last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_690",
+        "name": "Sedative: ever used",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_691",
+        "name": "Sedative: first use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_692",
+        "name": "Sedative: last week use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_693",
+        "name": "Sedative: lifetime number of past abstinence episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_694",
+        "name": "Sedative: lifetime use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_695",
+        "name": "Sedative: onset regular use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_696",
+        "name": "Sedative: past month use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_697",
+        "name": "Sedative: past year number of unsuccessful quit attempts",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_698",
+        "name": "Sedative: past year symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_699",
+        "name": "Sedative: past year use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_700",
+        "name": "Sedative: typical product use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_701",
+        "name": "Sex Use Disorder: age of onset",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_702",
+        "name": "Sex Use Disorder: current remission",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_703",
+        "name": "Sex Use Disorder: current severity",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_704",
+        "name": "Sex Use Disorder: diagnosis current",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_705",
+        "name": "Sex Use Disorder: diagnosis lifetime",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_706",
+        "name": "Sex Use Disorder: diagnosis past year",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_707",
+        "name": "Sex Use Disorder: duration current episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_708",
+        "name": "Sex Use Disorder: duration last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_709",
+        "name": "Sex Use Disorder: duration second-to-last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_710",
+        "name": "Sex Use Disorder: lifetime symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_711",
+        "name": "Sex Use Disorder: number of past episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_712",
+        "name": "Sex Use Disorder: remission specifier",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_713",
+        "name": "Sex: average daily use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_714",
+        "name": "Sex: average weekly use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_715",
+        "name": "Sex: duration current abstinence",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_716",
+        "name": "Sex: duration last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_717",
+        "name": "Sex: duration second-to-last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_718",
+        "name": "Sex: ever used",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_719",
+        "name": "Sex: first use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_720",
+        "name": "Sex: last week use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_721",
+        "name": "Sex: lifetime number of past abstinence episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_722",
+        "name": "Sex: lifetime use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_723",
+        "name": "Sex: onset regular use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_724",
+        "name": "Sex: past month use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_725",
+        "name": "Sex: past year number of unsuccessful quit attempts",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_726",
+        "name": "Sex: past year symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_727",
+        "name": "Sex: past year use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_728",
+        "name": "Sex: typical product use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_729",
+        "name": "Shopping Use Disorder: age of onset",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_730",
+        "name": "Shopping Use Disorder: current remission",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_731",
+        "name": "Shopping Use Disorder: current severity",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_732",
+        "name": "Shopping Use Disorder: diagnosis current",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_733",
+        "name": "Shopping Use Disorder: diagnosis lifetime",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_734",
+        "name": "Shopping Use Disorder: diagnosis past year",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_735",
+        "name": "Shopping Use Disorder: duration current episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_736",
+        "name": "Shopping Use Disorder: duration last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_737",
+        "name": "Shopping Use Disorder: duration second-to-last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_738",
+        "name": "Shopping Use Disorder: lifetime symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_739",
+        "name": "Shopping Use Disorder: number of past episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_740",
+        "name": "Shopping Use Disorder: remission specifier",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_741",
+        "name": "Shopping: average daily use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_742",
+        "name": "Shopping: average weekly use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_743",
+        "name": "Shopping: duration current abstinence",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_744",
+        "name": "Shopping: duration last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_745",
+        "name": "Shopping: duration second-to-last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_746",
+        "name": "Shopping: ever used",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_747",
+        "name": "Shopping: first use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_748",
+        "name": "Shopping: last week use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_749",
+        "name": "Shopping: lifetime number of past abstinence episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_750",
+        "name": "Shopping: lifetime use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_751",
+        "name": "Shopping: onset regular use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_752",
+        "name": "Shopping: past month use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_753",
+        "name": "Shopping: past year number of unsuccessful quit attempts",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_754",
+        "name": "Shopping: past year symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_755",
+        "name": "Shopping: past year use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_756",
+        "name": "Shopping: typical product use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_757",
+        "name": "Social Media Use Disorder: age of onset",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_758",
+        "name": "Social Media Use Disorder: current remission",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_759",
+        "name": "Social Media Use Disorder: current severity",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_760",
+        "name": "Social Media Use Disorder: diagnosis current",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_761",
+        "name": "Social Media Use Disorder: diagnosis lifetime",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_762",
+        "name": "Social Media Use Disorder: diagnosis past year",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_763",
+        "name": "Social Media Use Disorder: duration current episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_764",
+        "name": "Social Media Use Disorder: duration last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_765",
+        "name": "Social Media Use Disorder: duration second-to-last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_766",
+        "name": "Social Media Use Disorder: lifetime symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_767",
+        "name": "Social Media Use Disorder: number of past episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_768",
+        "name": "Social Media Use Disorder: remission specifier",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_769",
+        "name": "Social Media: average daily use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_770",
+        "name": "Social Media: average weekly use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_771",
+        "name": "Social Media: duration current abstinence",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_772",
+        "name": "Social Media: duration last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_773",
+        "name": "Social Media: duration second-to-last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_774",
+        "name": "Social Media: ever used",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_775",
+        "name": "Social Media: first use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_776",
+        "name": "Social Media: last week use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_777",
+        "name": "Social Media: lifetime number of past abstinence episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_778",
+        "name": "Social Media: lifetime use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_779",
+        "name": "Social Media: onset regular use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_780",
+        "name": "Social Media: past month use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_781",
+        "name": "Social Media: past year number of unsuccessful quit attempts",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_782",
+        "name": "Social Media: past year symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_783",
+        "name": "Social Media: past year use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_784",
+        "name": "Social Media: typical product use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_785",
+        "name": "Steroid Use Disorder: age of onset",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_786",
+        "name": "Steroid Use Disorder: current remission",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_787",
+        "name": "Steroid Use Disorder: current severity",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_788",
+        "name": "Steroid Use Disorder: diagnosis current",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_789",
+        "name": "Steroid Use Disorder: diagnosis lifetime",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_790",
+        "name": "Steroid Use Disorder: diagnosis past year",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_791",
+        "name": "Steroid Use Disorder: duration current episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_792",
+        "name": "Steroid Use Disorder: duration last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_793",
+        "name": "Steroid Use Disorder: duration second-to-last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_794",
+        "name": "Steroid Use Disorder: lifetime symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_795",
+        "name": "Steroid Use Disorder: number of past episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_796",
+        "name": "Steroid Use Disorder: remission specifier",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_797",
+        "name": "Steroid: average daily use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_798",
+        "name": "Steroid: average weekly use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_799",
+        "name": "Steroid: duration current abstinence",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_800",
+        "name": "Steroid: duration last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_801",
+        "name": "Steroid: duration second-to-last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_802",
+        "name": "Steroid: ever used",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_803",
+        "name": "Steroid: first use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_804",
+        "name": "Steroid: last week use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_805",
+        "name": "Steroid: lifetime number of past abstinence episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_806",
+        "name": "Steroid: lifetime use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_807",
+        "name": "Steroid: onset regular use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_808",
+        "name": "Steroid: past month use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_809",
+        "name": "Steroid: past year number of unsuccessful quit attempts",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_810",
+        "name": "Steroid: past year symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_811",
+        "name": "Steroid: past year use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_812",
+        "name": "Steroid: typical product use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_813",
+        "name": "Stimulant Use Disorder: age of onset",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_814",
+        "name": "Stimulant Use Disorder: current remission",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_815",
+        "name": "Stimulant Use Disorder: current severity",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_816",
+        "name": "Stimulant Use Disorder: diagnosis current",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_817",
+        "name": "Stimulant Use Disorder: diagnosis lifetime",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_818",
+        "name": "Stimulant Use Disorder: diagnosis past year",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_819",
+        "name": "Stimulant Use Disorder: duration current episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_820",
+        "name": "Stimulant Use Disorder: duration last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_821",
+        "name": "Stimulant Use Disorder: duration second-to-last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_822",
+        "name": "Stimulant Use Disorder: lifetime symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_823",
+        "name": "Stimulant Use Disorder: number of past episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_824",
+        "name": "Stimulant Use Disorder: remission specifier",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_825",
+        "name": "Stimulant: average daily use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_826",
+        "name": "Stimulant: average weekly use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_827",
+        "name": "Stimulant: duration current abstinence",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_828",
+        "name": "Stimulant: duration last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_829",
+        "name": "Stimulant: duration second-to-last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_830",
+        "name": "Stimulant: ever used",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_831",
+        "name": "Stimulant: first use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_832",
+        "name": "Stimulant: last week use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_833",
+        "name": "Stimulant: lifetime number of past abstinence episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_834",
+        "name": "Stimulant: lifetime use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_835",
+        "name": "Stimulant: onset regular use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_836",
+        "name": "Stimulant: past month use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_837",
+        "name": "Stimulant: past year number of unsuccessful quit attempts",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_838",
+        "name": "Stimulant: past year symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_839",
+        "name": "Stimulant: past year use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_840",
+        "name": "Stimulant: typical product use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_841",
+        "name": "Synthetic Cannabinoid Use Disorder: age of onset",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_842",
+        "name": "Synthetic Cannabinoid Use Disorder: current remission",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_843",
+        "name": "Synthetic Cannabinoid Use Disorder: current severity",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_844",
+        "name": "Synthetic Cannabinoid Use Disorder: diagnosis current",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_845",
+        "name": "Synthetic Cannabinoid Use Disorder: diagnosis lifetime",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_846",
+        "name": "Synthetic Cannabinoid Use Disorder: diagnosis past year",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_847",
+        "name": "Synthetic Cannabinoid Use Disorder: duration current episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_848",
+        "name": "Synthetic Cannabinoid Use Disorder: duration last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_849",
+        "name": "Synthetic Cannabinoid Use Disorder: duration second-to-last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_850",
+        "name": "Synthetic Cannabinoid Use Disorder: lifetime symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_851",
+        "name": "Synthetic Cannabinoid Use Disorder: number of past episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_852",
+        "name": "Synthetic Cannabinoid Use Disorder: remission specifier",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_853",
+        "name": "Synthetic Cannabinoid: average daily use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_854",
+        "name": "Synthetic Cannabinoid: average weekly use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_855",
+        "name": "Synthetic Cannabinoid: duration current abstinence",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_856",
+        "name": "Synthetic Cannabinoid: duration last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_857",
+        "name": "Synthetic Cannabinoid: duration second-to-last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_858",
+        "name": "Synthetic Cannabinoid: ever used",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_859",
+        "name": "Synthetic Cannabinoid: first use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_860",
+        "name": "Synthetic Cannabinoid: last week use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_861",
+        "name": "Synthetic Cannabinoid: lifetime number of past abstinence episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_862",
+        "name": "Synthetic Cannabinoid: lifetime use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_863",
+        "name": "Synthetic Cannabinoid: onset regular use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_864",
+        "name": "Synthetic Cannabinoid: past month use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_865",
+        "name": "Synthetic Cannabinoid: past year number of unsuccessful quit attempts",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_866",
+        "name": "Synthetic Cannabinoid: past year symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_867",
+        "name": "Synthetic Cannabinoid: past year use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_868",
+        "name": "Synthetic Cannabinoid: typical product use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_869",
+        "name": "Synthetic Cathinone Use Disorder: age of onset",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_870",
+        "name": "Synthetic Cathinone Use Disorder: current remission",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_871",
+        "name": "Synthetic Cathinone Use Disorder: current severity",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_872",
+        "name": "Synthetic Cathinone Use Disorder: diagnosis current",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_873",
+        "name": "Synthetic Cathinone Use Disorder: diagnosis lifetime",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_874",
+        "name": "Synthetic Cathinone Use Disorder: diagnosis past year",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_875",
+        "name": "Synthetic Cathinone Use Disorder: duration current episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_876",
+        "name": "Synthetic Cathinone Use Disorder: duration last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_877",
+        "name": "Synthetic Cathinone Use Disorder: duration second-to-last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_878",
+        "name": "Synthetic Cathinone Use Disorder: lifetime symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_879",
+        "name": "Synthetic Cathinone Use Disorder: number of past episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_880",
+        "name": "Synthetic Cathinone Use Disorder: remission specifier",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_881",
+        "name": "Synthetic Cathinone: average daily use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_882",
+        "name": "Synthetic Cathinone: average weekly use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_883",
+        "name": "Synthetic Cathinone: duration current abstinence",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_884",
+        "name": "Synthetic Cathinone: duration last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_885",
+        "name": "Synthetic Cathinone: duration second-to-last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_886",
+        "name": "Synthetic Cathinone: ever used",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_887",
+        "name": "Synthetic Cathinone: first use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_888",
+        "name": "Synthetic Cathinone: last week use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_889",
+        "name": "Synthetic Cathinone: lifetime number of past abstinence episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_890",
+        "name": "Synthetic Cathinone: lifetime use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_891",
+        "name": "Synthetic Cathinone: onset regular use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_892",
+        "name": "Synthetic Cathinone: past month use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_893",
+        "name": "Synthetic Cathinone: past year number of unsuccessful quit attempts",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_894",
+        "name": "Synthetic Cathinone: past year symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_895",
+        "name": "Synthetic Cathinone: past year use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_896",
+        "name": "Synthetic Cathinone: typical product use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_897",
+        "name": "Volatile Inhalant Use Disorder: age of onset",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_898",
+        "name": "Volatile Inhalant Use Disorder: current remission",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_899",
+        "name": "Volatile Inhalant Use Disorder: current severity",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_900",
+        "name": "Volatile Inhalant Use Disorder: diagnosis current",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_901",
+        "name": "Volatile Inhalant Use Disorder: diagnosis lifetime",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_902",
+        "name": "Volatile Inhalant Use Disorder: diagnosis past year",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_903",
+        "name": "Volatile Inhalant Use Disorder: duration current episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_904",
+        "name": "Volatile Inhalant Use Disorder: duration last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_905",
+        "name": "Volatile Inhalant Use Disorder: duration second-to-last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_906",
+        "name": "Volatile Inhalant Use Disorder: lifetime symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_907",
+        "name": "Volatile Inhalant Use Disorder: number of past episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_908",
+        "name": "Volatile Inhalant Use Disorder: remission specifier",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_909",
+        "name": "Volatile Inhalant: average daily use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_910",
+        "name": "Volatile Inhalant: average weekly use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_911",
+        "name": "Volatile Inhalant: duration current abstinence",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_912",
+        "name": "Volatile Inhalant: duration last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_913",
+        "name": "Volatile Inhalant: duration second-to-last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_914",
+        "name": "Volatile Inhalant: ever used",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_915",
+        "name": "Volatile Inhalant: first use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_916",
+        "name": "Volatile Inhalant: last week use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_917",
+        "name": "Volatile Inhalant: lifetime number of past abstinence episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_918",
+        "name": "Volatile Inhalant: lifetime use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_919",
+        "name": "Volatile Inhalant: onset regular use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_920",
+        "name": "Volatile Inhalant: past month use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_921",
+        "name": "Volatile Inhalant: past year number of unsuccessful quit attempts",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_922",
+        "name": "Volatile Inhalant: past year symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_923",
+        "name": "Volatile Inhalant: past year use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_924",
+        "name": "Volatile Inhalant: typical product use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_925",
+        "name": "Work Use Disorder: age of onset",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_926",
+        "name": "Work Use Disorder: current remission",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_927",
+        "name": "Work Use Disorder: current severity",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_928",
+        "name": "Work Use Disorder: diagnosis current",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_929",
+        "name": "Work Use Disorder: diagnosis lifetime",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_930",
+        "name": "Work Use Disorder: diagnosis past year",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_931",
+        "name": "Work Use Disorder: duration current episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_932",
+        "name": "Work Use Disorder: duration last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_933",
+        "name": "Work Use Disorder: duration second-to-last episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_934",
+        "name": "Work Use Disorder: lifetime symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_935",
+        "name": "Work Use Disorder: number of past episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_936",
+        "name": "Work Use Disorder: remission specifier",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_937",
+        "name": "Work: average daily use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_938",
+        "name": "Work: average weekly use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_939",
+        "name": "Work: duration current abstinence",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_940",
+        "name": "Work: duration last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_941",
+        "name": "Work: duration second-to-last abstinence episode",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_942",
+        "name": "Work: ever used",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_943",
+        "name": "Work: first use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_944",
+        "name": "Work: last week use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_945",
+        "name": "Work: lifetime number of past abstinence episodes",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_946",
+        "name": "Work: lifetime use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_947",
+        "name": "Work: onset regular use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_948",
+        "name": "Work: past month use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_949",
+        "name": "Work: past year number of unsuccessful quit attempts",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_950",
+        "name": "Work: past year symptom count",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_951",
+        "name": "Work: past year use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      },
+      {
+        "id": "trm_952",
+        "name": "Work: typical product use",
+        "abbreviation": null,
+        "description": null,
+        "same_as": null
+      }
+    ]
+  }
+]
