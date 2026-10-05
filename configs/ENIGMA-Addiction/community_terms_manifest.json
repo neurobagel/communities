@@ -1,6 +1,6 @@
 {
   "assessment.json": {
-    "source_spreadsheet_id": "1BskpvkfO3J4vXw3KLAsnt8N1hMVLr2AmpwLD4KvbKh4/edit?gid=0#gid=0",
+    "source_spreadsheet_id": "1BskpvkfO3J4vXw3KLAsnt8N1hMVLr2AmpwLD4KvbKh4",
     "namespace_prefix": "enigmaaddict",
     "namespace_url": "https://vocab.neurobagel.org/communities/enigmaaddict/assessments/",
     "vocabulary_name": "ENIGMA Addiction vocabulary of assessment terms",
