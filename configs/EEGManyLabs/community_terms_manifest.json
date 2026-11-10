@@ -1,0 +1,9 @@
+{
+  "assessment.json": {
+    "source_spreadsheet_id": "1xvnUvFaF3UjBsM6-0L9wBY87F-l1QwqXA33JlOf5nYw",
+    "namespace_prefix": "eegml",
+    "namespace_url": "https://vocab.neurobagel.org/communities/eegml/assessments/",
+    "vocabulary_name": "EEGManyLabs community vocabulary",
+    "version": "1.0.0"
+  }
+}
