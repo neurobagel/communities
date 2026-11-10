@@ -113,6 +113,10 @@
           "namespace_url": "http://purl.bioontology.org/ontology/SNOMEDCT/"
         },
         {
+          "namespace_prefix": "eegml",
+          "namespace_url": "https://vocab.neurobagel.org/communities/eegml/assessments/"
+        },
+        {
           "namespace_prefix": "nidm",
           "namespace_url": "http://purl.org/nidash/nidm#"
         },
