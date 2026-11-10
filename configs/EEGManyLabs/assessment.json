@@ -1,0 +1,192 @@
+[
+  {
+    "namespace_prefix": "eegml",
+    "namespace_url": "https://vocab.neurobagel.org/communities/eegml/assessments/",
+    "vocabulary_name": "EEGManyLabs community vocabulary",
+    "version": "1.0.0",
+    "terms": [
+      {
+        "id": "trm_001",
+        "name": "Participant - Big Five Inventory",
+        "abbreviation": "BFI",
+        "description": "Personality assessment (self-report)",
+        "same_as": null
+      },
+      {
+        "id": "trm_002",
+        "name": "Participant - BIS-BAS Scales",
+        "abbreviation": "BIS-BAS",
+        "description": "Behavioral inhibition / behavioral activation (self-report)",
+        "same_as": null
+      },
+      {
+        "id": "trm_003",
+        "name": "Participant - Center for Epidemiological Studies-Depression Scale",
+        "abbreviation": "CESD",
+        "description": "Depressive symptoms (self-report)",
+        "same_as": null
+      },
+      {
+        "id": "trm_004",
+        "name": "Participant - Edinburgh Handedness Inventory",
+        "abbreviation": "EHI",
+        "description": "Hand preference (self-report)",
+        "same_as": null
+      },
+      {
+        "id": "trm_005",
+        "name": "Participant - Karolinska Sleepiness Scale",
+        "abbreviation": "KSS",
+        "description": "Sleepiness (self-report)",
+        "same_as": null
+      },
+      {
+        "id": "trm_006",
+        "name": "Participant - Positive And Negative Affect Scales (State Scales)",
+        "abbreviation": "PANAS-State",
+        "description": "State Mood (self-report)",
+        "same_as": "snomed:304755000"
+      },
+      {
+        "id": "trm_007",
+        "name": "Participant - Positive And Negative Affect Scales (Trait Scales)",
+        "abbreviation": "PANAS-Trait",
+        "description": "Trait Mood (self-report)",
+        "same_as": "snomed:304755000"
+      },
+      {
+        "id": "trm_008",
+        "name": "Participant - State-Trait-Anxiety Inventory (State Scales)",
+        "abbreviation": "STAI-State",
+        "description": "State anxiety (self-report)",
+        "same_as": "snomed:273830002"
+      },
+      {
+        "id": "trm_009",
+        "name": "Participant - State-Trait-Anxiety Inventory (Trait Scales)",
+        "abbreviation": "STAI-Trait",
+        "description": "Trait anxiety (self-report)",
+        "same_as": "snomed:273830002"
+      },
+      {
+        "id": "trm_010",
+        "name": "Participant - Education Highest Degree",
+        "abbreviation": "EDU-Degree",
+        "description": "highest educational degree (self-report)",
+        "same_as": null
+      },
+      {
+        "id": "trm_011",
+        "name": "Participant - Education Number of Years",
+        "abbreviation": "EDU-Years",
+        "description": "number of years in formal education (self-report)",
+        "same_as": null
+      },
+      {
+        "id": "trm_012",
+        "name": "Participant - Current sleep disorder",
+        "abbreviation": "EXCL-Sleep",
+        "description": "has current sleep disorder (self-report)",
+        "same_as": "snomed:39898005"
+      },
+      {
+        "id": "trm_013",
+        "name": "Participant - Psychoactive substances used",
+        "abbreviation": "EXCL-Substance",
+        "description": "recent use, including caffeine / nicotine (self-report)",
+        "same_as": null
+      },
+      {
+        "id": "trm_014",
+        "name": "Participant - Neurological diagnosis",
+        "abbreviation": "EXCL-Neurology",
+        "description": "has/had diagnosed neurological disorder (self-report)",
+        "same_as": "snomed:264552009"
+      },
+      {
+        "id": "trm_015",
+        "name": "Participant - Psychiatric diagnosis",
+        "abbreviation": "EXCL-Psychiatry",
+        "description": "has/had diagnosed psychiatric disorder  (self-report)",
+        "same_as": "snomed:161464003"
+      },
+      {
+        "id": "trm_016",
+        "name": "Participant - Hormonal contraceptives",
+        "abbreviation": "HORM-Contraceptive",
+        "description": "currently using hormonal contraceptives (self-report)",
+        "same_as": "snomed:424136002"
+      },
+      {
+        "id": "trm_017",
+        "name": "Participant - Menstrual cycle",
+        "abbreviation": "HORM-Cylce",
+        "description": "phase of menstrual cycle (self-report)",
+        "same_as": "snomed:860311000000100"
+      },
+      {
+        "id": "trm_018",
+        "name": "Meta - Replication data",
+        "abbreviation": "TASK-Rep",
+        "description": "has replication task data",
+        "same_as": null
+      },
+      {
+        "id": "trm_019",
+        "name": "Meta - Resting Data",
+        "abbreviation": "TASK-Rest",
+        "description": "has resting state data",
+        "same_as": null
+      },
+      {
+        "id": "trm_020",
+        "name": "Meta - Replication + Resting data",
+        "abbreviation": "TASK-Rep+Rest",
+        "description": "has replication task AND resting state data",
+        "same_as": null
+      },
+      {
+        "id": "trm_021",
+        "name": "Meta - N scalp EEG Channel (integer)",
+        "abbreviation": "HAS-EEG",
+        "description": "number of scalp EEG channels",
+        "same_as": null
+      },
+      {
+        "id": "trm_022",
+        "name": "Meta - Has EOG",
+        "abbreviation": "HAS-EOG",
+        "description": "has EOG recorded",
+        "same_as": null
+      },
+      {
+        "id": "trm_023",
+        "name": "Meta - Has ECG",
+        "abbreviation": "HAS-ECG",
+        "description": "has ECG recorded",
+        "same_as": null
+      },
+      {
+        "id": "trm_024",
+        "name": "Meta - Has gaze",
+        "abbreviation": "HAS-GAZE",
+        "description": "has eyetrack recorded",
+        "same_as": null
+      },
+      {
+        "id": "trm_025",
+        "name": "Meta - Has pupil",
+        "abbreviation": "HAS-PUPIL",
+        "description": "has pupillometry recorded",
+        "same_as": null
+      },
+      {
+        "id": "trm_026",
+        "name": "Meta - Time of Day",
+        "abbreviation": "HAS-TOD",
+        "description": "has time of day information",
+        "same_as": null
+      }
+    ]
+  }
+]
